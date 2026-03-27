@@ -1,0 +1,619 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* llm_mcp_server
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0-20250123\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-03-06 21:03+0000\n"
+"PO-Revision-Date: 2026-03-06 17:59-0500\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"X-Generator: Poedit 3.4.2\n"
+
+#. module: llm_mcp_server
+#: model_terms:ir.ui.view,arch_db:llm_mcp_server.llm_mcp_server_config_view_form
+msgid ""
+"<strong>How to connect:</strong> Copy the configuration below for your MCP client.\n"
+"                                    Replace <code>YOUR_API_KEY</code> with your Odoo API key."
+msgstr ""
+"Cómo conectarse: Copia la siguiente configuración para tu cliente MCP. Reemplaza "
+"<code>YOUR_API_KEY</code> por tu clave API de Odoo."
+
+#. module: llm_mcp_server
+#: model_terms:ir.ui.view,arch_db:llm_mcp_server.view_llm_mcp_key_show_form
+msgid ""
+"<strong>Important:</strong> This key cannot be retrieved later.\n"
+"                        Store it securely before closing this dialog."
+msgstr ""
+"Importante: Esta clave no se puede recuperar posteriormente. Guárdela en un lugar seguro "
+"antes de cerrar este cuadro de diálogo."
+
+#. module: llm_mcp_server
+#: model_terms:ir.ui.view,arch_db:llm_mcp_server.llm_mcp_server_config_view_form
+#: model_terms:ir.ui.view,arch_db:llm_mcp_server.view_llm_mcp_key_show_form
+msgid ""
+"<strong>Prerequisite:</strong> Install <code>mcp-remote</code> via npm: <code>npm install -g "
+"mcp-remote</code>"
+msgstr ""
+"<strong>Requisito previo:</strong> Instalar <code>mcp-remote</code> mediante npm: <code>npm "
+"install -g mcp-remote</code>"
+
+#. module: llm_mcp_server
+#: model:ir.model,name:llm_mcp_server.model_res_users_apikeys_description
+msgid "API Key Description"
+msgstr "Descripción de la clave API"
+
+#. module: llm_mcp_server
+#: model:ir.model.fields,field_description:llm_mcp_server.field_llm_mcp_server_config__message_needaction
+msgid "Action Needed"
+msgstr "Se necesita acción"
+
+#. module: llm_mcp_server
+#: model:ir.model.fields,field_description:llm_mcp_server.field_llm_mcp_server_config__active
+#: model_terms:ir.ui.view,arch_db:llm_mcp_server.llm_mcp_server_config_view_search
+msgid "Active"
+msgstr "Activo"
+
+#. module: llm_mcp_server
+#: model_terms:ir.ui.view,arch_db:llm_mcp_server.llm_mcp_server_config_view_form
+#: model_terms:ir.ui.view,arch_db:llm_mcp_server.view_llm_mcp_key_show_form
+msgid "Add this to your <code>claude_desktop_config.json</code>:"
+msgstr "Agregar esto al archivo <code>claude_desktop_config.json</code>:"
+
+#. module: llm_mcp_server
+#: model_terms:ir.ui.view,arch_db:llm_mcp_server.llm_mcp_server_config_view_form
+#: model_terms:ir.ui.view,arch_db:llm_mcp_server.view_llm_mcp_key_show_form
+msgid "Add this to your Codex CLI configuration:"
+msgstr "Agregar esto a la configuración CLI Codex:"
+
+#. module: llm_mcp_server
+#: model:ir.model.fields,field_description:llm_mcp_server.field_llm_mcp_server_config__all_supported_protocol_versions
+msgid "All Supported Protocol Versions"
+msgstr "Todas las versiones soportadas del protocolo"
+
+#. module: llm_mcp_server
+#: model:ir.model.fields,field_description:llm_mcp_server.field_llm_mcp_server_config__message_attachment_count
+msgid "Attachment Count"
+msgstr "Cuenta de adjuntos"
+
+#. module: llm_mcp_server
+#: model:ir.model.fields,field_description:llm_mcp_server.field_llm_mcp_key_show__config_claude_code
+#: model_terms:ir.ui.view,arch_db:llm_mcp_server.llm_mcp_server_config_view_form
+#: model_terms:ir.ui.view,arch_db:llm_mcp_server.view_llm_mcp_key_show_form
+msgid "Claude Code"
+msgstr "Código Claude"
+
+#. module: llm_mcp_server
+#: model:ir.model.fields,field_description:llm_mcp_server.field_llm_mcp_server_config__config_claude_code
+msgid "Claude Code Config"
+msgstr "Config código Claude"
+
+#. module: llm_mcp_server
+#: model:ir.model.fields,field_description:llm_mcp_server.field_llm_mcp_key_show__config_claude_desktop
+#: model_terms:ir.ui.view,arch_db:llm_mcp_server.llm_mcp_server_config_view_form
+#: model_terms:ir.ui.view,arch_db:llm_mcp_server.view_llm_mcp_key_show_form
+msgid "Claude Desktop"
+msgstr "Claude"
+
+#. module: llm_mcp_server
+#: model:ir.model.fields,field_description:llm_mcp_server.field_llm_mcp_server_config__config_claude_desktop
+msgid "Claude Desktop Config"
+msgstr "Configuración Claude Desktop"
+
+#. module: llm_mcp_server
+#: model:ir.model.fields,field_description:llm_mcp_server.field_llm_mcp_session__client_capabilities
+msgid "Client Capabilities"
+msgstr "Capacidades del cliente"
+
+#. module: llm_mcp_server
+#: model_terms:ir.ui.view,arch_db:llm_mcp_server.llm_mcp_server_config_view_form
+msgid "Client Configuration"
+msgstr "Configuración del cliente"
+
+#. module: llm_mcp_server
+#: model:ir.model.fields,field_description:llm_mcp_server.field_llm_mcp_session__client_info
+msgid "Client Info"
+msgstr "información del cliente"
+
+#. module: llm_mcp_server
+#: model_terms:ir.ui.view,arch_db:llm_mcp_server.llm_mcp_session_view_form
+msgid "Client Information"
+msgstr "información del cliente"
+
+#. module: llm_mcp_server
+#: model:ir.model.fields,field_description:llm_mcp_server.field_llm_mcp_server_config__client_name
+msgid "Client Name"
+msgstr "Nombre del cliente"
+
+#. module: llm_mcp_server
+#: model:ir.model.fields,help:llm_mcp_server.field_llm_mcp_session__client_capabilities
+msgid "Client capabilities from initialize request"
+msgstr "Capacidades del cliente para iniciar la solicitud"
+
+#. module: llm_mcp_server
+#: model:ir.model.fields,help:llm_mcp_server.field_llm_mcp_session__client_info
+msgid "Client information (name, version, etc.)"
+msgstr "información del cliente"
+
+#. module: llm_mcp_server
+#: model:ir.model.fields,field_description:llm_mcp_server.field_llm_mcp_key_show__config_codex
+#: model_terms:ir.ui.view,arch_db:llm_mcp_server.llm_mcp_server_config_view_form
+#: model_terms:ir.ui.view,arch_db:llm_mcp_server.view_llm_mcp_key_show_form
+msgid "Codex (OpenAI)"
+msgstr "Codex (OpenAI)"
+
+#. module: llm_mcp_server
+#: model:ir.model.fields,field_description:llm_mcp_server.field_llm_mcp_server_config__config_codex
+msgid "Codex Config"
+msgstr "Configuración Codex"
+
+#. module: llm_mcp_server
+#: model:ir.model.fields,help:llm_mcp_server.field_llm_mcp_server_config__all_supported_protocol_versions
+msgid "Complete list of all protocol versions (supported + latest)"
+msgstr "Lista completa de protocolos  (soportados + últimos)"
+
+#. module: llm_mcp_server
+#: model_terms:ir.ui.view,arch_db:llm_mcp_server.llm_mcp_server_config_view_form
+#: model_terms:ir.ui.view,arch_db:llm_mcp_server.view_llm_mcp_key_show_form
+msgid "Config: <code>~/.codex/config.toml</code>"
+msgstr "Configuración: <code>~/.codex/config.toml</code>"
+
+#. module: llm_mcp_server
+#: model_terms:ir.actions.act_window,help:llm_mcp_server.llm_mcp_server_config_action
+msgid "Configure MCP Server Settings"
+msgstr "Configuración Servidor MCP"
+
+#. module: llm_mcp_server
+#: model_terms:ir.actions.act_window,help:llm_mcp_server.llm_mcp_server_config_action
+msgid ""
+"Configure the Model Context Protocol (MCP) server settings including server name, version, "
+"and protocol version.\n"
+"                Only one configuration can be active at a time."
+msgstr ""
+"Configure los ajustes del servidor del Protocolo de Contexto de Modelo (MCP), incluyendo el "
+"nombre del servidor, la versión y la versión del protocolo.\n"
+"Solo se puede activar una configuración a la vez."
+
+#. module: llm_mcp_server
+#: model_terms:ir.ui.view,arch_db:llm_mcp_server.llm_mcp_server_config_view_form
+#: model_terms:ir.ui.view,arch_db:llm_mcp_server.view_llm_mcp_key_show_form
+msgid "Copy Command"
+msgstr "Copiar comando"
+
+#. module: llm_mcp_server
+#: model_terms:ir.ui.view,arch_db:llm_mcp_server.llm_mcp_server_config_view_form
+#: model_terms:ir.ui.view,arch_db:llm_mcp_server.view_llm_mcp_key_show_form
+msgid "Copy Configuration"
+msgstr "Copiar configuración"
+
+#. module: llm_mcp_server
+#: model:ir.model.fields,field_description:llm_mcp_server.field_llm_mcp_server_config__create_uid
+#: model:ir.model.fields,field_description:llm_mcp_server.field_llm_mcp_session__create_uid
+msgid "Created by"
+msgstr "Creado por"
+
+#. module: llm_mcp_server
+#: model:ir.model.fields,field_description:llm_mcp_server.field_llm_mcp_server_config__create_date
+#: model:ir.model.fields,field_description:llm_mcp_server.field_llm_mcp_session__create_date
+msgid "Created on"
+msgstr "Creado en"
+
+#. module: llm_mcp_server
+#: model:ir.model.fields,field_description:llm_mcp_server.field_llm_mcp_server_config__display_name
+#: model:ir.model.fields,field_description:llm_mcp_server.field_llm_mcp_session__display_name
+msgid "Display Name"
+msgstr "Nombre a desplegar"
+
+#. module: llm_mcp_server
+#: model_terms:ir.ui.view,arch_db:llm_mcp_server.view_llm_mcp_key_show_form
+msgid "Done"
+msgstr "Hecho"
+
+#. module: llm_mcp_server
+#: model:ir.model.fields,field_description:llm_mcp_server.field_llm_mcp_server_config__external_url
+msgid "External URL"
+msgstr "URL Externa"
+
+#. module: llm_mcp_server
+#: model:ir.model.fields,help:llm_mcp_server.field_llm_mcp_server_config__external_url
+msgid ""
+"External URL that Letta can reach (e.g., http://host.docker.internal:8069 for Docker). Leave "
+"empty to auto-detect from web.base.url"
+msgstr ""
+"URL externa accesible para Letta (p. ej., http://host.docker.internal:8069 para Docker). "
+"Déjelo en blanco para que se detecte automáticamente desde web.base.url."
+
+#. module: llm_mcp_server
+#: model:ir.model.fields,field_description:llm_mcp_server.field_llm_mcp_server_config__message_follower_ids
+msgid "Followers"
+msgstr "Seguidores"
+
+#. module: llm_mcp_server
+#: model:ir.model.fields,field_description:llm_mcp_server.field_llm_mcp_server_config__message_partner_ids
+msgid "Followers (Partners)"
+msgstr "Seguidores (Contactos)"
+
+#. module: llm_mcp_server
+#: model_terms:ir.ui.view,arch_db:llm_mcp_server.view_users_form_mcp_key
+msgid "Generate an API key with ready-to-use MCP client configurations"
+msgstr "Genere una clave API con configuraciones de cliente MCP listas para usar"
+
+#. module: llm_mcp_server
+#: model:ir.model.fields,field_description:llm_mcp_server.field_llm_mcp_server_config__has_message
+msgid "Has Message"
+msgstr "Tiene Mensaje"
+
+#. module: llm_mcp_server
+#: model:ir.model.fields,field_description:llm_mcp_server.field_llm_mcp_key_show__id
+#: model:ir.model.fields,field_description:llm_mcp_server.field_llm_mcp_server_config__id
+#: model:ir.model.fields,field_description:llm_mcp_server.field_llm_mcp_session__id
+msgid "ID"
+msgstr "ID"
+
+#. module: llm_mcp_server
+#: model:ir.model.fields,help:llm_mcp_server.field_llm_mcp_server_config__message_needaction
+msgid "If checked, new messages require your attention."
+msgstr "Si está habilitado, los mensajes nuevos requieren su atención."
+
+#. module: llm_mcp_server
+#: model:ir.model.fields,help:llm_mcp_server.field_llm_mcp_server_config__message_has_error
+#: model:ir.model.fields,help:llm_mcp_server.field_llm_mcp_server_config__message_has_sms_error
+msgid "If checked, some messages have a delivery error."
+msgstr "Si está marcada, algunos mensajes tendrán un error de entrega."
+
+#. module: llm_mcp_server
+#: model_terms:ir.ui.view,arch_db:llm_mcp_server.llm_mcp_server_config_view_search
+msgid "Inactive"
+msgstr "Inactivo"
+
+#. module: llm_mcp_server
+#: model_terms:ir.ui.view,arch_db:llm_mcp_server.llm_mcp_server_config_view_form
+msgid "Information"
+msgstr "información"
+
+#. module: llm_mcp_server
+#: model:ir.model.fields.selection,name:llm_mcp_server.selection__llm_mcp_session__state__initialized
+msgid "Initialized"
+msgstr "Inicializado"
+
+#. module: llm_mcp_server
+#: model:ir.model.fields.selection,name:llm_mcp_server.selection__llm_mcp_session__state__initializing
+msgid "Initializing"
+msgstr "Iniciando"
+
+#. module: llm_mcp_server
+#: model:ir.model.fields,field_description:llm_mcp_server.field_llm_mcp_server_config__message_is_follower
+msgid "Is Follower"
+msgstr "Es seguidor"
+
+#. module: llm_mcp_server
+#: model:ir.model.fields,field_description:llm_mcp_server.field_llm_mcp_key_show__key
+msgid "Key"
+msgstr "Llave"
+
+#. module: llm_mcp_server
+#: model:ir.model,name:llm_mcp_server.model_llm_tool
+msgid "LLM Tool"
+msgstr "Herramienta LLM"
+
+#. module: llm_mcp_server
+#: model:ir.model.fields,field_description:llm_mcp_server.field_llm_mcp_server_config__write_uid
+#: model:ir.model.fields,field_description:llm_mcp_server.field_llm_mcp_session__write_uid
+msgid "Last Updated by"
+msgstr "Última actualización por"
+
+#. module: llm_mcp_server
+#: model:ir.model.fields,field_description:llm_mcp_server.field_llm_mcp_server_config__write_date
+#: model:ir.model.fields,field_description:llm_mcp_server.field_llm_mcp_session__write_date
+msgid "Last Updated on"
+msgstr "Última actualización en"
+
+#. module: llm_mcp_server
+#: model:ir.model.fields,field_description:llm_mcp_server.field_llm_mcp_server_config__latest_protocol_version
+msgid "Latest Protocol Version"
+msgstr "Última versión del protocolo"
+
+#. module: llm_mcp_server
+#: model_terms:ir.ui.view,arch_db:llm_mcp_server.llm_mcp_server_config_view_form
+#: model_terms:ir.ui.view,arch_db:llm_mcp_server.view_llm_mcp_key_show_form
+msgid "Linux: <code>~/.config/claude_desktop/claude_desktop_config.json</code>"
+msgstr "Linux: <code>~/.config/claude_desktop/claude_desktop_config.json</code>"
+
+#. module: llm_mcp_server
+#: model_terms:ir.ui.view,arch_db:llm_mcp_server.llm_mcp_server_config_view_form
+msgid "List of additional MCP protocol versions this server supports (e.g., [\"2024-11-05\"])"
+msgstr ""
+"Lista de versiones adicionales del protocolo MCP que admite este servidor (p. ej., "
+"[\"2024-11-05\"])"
+
+#. module: llm_mcp_server
+#: model:ir.model.fields,help:llm_mcp_server.field_llm_mcp_server_config__supported_protocol_versions
+msgid ""
+"List of additional MCP protocol versions this server supports (excluding latest) in json "
+"array[str]"
+msgstr ""
+"Lista de versiones adicionales del protocolo MCP que este servidor admite (excluyendo la "
+"última) en la matriz json[str]"
+
+#. module: llm_mcp_server
+#. odoo-python
+#: code:addons/llm_mcp_server/wizards/mcp_key_wizard.py:0
+#: model:ir.actions.act_window,name:llm_mcp_server.action_llm_mcp_key_show
+#: model_terms:ir.ui.view,arch_db:llm_mcp_server.view_llm_mcp_key_show_form
+msgid "MCP Key Ready"
+msgstr "Llave MCP lista"
+
+#. module: llm_mcp_server
+#: model:ir.ui.menu,name:llm_mcp_server.menu_llm_mcp_server_config
+msgid "MCP Server"
+msgstr "Servidor MCP"
+
+#. module: llm_mcp_server
+#: model:ir.actions.act_window,name:llm_mcp_server.llm_mcp_server_config_action
+#: model:ir.model,name:llm_mcp_server.model_llm_mcp_server_config
+msgid "MCP Server Configuration"
+msgstr "Configuración servidor MCP"
+
+#. module: llm_mcp_server
+#: model_terms:ir.ui.view,arch_db:llm_mcp_server.view_llm_mcp_key_show_form
+msgid "MCP Server URL"
+msgstr "URL Servidor MCP"
+
+#. module: llm_mcp_server
+#: model:ir.model,name:llm_mcp_server.model_llm_mcp_session
+msgid "MCP Session Management"
+msgstr "Gestión de sesiones MCP"
+
+#. module: llm_mcp_server
+#: model:ir.actions.act_window,name:llm_mcp_server.llm_mcp_session_action
+#: model:ir.ui.menu,name:llm_mcp_server.menu_llm_mcp_session
+msgid "MCP Sessions"
+msgstr "Sesiones MCP"
+
+#. module: llm_mcp_server
+#: model:ir.model.fields,field_description:llm_mcp_server.field_llm_mcp_key_show__mcp_url
+msgid "MCP URL"
+msgstr "URL MCP"
+
+#. module: llm_mcp_server
+#: model:ir.model.fields,help:llm_mcp_server.field_llm_mcp_session__protocol_version
+msgid "MCP protocol version requested by client"
+msgstr "Versión del protocolo MCP solicitada por el cliente"
+
+#. module: llm_mcp_server
+#: model_terms:ir.actions.act_window,help:llm_mcp_server.llm_mcp_session_action
+msgid "MCP sessions are created automatically when clients connect to the server."
+msgstr "Las sesiones MCP se crean automáticamente cuando los clientes se conectan al servidor."
+
+#. module: llm_mcp_server
+#: model:ir.model.fields,field_description:llm_mcp_server.field_llm_mcp_server_config__message_has_error
+msgid "Message Delivery error"
+msgstr "Error de entrega del mensaje"
+
+#. module: llm_mcp_server
+#: model:ir.model.fields,field_description:llm_mcp_server.field_llm_mcp_server_config__message_ids
+msgid "Messages"
+msgstr "Mensajes"
+
+#. module: llm_mcp_server
+#. odoo-python
+#: code:addons/llm_mcp_server/models/llm_tool.py:0
+msgid "Missing parameters for tool call"
+msgstr "Parámetros faltantes para la llamada a la herramienta"
+
+#. module: llm_mcp_server
+#. odoo-python
+#: code:addons/llm_mcp_server/models/llm_tool.py:0
+msgid "Missing tool name in parameters"
+msgstr "Nombre de herramienta faltante en los parámetros"
+
+#. module: llm_mcp_server
+#: model:ir.model.fields,field_description:llm_mcp_server.field_llm_mcp_server_config__mode
+msgid "Mode"
+msgstr "Modo"
+
+#. module: llm_mcp_server
+#: model:ir.model.fields,help:llm_mcp_server.field_llm_mcp_server_config__client_name
+msgid ""
+"Name used to identify this MCP server in client configurations (e.g. Claude Desktop, Claude "
+"Code, Codex). Leave empty to auto-generate from the server URL."
+msgstr ""
+"Nombre utilizado para identificar este servidor MCP en las configuraciones del cliente (p. "
+"ej., Claude Desktop, Claude Code, Codex). Déjelo en blanco para generarlo automáticamente "
+"desde la URL del servidor."
+
+#. module: llm_mcp_server
+#. odoo-python
+#: code:addons/llm_mcp_server/models/res_users.py:0
+#: model_terms:ir.ui.view,arch_db:llm_mcp_server.llm_mcp_server_config_view_form
+#: model_terms:ir.ui.view,arch_db:llm_mcp_server.view_users_form_mcp_key
+msgid "New MCP Key"
+msgstr "Nueva llave MCP"
+
+#. module: llm_mcp_server
+#: model_terms:ir.actions.act_window,help:llm_mcp_server.llm_mcp_session_action
+msgid "No MCP sessions found"
+msgstr "No se encontraron sesiones MCP"
+
+#. module: llm_mcp_server
+#: model:ir.model.fields.selection,name:llm_mcp_server.selection__llm_mcp_session__state__not_initialized
+msgid "Not Initialized"
+msgstr "No inicializado"
+
+#. module: llm_mcp_server
+#: model:ir.model.fields,field_description:llm_mcp_server.field_llm_mcp_server_config__message_needaction_counter
+msgid "Number of Actions"
+msgstr "Número de acciones"
+
+#. module: llm_mcp_server
+#: model:ir.model.fields,field_description:llm_mcp_server.field_llm_mcp_server_config__message_has_error_counter
+msgid "Number of errors"
+msgstr "Número de errores"
+
+#. module: llm_mcp_server
+#: model:ir.model.fields,help:llm_mcp_server.field_llm_mcp_server_config__message_needaction_counter
+msgid "Number of messages requiring action"
+msgstr "Número de mensajes que requieren acción"
+
+#. module: llm_mcp_server
+#: model:ir.model.fields,help:llm_mcp_server.field_llm_mcp_server_config__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr "Número de mensajes con error de entrega"
+
+#. module: llm_mcp_server
+#: model:ir.model.fields,field_description:llm_mcp_server.field_llm_mcp_session__protocol_version
+msgid "Protocol Version"
+msgstr "Version del protocolo"
+
+#. module: llm_mcp_server
+#: model:ir.model.fields,field_description:llm_mcp_server.field_llm_mcp_server_config__rating_ids
+msgid "Ratings"
+msgstr "Calificaciones"
+
+#. module: llm_mcp_server
+#: model:ir.model.fields,help:llm_mcp_server.field_llm_mcp_server_config__config_claude_code
+msgid "Ready-to-use command for Claude Code"
+msgstr "Comando listo para usar para Claude Code"
+
+#. module: llm_mcp_server
+#: model:ir.model.fields,help:llm_mcp_server.field_llm_mcp_server_config__config_claude_desktop
+msgid "Ready-to-use configuration for Claude Desktop"
+msgstr "Configuración lista para usar para Claude Desktop"
+
+#. module: llm_mcp_server
+#: model:ir.model.fields,help:llm_mcp_server.field_llm_mcp_server_config__config_codex
+msgid "Ready-to-use configuration for Codex CLI"
+msgstr "Configuración lista para usar para Codex CLI"
+
+#. module: llm_mcp_server
+#: model_terms:ir.ui.view,arch_db:llm_mcp_server.llm_mcp_server_config_view_form
+#: model_terms:ir.ui.view,arch_db:llm_mcp_server.view_llm_mcp_key_show_form
+msgid "Run this command in your terminal:"
+msgstr "Ejecute este comando en su terminal:"
+
+#. module: llm_mcp_server
+#: model:ir.model.fields,field_description:llm_mcp_server.field_llm_mcp_server_config__message_has_sms_error
+msgid "SMS Delivery error"
+msgstr "Error en la entrega SMS"
+
+#. module: llm_mcp_server
+#: model:ir.model.fields,field_description:llm_mcp_server.field_llm_mcp_server_config__name
+#: model_terms:ir.ui.view,arch_db:llm_mcp_server.llm_mcp_server_config_view_form
+msgid "Server Name"
+msgstr "Nombre del servidor"
+
+#. module: llm_mcp_server
+#: model:ir.model.fields,field_description:llm_mcp_server.field_llm_mcp_server_config__version
+msgid "Server Version"
+msgstr "Versión del servidor"
+
+#. module: llm_mcp_server
+#: model:ir.model.fields,help:llm_mcp_server.field_llm_mcp_server_config__mode
+msgid "Server operation mode"
+msgstr "Modo de funcionamiento del servidor"
+
+#. module: llm_mcp_server
+#: model:ir.model.fields,field_description:llm_mcp_server.field_llm_mcp_session__session_id
+msgid "Session"
+msgstr "Sesión"
+
+#. module: llm_mcp_server
+#: model:ir.model.constraint,message:llm_mcp_server.constraint_llm_mcp_session_session_id_unique
+msgid "Session ID must be unique"
+msgstr "El ID de sesión debe ser único"
+
+#. module: llm_mcp_server
+#: model:ir.model,name:llm_mcp_server.model_llm_mcp_key_show
+msgid "Show MCP Key with Configs"
+msgstr "Mostrar clave MCP con configuraciones"
+
+#. module: llm_mcp_server
+#: model:ir.model.fields,field_description:llm_mcp_server.field_llm_mcp_session__state
+msgid "State"
+msgstr "Estado"
+
+#. module: llm_mcp_server
+#: model:ir.model.fields.selection,name:llm_mcp_server.selection__llm_mcp_server_config__mode__stateful
+msgid "Stateful Mode"
+msgstr "Modo con estado"
+
+#. module: llm_mcp_server
+#: model:ir.model.fields.selection,name:llm_mcp_server.selection__llm_mcp_server_config__mode__stateless
+msgid "Stateless Mode"
+msgstr "Modo sin estado"
+
+#. module: llm_mcp_server
+#: model:ir.model.fields,field_description:llm_mcp_server.field_llm_mcp_server_config__supported_protocol_versions
+msgid "Supported Protocol Versions"
+msgstr "Versiones de protocolo compatibles"
+
+#. module: llm_mcp_server
+#: model:ir.model.fields,help:llm_mcp_server.field_llm_mcp_server_config__latest_protocol_version
+msgid "The latest/default protocol version this server supports"
+msgstr "La última versión del protocolo/predeterminada que admite este servidor"
+
+#. module: llm_mcp_server
+#. odoo-python
+#: code:addons/llm_mcp_server/models/llm_tool.py:0
+msgid "Tool '%s' not found or inactive"
+msgstr "Herramienta '%s' no encontrada o inactiva"
+
+#. module: llm_mcp_server
+#: model:ir.model.fields,help:llm_mcp_server.field_llm_mcp_session__session_id
+msgid "UUID hex format"
+msgstr "UUID en formato hex"
+
+#. module: llm_mcp_server
+#: model:ir.model,name:llm_mcp_server.model_res_users
+#: model:ir.model.fields,field_description:llm_mcp_server.field_llm_mcp_session__user_id
+msgid "User"
+msgstr "Usuario"
+
+#. module: llm_mcp_server
+#: model:ir.model.fields,help:llm_mcp_server.field_llm_mcp_session__user_id
+msgid "User associated with session, set when Bearer token is available"
+msgstr "Usuario asociado a la sesión, establecido cuando el token de portador está disponible"
+
+#. module: llm_mcp_server
+#: model:ir.model.fields,field_description:llm_mcp_server.field_llm_mcp_server_config__website_message_ids
+msgid "Website Messages"
+msgstr "Mensajes del sitio web"
+
+#. module: llm_mcp_server
+#: model:ir.model.fields,help:llm_mcp_server.field_llm_mcp_server_config__website_message_ids
+msgid "Website communication history"
+msgstr "Historial de comunicaciones del sitio web"
+
+#. module: llm_mcp_server
+#: model_terms:ir.ui.view,arch_db:llm_mcp_server.llm_mcp_server_config_view_form
+#: model_terms:ir.ui.view,arch_db:llm_mcp_server.view_llm_mcp_key_show_form
+msgid "Windows: <code>%APPDATA%\\Claude\\claude_desktop_config.json</code>"
+msgstr "Windows: <code>%APPDATA%\\Claude\\claude_desktop_config.json</code>"
+
+#. module: llm_mcp_server
+#: model_terms:ir.ui.view,arch_db:llm_mcp_server.view_llm_mcp_key_show_form
+msgid "Your API Key"
+msgstr "Tu llave API"
+
+#. module: llm_mcp_server
+#: model_terms:ir.ui.view,arch_db:llm_mcp_server.llm_mcp_server_config_view_form
+msgid "e.g., http://host.docker.internal:8069"
+msgstr "e.g., http://host.docker.internal:8069"
+
+#. module: llm_mcp_server
+#: model_terms:ir.ui.view,arch_db:llm_mcp_server.llm_mcp_server_config_view_form
+msgid "e.g., odoo-localhost-mydb (auto-generated if empty)"
+msgstr "p. ej., odoo-localhost-mydb (generado automáticamente si está vacío)"
+
+#. module: llm_mcp_server
+#: model_terms:ir.ui.view,arch_db:llm_mcp_server.llm_mcp_server_config_view_form
+#: model_terms:ir.ui.view,arch_db:llm_mcp_server.view_llm_mcp_key_show_form
+msgid "macOS: <code>~/Library/Application Support/Claude/claude_desktop_config.json</code>"
+msgstr "macOS: <code>~/Library/Application Support/Claude/claude_desktop_config.json</code>"

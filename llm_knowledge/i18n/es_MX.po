@@ -1,0 +1,1637 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0-20250123\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-03-06 22:11+0000\n"
+"PO-Revision-Date: 2026-03-06 22:11+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: llm_knowledge
+#. odoo-python
+#: code:addons/llm_knowledge/models/llm_knowledge_collection.py:0
+msgid " for the specified resource IDs"
+msgstr "para los ID de recursos especificados"
+
+#. module: llm_knowledge
+#. odoo-python
+#: code:addons/llm_knowledge/models/llm_resource.py:0
+msgid "%(count)s resources have been unlocked"
+msgstr "%(count)s recursos han sido desbloqueados"
+
+#. module: llm_knowledge
+#: model_terms:ir.ui.view,arch_db:llm_knowledge.view_llm_upload_resource_wizard_form
+msgid "<code>{collection}</code> - Name of the collection"
+msgstr "<code>{colección}</code> - Nombre de la colección"
+
+#. module: llm_knowledge
+#: model_terms:ir.ui.view,arch_db:llm_knowledge.view_llm_upload_resource_wizard_form
+msgid "<code>{filename}</code> - Name of the file or URL"
+msgstr "<code>{filename}</code> - Nombre del archivo o URL"
+
+#. module: llm_knowledge
+#: model_terms:ir.ui.view,arch_db:llm_knowledge.view_create_rag_resource_wizard_form
+msgid "<code>{id}</code> - Record ID"
+msgstr "<code>{id}</code> - ID de registro"
+
+#. module: llm_knowledge
+#: model_terms:ir.ui.view,arch_db:llm_knowledge.view_llm_upload_resource_wizard_form
+#: model_terms:ir.ui.view,arch_db:llm_knowledge.view_llm_upload_resource_wizard_form
+msgid "<code>{index}</code> - Resource index"
+msgstr "<code>{index}</code> - Índice de recursos"
+
+#. module: llm_knowledge
+#: model_terms:ir.ui.view,arch_db:llm_knowledge.view_create_rag_resource_wizard_form
+msgid "<code>{model_name}</code> - Model description (e.g., \"Product Template\")"
+msgstr ""
+"<code>{model_name}</code> - Descripción del modelo (por ejemplo, \"Plantilla"
+" de producto\")"
+
+#. module: llm_knowledge
+#: model_terms:ir.ui.view,arch_db:llm_knowledge.view_create_rag_resource_wizard_form
+msgid "<code>{record_name}</code> - Name of the record"
+msgstr "<code>{record_name}</code> - Nombre del registro"
+
+#. module: llm_knowledge
+#: model_terms:ir.ui.view,arch_db:llm_knowledge.view_create_rag_resource_wizard_form
+#: model_terms:ir.ui.view,arch_db:llm_knowledge.view_llm_upload_resource_wizard_form
+msgid "<i class=\"fa fa-check-circle\" title=\"Success\" aria-label=\"Success\"/>"
+msgstr "<i class=\"fa fa-check-circle\" title=\"Success\" aria-label=\"Success\"/>"
+
+#. module: llm_knowledge
+#: model_terms:ir.ui.view,arch_db:llm_knowledge.view_llm_resource_kanban
+msgid "<i class=\"fa fa-ellipsis-v\" title=\"Menu\" aria-label=\"Menu\"/>"
+msgstr "<i class=\"fa fa-ellipsis-v\" title=\"Menu\" aria-label=\"Menu\"/>"
+
+#. module: llm_knowledge
+#: model_terms:ir.ui.view,arch_db:llm_knowledge.view_llm_resource_kanban
+msgid "<i class=\"fa fa-puzzle-piece\" title=\"Chunks\"/>"
+msgstr "<i class=\"fa fa-puzzle-piece\" title=\"Chunks\"/>"
+
+#. module: llm_knowledge
+#: model_terms:ir.ui.view,arch_db:llm_knowledge.view_create_rag_resource_wizard_form
+#: model_terms:ir.ui.view,arch_db:llm_knowledge.view_llm_upload_resource_wizard_form
+msgid "<strong>Available placeholders for resource name:</strong>"
+msgstr ""
+"<strong>Marcadores de posición disponibles para el nombre del "
+"recurso:</strong>"
+
+#. module: llm_knowledge
+#: model_terms:ir.ui.view,arch_db:llm_knowledge.view_llm_knowledge_collection_kanban
+msgid "<strong>Chunks:</strong>"
+msgstr "<strong>Fragmentos:</strong>"
+
+#. module: llm_knowledge
+#: model_terms:ir.ui.view,arch_db:llm_knowledge.view_llm_knowledge_collection_form
+msgid ""
+"<strong>Domain filters are used to automatically create RAG "
+"resources</strong>"
+msgstr ""
+"<strong>Los filtros de dominio se utilizan para crear automáticamente "
+"recursos RAG</strong>"
+
+#. module: llm_knowledge
+#: model_terms:ir.ui.view,arch_db:llm_knowledge.view_llm_knowledge_collection_kanban
+msgid "<strong>Model:</strong>"
+msgstr "<strong>Modelo:</strong>"
+
+#. module: llm_knowledge
+#: model_terms:ir.ui.view,arch_db:llm_knowledge.view_llm_knowledge_collection_kanban
+msgid "<strong>Resources:</strong>"
+msgstr "<strong>Recursos:</strong>"
+
+#. module: llm_knowledge
+#: model_terms:ir.ui.view,arch_db:llm_knowledge.view_llm_upload_resource_wizard_form
+msgid "<strong>Upload resources for RAG processing</strong>"
+msgstr "<strong>Cargar recursos para el procesamiento RAG</strong>"
+
+#. module: llm_knowledge
+#. odoo-python
+#: code:addons/llm_knowledge/models/llm_knowledge_chunk.py:0
+msgid ""
+"A pre-computed 'query_vector' can only be used when a specific "
+"'collection_id' is also provided. Searching across multiple collections "
+"requires a 'vector_search_term' for model-specific embedding generation."
+msgstr ""
+"Un 'query_vector' precalculado solo se puede utilizar cuando también se "
+"proporciona un 'collection_id' específico. La búsqueda en varias colecciones"
+" requiere un 'vector_search_term' para la generación de incrustaciones "
+"específicas del modelo."
+
+#. module: llm_knowledge
+#: model:ir.model.constraint,message:llm_knowledge.constraint_llm_resource_unique_resource_reference
+msgid ""
+"A resource already exists for this record. Please use the existing resource."
+msgstr ""
+"Ya existe un recurso para este registro. Utilice el recurso existente."
+
+#. module: llm_knowledge
+#: model:ir.model.fields,field_description:llm_knowledge.field_llm_knowledge_collection__message_needaction
+#: model:ir.model.fields,field_description:llm_knowledge.field_llm_resource__message_needaction
+msgid "Action Needed"
+msgstr "Acción necesaria"
+
+#. module: llm_knowledge
+#: model:ir.model.fields,field_description:llm_knowledge.field_llm_knowledge_collection__active
+#: model:ir.model.fields,field_description:llm_knowledge.field_llm_knowledge_domain__active
+msgid "Active"
+msgstr "Activo"
+
+#. module: llm_knowledge
+#: model:ir.model.fields,field_description:llm_knowledge.field_llm_knowledge_collection__activity_ids
+#: model:ir.model.fields,field_description:llm_knowledge.field_llm_resource__activity_ids
+msgid "Activities"
+msgstr "Actividades"
+
+#. module: llm_knowledge
+#: model:ir.model.fields,field_description:llm_knowledge.field_llm_knowledge_collection__activity_exception_decoration
+#: model:ir.model.fields,field_description:llm_knowledge.field_llm_resource__activity_exception_decoration
+msgid "Activity Exception Decoration"
+msgstr "Decoración de excepción de actividad"
+
+#. module: llm_knowledge
+#: model:ir.model.fields,field_description:llm_knowledge.field_llm_knowledge_collection__activity_state
+#: model:ir.model.fields,field_description:llm_knowledge.field_llm_resource__activity_state
+msgid "Activity State"
+msgstr "Estado de actividad"
+
+#. module: llm_knowledge
+#: model:ir.model.fields,field_description:llm_knowledge.field_llm_knowledge_collection__activity_type_icon
+#: model:ir.model.fields,field_description:llm_knowledge.field_llm_resource__activity_type_icon
+msgid "Activity Type Icon"
+msgstr "Icono de tipo de actividad"
+
+#. module: llm_knowledge
+#: model_terms:ir.ui.view,arch_db:llm_knowledge.view_llm_knowledge_collection_form
+msgid ""
+"Add domain filters for different models to select records that will be "
+"converted to RAG resources. Click 'Sync Resources' to process these filters."
+msgstr ""
+"Agregue filtros de dominio para diferentes modelos para seleccionar "
+"registros que se convertirán en recursos RAG. Haga clic en 'Sincronizar "
+"recursos' para procesar estos filtros."
+
+#. module: llm_knowledge
+#: model:ir.model.fields,help:llm_knowledge.field_llm_knowledge_chunk__metadata
+msgid "Additional metadata for this chunk"
+msgstr "Metadatos adicionales para este fragmento"
+
+#. module: llm_knowledge
+#. odoo-python
+#: code:addons/llm_knowledge/models/llm_knowledge_collection.py:0
+msgid "All chunks already have embeddings for the selected model"
+msgstr ""
+"Todos los fragmentos ya tienen incrustaciones para el modelo seleccionado."
+
+#. module: llm_knowledge
+#: model_terms:ir.ui.view,arch_db:llm_knowledge.view_llm_knowledge_collection_search
+msgid "Archived"
+msgstr "Archivado"
+
+#. module: llm_knowledge
+#: model:ir.model,name:llm_knowledge.model_ir_attachment
+msgid "Attachment"
+msgstr "Adjunto"
+
+#. module: llm_knowledge
+#: model:ir.model.fields,field_description:llm_knowledge.field_llm_knowledge_collection__message_attachment_count
+#: model:ir.model.fields,field_description:llm_knowledge.field_llm_resource__message_attachment_count
+msgid "Attachment Count"
+msgstr "Recuento de archivos adjuntos"
+
+#. module: llm_knowledge
+#: model:ir.model.fields.selection,name:llm_knowledge.selection__llm_resource__kanban_state__blocked
+msgid "Blocked"
+msgstr "Obstruido"
+
+#. module: llm_knowledge
+#. odoo-python
+#: code:addons/llm_knowledge/models/llm_resource_http.py:0
+msgid ""
+"Can not store binary data in field %s for model %s from URL: %s (original: "
+"%s)"
+msgstr ""
+"No se pueden almacenar datos binarios en el campo %s para el modelo %s de la"
+" URL: %s (original: %s)"
+
+#. module: llm_knowledge
+#: model_terms:ir.ui.view,arch_db:llm_knowledge.view_llm_resource_form
+#: model_terms:ir.ui.view,arch_db:llm_knowledge.view_llm_resource_kanban
+msgid "Chunk"
+msgstr "Pedazo"
+
+#. module: llm_knowledge
+#: model:ir.model.fields,field_description:llm_knowledge.field_llm_knowledge_collection__chunk_count
+#: model:ir.model.fields,field_description:llm_knowledge.field_llm_resource__chunk_count
+msgid "Chunk Count"
+msgstr "Recuento de fragmentos"
+
+#. module: llm_knowledge
+#: model_terms:ir.ui.view,arch_db:llm_knowledge.view_llm_knowledge_chunk_detail_form
+msgid "Chunk Detail"
+msgstr "Detalle de fragmento"
+
+#. module: llm_knowledge
+#: model:ir.model.fields,field_description:llm_knowledge.field_llm_resource__target_chunk_overlap
+msgid "Chunk Overlap"
+msgstr "Superposición de fragmentos"
+
+#. module: llm_knowledge
+#: model:ir.model.fields,help:llm_knowledge.field_llm_knowledge_chunk__content
+msgid "Chunk text content"
+msgstr "Contenido de texto fragmentado"
+
+#. module: llm_knowledge
+#: model:ir.model.fields.selection,name:llm_knowledge.selection__llm_resource__state__chunked
+#: model_terms:ir.ui.view,arch_db:llm_knowledge.view_llm_resource_search
+msgid "Chunked"
+msgstr "Fragmentado"
+
+#. module: llm_knowledge
+#: model:ir.model.fields,field_description:llm_knowledge.field_llm_resource__chunker
+msgid "Chunker"
+msgstr "Trozo"
+
+#. module: llm_knowledge
+#: model:ir.model.fields,field_description:llm_knowledge.field_llm_resource__chunk_ids
+#: model_terms:ir.ui.view,arch_db:llm_knowledge.view_llm_knowledge_collection_form
+#: model_terms:ir.ui.view,arch_db:llm_knowledge.view_llm_resource_form
+msgid "Chunks"
+msgstr "Trozos"
+
+#. module: llm_knowledge
+#: model:ir.model.fields,field_description:llm_knowledge.field_llm_knowledge_collection__chunk_ids
+msgid "Chunks (from Resources)"
+msgstr "Fragmentos (de Recursos)"
+
+#. module: llm_knowledge
+#: model:ir.model.fields,help:llm_knowledge.field_llm_knowledge_collection__chunk_ids
+msgid "Chunks belonging to the resources included in this collection."
+msgstr "Fragmentos pertenecientes a los recursos incluidos en esta colección."
+
+#. module: llm_knowledge
+#: model_terms:ir.ui.view,arch_db:llm_knowledge.view_create_rag_resource_wizard_form
+#: model_terms:ir.ui.view,arch_db:llm_knowledge.view_llm_upload_resource_wizard_form
+msgid "Close"
+msgstr "Cerca"
+
+#. module: llm_knowledge
+#: model:ir.model.fields,field_description:llm_knowledge.field_llm_knowledge_domain__collection_id
+#: model:ir.model.fields,field_description:llm_knowledge.field_llm_upload_resource_wizard__collection_id
+#: model_terms:ir.ui.view,arch_db:llm_knowledge.view_llm_resource_search
+msgid "Collection"
+msgstr "Recopilación"
+
+#. module: llm_knowledge
+#. odoo-python
+#: code:addons/llm_knowledge/models/llm_knowledge_collection.py:0
+msgid "Collection Chunks"
+msgstr "Trozos de colección"
+
+#. module: llm_knowledge
+#: model:ir.model,name:llm_knowledge.model_llm_knowledge_domain
+msgid "Collection Domain Filter"
+msgstr "Filtro de dominio de colección"
+
+#. module: llm_knowledge
+#: model:ir.model.fields,field_description:llm_knowledge.field_llm_knowledge_collection__metadata
+msgid "Collection Metadata"
+msgstr "Metadatos de colección"
+
+#. module: llm_knowledge
+#: model_terms:ir.ui.view,arch_db:llm_knowledge.view_llm_knowledge_collection_form
+msgid "Collection Name"
+msgstr "Nombre de la colección"
+
+#. module: llm_knowledge
+#. odoo-python
+#: code:addons/llm_knowledge/models/llm_knowledge_collection.py:0
+msgid "Collection Resources"
+msgstr "Recursos de colección"
+
+#. module: llm_knowledge
+#: model_terms:ir.ui.view,arch_db:llm_knowledge.view_llm_knowledge_collection_form
+msgid "Collection description..."
+msgstr "Descripción de la colección..."
+
+#. module: llm_knowledge
+#: model:ir.model.fields,help:llm_knowledge.field_llm_upload_resource_wizard__collection_id
+msgid "Collection to which resources will be added"
+msgstr "Colección a la que se agregarán recursos"
+
+#. module: llm_knowledge
+#: model:ir.actions.act_window,name:llm_knowledge.action_llm_knowledge_collection
+#: model:ir.model.fields,field_description:llm_knowledge.field_llm_knowledge_chunk__collection_ids
+#: model:ir.model.fields,field_description:llm_knowledge.field_llm_resource__collection_ids
+#: model:ir.ui.menu,name:llm_knowledge.menu_llm_knowledge_collection
+msgid "Collections"
+msgstr "Colecciones"
+
+#. module: llm_knowledge
+#: model_terms:ir.actions.act_window,help:llm_knowledge.action_llm_knowledge_collection
+msgid ""
+"Collections group resources that share the same embedding model for RAG "
+"processing."
+msgstr ""
+"Las colecciones agrupan recursos que comparten el mismo modelo de "
+"incrustación para el procesamiento RAG."
+
+#. module: llm_knowledge
+#: model:ir.model.fields.selection,name:llm_knowledge.selection__llm_create_rag_resource_wizard__state__confirm
+#: model:ir.model.fields.selection,name:llm_knowledge.selection__llm_upload_resource_wizard__state__confirm
+msgid "Confirm"
+msgstr "Confirmar"
+
+#. module: llm_knowledge
+#: model:ir.model.fields,field_description:llm_knowledge.field_llm_knowledge_chunk__content
+#: model:ir.model.fields,field_description:llm_knowledge.field_llm_resource__content
+#: model_terms:ir.ui.view,arch_db:llm_knowledge.view_llm_knowledge_chunk_detail_form
+#: model_terms:ir.ui.view,arch_db:llm_knowledge.view_llm_resource_form
+msgid "Content"
+msgstr "Contenido"
+
+#. module: llm_knowledge
+#: model_terms:ir.ui.view,arch_db:llm_knowledge.view_llm_knowledge_chunk_search
+msgid "Cosine Similarity(<=>)"
+msgstr "Similitud del coseno(<=>)"
+
+#. module: llm_knowledge
+#. odoo-python
+#: code:addons/llm_knowledge/wizards/upload_resource_wizard.py:0
+msgid "Could not find ir.attachment model"
+msgstr "No se pudo encontrar el modelo de accesorio ir."
+
+#. module: llm_knowledge
+#: model:ir.actions.server,name:llm_knowledge.action_create_rag_resource_knowledge
+msgid "Create RAG Resource"
+msgstr "Crear recurso RAG"
+
+#. module: llm_knowledge
+#: model_terms:ir.ui.view,arch_db:llm_knowledge.view_create_rag_resource_wizard_form
+msgid "Create RAG Resources"
+msgstr "Crear recursos RAG"
+
+#. module: llm_knowledge
+#: model:ir.model,name:llm_knowledge.model_llm_create_rag_resource_wizard
+msgid "Create RAG Resources Wizard"
+msgstr "Asistente para crear recursos RAG"
+
+#. module: llm_knowledge
+#: model_terms:ir.ui.view,arch_db:llm_knowledge.view_create_rag_resource_wizard_form
+msgid "Create Resources"
+msgstr "Crear recursos"
+
+#. module: llm_knowledge
+#: model_terms:ir.actions.act_window,help:llm_knowledge.action_llm_knowledge_collection
+msgid "Create your first RAG collection"
+msgstr "Crea tu primera colección RAG"
+
+#. module: llm_knowledge
+#: model_terms:ir.actions.act_window,help:llm_knowledge.action_llm_resource
+msgid "Create your first resource"
+msgstr "Crea tu primer recurso"
+
+#. module: llm_knowledge
+#: model:ir.model.fields,field_description:llm_knowledge.field_llm_create_rag_resource_wizard__created_count
+#: model:ir.model.fields,field_description:llm_knowledge.field_llm_upload_resource_wizard__created_count
+msgid "Created"
+msgstr "Creado"
+
+#. module: llm_knowledge
+#: model:ir.model.fields,field_description:llm_knowledge.field_llm_create_rag_resource_wizard__created_resource_ids
+#: model:ir.model.fields,field_description:llm_knowledge.field_llm_upload_resource_wizard__created_resource_ids
+msgid "Created Resources"
+msgstr "Recursos creados"
+
+#. module: llm_knowledge
+#: model:ir.model.fields,field_description:llm_knowledge.field_llm_create_rag_resource_wizard__create_uid
+#: model:ir.model.fields,field_description:llm_knowledge.field_llm_knowledge_chunk__create_uid
+#: model:ir.model.fields,field_description:llm_knowledge.field_llm_knowledge_collection__create_uid
+#: model:ir.model.fields,field_description:llm_knowledge.field_llm_knowledge_domain__create_uid
+#: model:ir.model.fields,field_description:llm_knowledge.field_llm_resource__create_uid
+#: model:ir.model.fields,field_description:llm_knowledge.field_llm_upload_resource_wizard__create_uid
+msgid "Created by"
+msgstr "Created by"
+
+#. module: llm_knowledge
+#: model:ir.model.fields,field_description:llm_knowledge.field_llm_create_rag_resource_wizard__create_date
+#: model:ir.model.fields,field_description:llm_knowledge.field_llm_knowledge_chunk__create_date
+#: model:ir.model.fields,field_description:llm_knowledge.field_llm_knowledge_collection__create_date
+#: model:ir.model.fields,field_description:llm_knowledge.field_llm_knowledge_domain__create_date
+#: model:ir.model.fields,field_description:llm_knowledge.field_llm_resource__create_date
+#: model:ir.model.fields,field_description:llm_knowledge.field_llm_upload_resource_wizard__create_date
+msgid "Created on"
+msgstr "Creado el"
+
+#. module: llm_knowledge
+#: model:ir.model.fields,help:llm_knowledge.field_llm_resource__lock_date
+msgid "Date when the resource was locked for processing"
+msgstr "Fecha en la que se bloqueó el recurso para su procesamiento"
+
+#. module: llm_knowledge
+#: model:ir.model.fields,field_description:llm_knowledge.field_llm_knowledge_collection__default_chunk_overlap
+msgid "Default Chunk Overlap"
+msgstr "Superposición de fragmentos predeterminada"
+
+#. module: llm_knowledge
+#: model:ir.model.fields,field_description:llm_knowledge.field_llm_knowledge_collection__default_chunk_size
+msgid "Default Chunk Size"
+msgstr "Tamaño de fragmento predeterminado"
+
+#. module: llm_knowledge
+#: model:ir.model.fields,field_description:llm_knowledge.field_llm_knowledge_collection__default_chunker
+msgid "Default Chunker"
+msgstr "Fragmentador predeterminado"
+
+#. module: llm_knowledge
+#: model:ir.model.fields,field_description:llm_knowledge.field_llm_knowledge_collection__default_parser
+msgid "Default Parser"
+msgstr "Analizador predeterminado"
+
+#. module: llm_knowledge
+#: model:ir.model.fields,help:llm_knowledge.field_llm_knowledge_collection__default_chunker
+msgid "Default chunker to use for resources in this collection"
+msgstr "Fragmentador predeterminado para usar con recursos en esta colección"
+
+#. module: llm_knowledge
+#: model:ir.model.fields,help:llm_knowledge.field_llm_knowledge_collection__default_chunk_overlap
+msgid ""
+"Default number of tokens to overlap between chunks for resources in this "
+"collection"
+msgstr ""
+"Número predeterminado de tokens que se superpondrán entre fragmentos de "
+"recursos de esta colección"
+
+#. module: llm_knowledge
+#: model:ir.model.fields,help:llm_knowledge.field_llm_knowledge_collection__default_parser
+msgid "Default parser to use for resources in this collection"
+msgstr ""
+"Analizador predeterminado que se utilizará para los recursos de esta "
+"colección"
+
+#. module: llm_knowledge
+#: model:ir.model.fields,help:llm_knowledge.field_llm_knowledge_collection__default_chunk_size
+msgid ""
+"Default target size of chunks in tokens for resources in this collection"
+msgstr ""
+"Tamaño objetivo predeterminado de fragmentos en tokens para recursos en esta"
+" colección"
+
+#. module: llm_knowledge
+#: model_terms:ir.ui.view,arch_db:llm_knowledge.view_llm_resource_kanban
+msgid "Delete"
+msgstr "Borrar"
+
+#. module: llm_knowledge
+#: model:ir.model.fields,field_description:llm_knowledge.field_llm_knowledge_collection__description
+#: model_terms:ir.ui.view,arch_db:llm_knowledge.view_llm_knowledge_collection_form
+msgid "Description"
+msgstr "Descripción"
+
+#. module: llm_knowledge
+#: model:ir.model.fields,field_description:llm_knowledge.field_llm_knowledge_collection__dimension
+msgid "Dimension"
+msgstr "Dimensión"
+
+#. module: llm_knowledge
+#: model:ir.model.fields,help:llm_knowledge.field_llm_knowledge_collection__dimension
+msgid "Dimension of vectors in this collection"
+msgstr "Dimensión de vectores en esta colección."
+
+#. module: llm_knowledge
+#: model:ir.model.fields,field_description:llm_knowledge.field_llm_create_rag_resource_wizard__display_name
+#: model:ir.model.fields,field_description:llm_knowledge.field_llm_knowledge_chunk__display_name
+#: model:ir.model.fields,field_description:llm_knowledge.field_llm_knowledge_collection__display_name
+#: model:ir.model.fields,field_description:llm_knowledge.field_llm_knowledge_domain__display_name
+#: model:ir.model.fields,field_description:llm_knowledge.field_llm_resource__display_name
+#: model:ir.model.fields,field_description:llm_knowledge.field_llm_upload_resource_wizard__display_name
+msgid "Display Name"
+msgstr "Nombre para mostrar"
+
+#. module: llm_knowledge
+#: model:ir.model,name:llm_knowledge.model_llm_knowledge_chunk
+msgid "Document Chunk for RAG"
+msgstr "Fragmento de documento para RAG"
+
+#. module: llm_knowledge
+#. odoo-python
+#: code:addons/llm_knowledge/models/llm_resource.py:0
+msgid "Document embedding process completed successfully."
+msgstr "El proceso de incrustación de documentos se completó con éxito."
+
+#. module: llm_knowledge
+#. odoo-python
+#: code:addons/llm_knowledge/models/llm_resource.py:0
+msgid ""
+"Document embedding process did not complete properly, check logs on "
+"resources."
+msgstr ""
+"El proceso de incrustación de documentos no se completó correctamente; "
+"verifique los registros de los recursos."
+
+#. module: llm_knowledge
+#: model:ir.actions.act_window,name:llm_knowledge.action_llm_knowledge_document
+#: model:ir.ui.menu,name:llm_knowledge.menu_llm_knowledge_document
+msgid "Documents"
+msgstr "Documentos"
+
+#. module: llm_knowledge
+#: model:ir.model.fields,field_description:llm_knowledge.field_llm_knowledge_domain__domain
+msgid "Domain"
+msgstr "Dominio"
+
+#. module: llm_knowledge
+#: model:ir.model.fields,field_description:llm_knowledge.field_llm_knowledge_collection__domain_ids
+#: model_terms:ir.ui.view,arch_db:llm_knowledge.view_llm_knowledge_collection_form
+msgid "Domain Filters"
+msgstr "Filtros de dominio"
+
+#. module: llm_knowledge
+#: model:ir.model.fields,help:llm_knowledge.field_llm_knowledge_domain__domain
+msgid "Domain filter to select records"
+msgstr "Filtro de dominio para seleccionar registros"
+
+#. module: llm_knowledge
+#: model:ir.model.fields,help:llm_knowledge.field_llm_knowledge_collection__domain_ids
+msgid "Domain filters to select records for RAG document creation"
+msgstr ""
+"Filtros de dominio para seleccionar registros para la creación de documentos"
+" RAG"
+
+#. module: llm_knowledge
+#: model:ir.model.fields.selection,name:llm_knowledge.selection__llm_create_rag_resource_wizard__state__done
+#: model:ir.model.fields.selection,name:llm_knowledge.selection__llm_resource__kanban_state__done
+#: model:ir.model.fields.selection,name:llm_knowledge.selection__llm_upload_resource_wizard__state__done
+msgid "Done"
+msgstr "Hecho"
+
+#. module: llm_knowledge
+#: model:ir.model.fields.selection,name:llm_knowledge.selection__llm_resource__state__draft
+#: model_terms:ir.ui.view,arch_db:llm_knowledge.view_llm_resource_search
+msgid "Draft"
+msgstr "Borrador"
+
+#. module: llm_knowledge
+#: model_terms:ir.ui.view,arch_db:llm_knowledge.view_llm_resource_kanban
+msgid "Edit"
+msgstr "Editar"
+
+#. module: llm_knowledge
+#: model:ir.model,name:llm_knowledge.model_mail_thread
+msgid "Email Thread"
+msgstr "Hilo de correo electrónico"
+
+#. module: llm_knowledge
+#: model_terms:ir.ui.view,arch_db:llm_knowledge.view_llm_resource_form
+#: model_terms:ir.ui.view,arch_db:llm_knowledge.view_llm_resource_kanban
+msgid "Embed"
+msgstr "Empotrar"
+
+#. module: llm_knowledge
+#: model_terms:ir.ui.view,arch_db:llm_knowledge.view_llm_knowledge_collection_form
+msgid "Embed Resources"
+msgstr "Insertar recursos"
+
+#. module: llm_knowledge
+#. odoo-python
+#: code:addons/llm_knowledge/models/llm_resource.py:0
+#: model:ir.model.fields,field_description:llm_knowledge.field_llm_knowledge_chunk__embedding
+msgid "Embedding"
+msgstr "incrustar"
+
+#. module: llm_knowledge
+#. odoo-python
+#: code:addons/llm_knowledge/models/llm_knowledge_collection.py:0
+msgid "Embedding Failed"
+msgstr "Error al incrustar"
+
+#. module: llm_knowledge
+#: model:ir.model.fields,field_description:llm_knowledge.field_llm_knowledge_collection__embedding_model_id
+#: model_terms:ir.ui.view,arch_db:llm_knowledge.view_llm_knowledge_collection_search
+msgid "Embedding Model"
+msgstr "Modelo de incrustación"
+
+#. module: llm_knowledge
+#. odoo-python
+#: code:addons/llm_knowledge/models/llm_knowledge_collection.py:0
+msgid "Embedding model changed. Reset {count} resources for re-embedding."
+msgstr ""
+"El modelo de incrustación cambió. Restablezca {count} recursos para volver a"
+" incrustarlos."
+
+#. module: llm_knowledge
+#: model_terms:ir.ui.view,arch_db:llm_knowledge.view_llm_upload_resource_wizard_form
+msgid ""
+"Enter one URL per line https://example.com/document1.pdf "
+"https://example.com/document2.html"
+msgstr ""
+"Ingrese una URL por línea https://example.com/document1.pdf "
+"https://example.com/document2.html"
+
+#. module: llm_knowledge
+#. odoo-python
+#: code:addons/llm_knowledge/models/llm_resource_chunker.py:0
+msgid "Error in batch chunking: %s"
+msgstr "Error en la fragmentación por lotes: %s"
+
+#. module: llm_knowledge
+#. odoo-python
+#: code:addons/llm_knowledge/models/llm_resource_retriever.py:0
+msgid "Error in batch retrieval: %s"
+msgstr "Error en la recuperación por lotes: %s"
+
+#. module: llm_knowledge
+#. odoo-python
+#: code:addons/llm_knowledge/models/llm_knowledge_collection.py:0
+msgid "Error processing batch %d (chunks %d-%d, resources [%s]): %s"
+msgstr "Error al procesar el lote %d (fragmentos %d-%d, recursos [%s]): %s"
+
+#. module: llm_knowledge
+#. odoo-python
+#: code:addons/llm_knowledge/models/llm_knowledge_collection.py:0
+msgid "Error removing vectors for resource %s"
+msgstr "Error al eliminar vectores para el recurso %s"
+
+#. module: llm_knowledge
+#. odoo-python
+#: code:addons/llm_knowledge/models/llm_knowledge_collection.py:0
+msgid "Error removing vectors from collection %s"
+msgstr "Error al eliminar vectores de la colección %s"
+
+#. module: llm_knowledge
+#: model_terms:ir.ui.view,arch_db:llm_knowledge.view_llm_knowledge_chunk_search
+msgid "Euclidean Distance(<->)"
+msgstr "Distancia euclidiana(<->)"
+
+#. module: llm_knowledge
+#: model:ir.model.fields,field_description:llm_knowledge.field_llm_resource__external_url
+msgid "External URL"
+msgstr "URL externa"
+
+#. module: llm_knowledge
+#: model:ir.model.fields,help:llm_knowledge.field_llm_resource__external_url
+msgid "External URL from the related record if available"
+msgstr "URL externa del registro relacionado, si está disponible"
+
+#. module: llm_knowledge
+#: model:ir.model.fields,field_description:llm_knowledge.field_llm_upload_resource_wizard__external_urls
+#: model_terms:ir.ui.view,arch_db:llm_knowledge.view_llm_upload_resource_wizard_form
+msgid "External URLs"
+msgstr "URL externas"
+
+#. module: llm_knowledge
+#: model:ir.model.fields,help:llm_knowledge.field_llm_upload_resource_wizard__external_urls
+msgid "External URLs to include, one per line"
+msgstr "URL externas para incluir, una por línea"
+
+#. module: llm_knowledge
+#. odoo-python
+#: code:addons/llm_knowledge/models/llm_knowledge_collection.py:0
+msgid "Failed to create collection in store for collection %s"
+msgstr "No se pudo crear la colección en el bloque para la colección %s"
+
+#. module: llm_knowledge
+#. odoo-python
+#: code:addons/llm_knowledge/models/llm_knowledge_collection.py:0
+msgid "Failed to embed resources. Check the logs for details."
+msgstr ""
+"No se pudieron insertar recursos. Consulte los registros para obtener más "
+"detalles."
+
+#. module: llm_knowledge
+#. odoo-python
+#: code:addons/llm_knowledge/models/llm_knowledge_collection.py:0
+msgid "Failed to process this resource in batch %d: %s"
+msgstr "No se pudo procesar este recurso en el lote %d: %s"
+
+#. module: llm_knowledge
+#: model:ir.model.fields,field_description:llm_knowledge.field_llm_upload_resource_wizard__file_ids
+msgid "Files"
+msgstr "Archivos"
+
+#. module: llm_knowledge
+#: model:ir.model.fields,field_description:llm_knowledge.field_llm_knowledge_collection__message_follower_ids
+#: model:ir.model.fields,field_description:llm_knowledge.field_llm_resource__message_follower_ids
+msgid "Followers"
+msgstr "Seguidores"
+
+#. module: llm_knowledge
+#: model:ir.model.fields,field_description:llm_knowledge.field_llm_knowledge_collection__message_partner_ids
+#: model:ir.model.fields,field_description:llm_knowledge.field_llm_resource__message_partner_ids
+msgid "Followers (Partners)"
+msgstr "Seguidores (Socios)"
+
+#. module: llm_knowledge
+#: model:ir.model.fields,help:llm_knowledge.field_llm_knowledge_collection__activity_type_icon
+#: model:ir.model.fields,help:llm_knowledge.field_llm_resource__activity_type_icon
+msgid "Font awesome icon e.g. fa-tasks"
+msgstr "Icono de fuente impresionante, p. tareas fa"
+
+#. module: llm_knowledge
+#: model:ir.actions.server,name:llm_knowledge.action_mass_unlock_resources
+msgid "Force Unlock"
+msgstr "Forzar desbloqueo"
+
+#. module: llm_knowledge
+#: model_terms:ir.ui.view,arch_db:llm_knowledge.view_llm_knowledge_collection_search
+#: model_terms:ir.ui.view,arch_db:llm_knowledge.view_llm_resource_search
+msgid "Group By"
+msgstr "Agrupar por"
+
+#. module: llm_knowledge
+#: model:ir.model.fields,field_description:llm_knowledge.field_llm_knowledge_collection__has_message
+#: model:ir.model.fields,field_description:llm_knowledge.field_llm_resource__has_message
+msgid "Has Message"
+msgstr "Tiene mensaje"
+
+#. module: llm_knowledge
+#: model_terms:ir.ui.view,arch_db:llm_knowledge.view_llm_knowledge_chunk_search
+msgid "High Similarity (0.75)"
+msgstr "Alta similitud (0,75)"
+
+#. module: llm_knowledge
+#: model:ir.model.fields,field_description:llm_knowledge.field_llm_create_rag_resource_wizard__id
+#: model:ir.model.fields,field_description:llm_knowledge.field_llm_knowledge_chunk__id
+#: model:ir.model.fields,field_description:llm_knowledge.field_llm_knowledge_collection__id
+#: model:ir.model.fields,field_description:llm_knowledge.field_llm_knowledge_domain__id
+#: model:ir.model.fields,field_description:llm_knowledge.field_llm_resource__id
+#: model:ir.model.fields,field_description:llm_knowledge.field_llm_upload_resource_wizard__id
+msgid "ID"
+msgstr "ID"
+
+#. module: llm_knowledge
+#: model:ir.model.fields,field_description:llm_knowledge.field_llm_knowledge_collection__activity_exception_icon
+#: model:ir.model.fields,field_description:llm_knowledge.field_llm_resource__activity_exception_icon
+msgid "Icon"
+msgstr "Icono"
+
+#. module: llm_knowledge
+#: model:ir.model.fields,help:llm_knowledge.field_llm_knowledge_collection__activity_exception_icon
+#: model:ir.model.fields,help:llm_knowledge.field_llm_resource__activity_exception_icon
+msgid "Icon to indicate an exception activity."
+msgstr "Icono para indicar una actividad de excepción."
+
+#. module: llm_knowledge
+#: model:ir.model.fields,help:llm_knowledge.field_llm_knowledge_collection__message_needaction
+#: model:ir.model.fields,help:llm_knowledge.field_llm_resource__message_needaction
+msgid "If checked, new messages require your attention."
+msgstr "Si está marcado, los mensajes nuevos requieren su atención."
+
+#. module: llm_knowledge
+#: model:ir.model.fields,help:llm_knowledge.field_llm_create_rag_resource_wizard__process_immediately
+#: model:ir.model.fields,help:llm_knowledge.field_llm_upload_resource_wizard__process_immediately
+msgid ""
+"If checked, resources will be immediately processed through the RAG pipeline"
+msgstr ""
+"Si se marca, los recursos se procesarán inmediatamente a través del canal "
+"RAG."
+
+#. module: llm_knowledge
+#: model:ir.model.fields,help:llm_knowledge.field_llm_knowledge_collection__message_has_error
+#: model:ir.model.fields,help:llm_knowledge.field_llm_knowledge_collection__message_has_sms_error
+#: model:ir.model.fields,help:llm_knowledge.field_llm_resource__message_has_error
+#: model:ir.model.fields,help:llm_knowledge.field_llm_resource__message_has_sms_error
+msgid "If checked, some messages have a delivery error."
+msgstr "Si está marcado, algunos mensajes tienen un error de entrega."
+
+#. module: llm_knowledge
+#: model_terms:ir.ui.view,arch_db:llm_knowledge.view_llm_knowledge_chunk_search
+msgid "Inner Product(<#>)"
+msgstr "Producto interno(<#>)"
+
+#. module: llm_knowledge
+#: model:ir.model.fields,field_description:llm_knowledge.field_llm_knowledge_collection__message_is_follower
+#: model:ir.model.fields,field_description:llm_knowledge.field_llm_resource__message_is_follower
+msgid "Is Follower"
+msgstr "es seguidor"
+
+#. module: llm_knowledge
+#: model:ir.model.fields,field_description:llm_knowledge.field_llm_resource__kanban_state
+msgid "Kanban State"
+msgstr "Estado Kanban"
+
+#. module: llm_knowledge
+#: model:ir.ui.menu,name:llm_knowledge.menu_llm_knowledge_root
+msgid "Knowledge"
+msgstr "Conocimiento"
+
+#. module: llm_knowledge
+#: model_terms:ir.ui.view,arch_db:llm_knowledge.view_llm_knowledge_chunk_form
+msgid "Knowledge Chunk"
+msgstr "Trozo de conocimiento"
+
+#. module: llm_knowledge
+#: model:ir.actions.act_window,name:llm_knowledge.action_llm_knowledge_chunk
+#: model:ir.ui.menu,name:llm_knowledge.menu_llm_knowledge_chunk
+msgid "Knowledge Chunks"
+msgstr "Trozos de conocimiento"
+
+#. module: llm_knowledge
+#: model:ir.model,name:llm_knowledge.model_llm_knowledge_collection
+msgid "Knowledge Collection for RAG"
+msgstr "Colección de conocimientos para RAG"
+
+#. module: llm_knowledge
+#: model_terms:ir.actions.act_window,help:llm_knowledge.action_llm_knowledge_chunk
+msgid ""
+"Knowledge chunks are segments of resources used for RAG (Retrieval Augmented"
+" Generation)."
+msgstr ""
+"Los fragmentos de conocimiento son segmentos de recursos utilizados para RAG"
+" (Generación Aumentada de Recuperación)."
+
+#. module: llm_knowledge
+#: model:ir.model,name:llm_knowledge.model_llm_resource
+msgid "LLM Resource for Document Management"
+msgstr "Recurso LLM para la gestión de documentos"
+
+#. module: llm_knowledge
+#: model:ir.model.fields,field_description:llm_knowledge.field_llm_create_rag_resource_wizard__write_uid
+#: model:ir.model.fields,field_description:llm_knowledge.field_llm_knowledge_chunk__write_uid
+#: model:ir.model.fields,field_description:llm_knowledge.field_llm_knowledge_collection__write_uid
+#: model:ir.model.fields,field_description:llm_knowledge.field_llm_knowledge_domain__write_uid
+#: model:ir.model.fields,field_description:llm_knowledge.field_llm_resource__write_uid
+#: model:ir.model.fields,field_description:llm_knowledge.field_llm_upload_resource_wizard__write_uid
+msgid "Last Updated by"
+msgstr "Actualizado por última vez por"
+
+#. module: llm_knowledge
+#: model:ir.model.fields,field_description:llm_knowledge.field_llm_create_rag_resource_wizard__write_date
+#: model:ir.model.fields,field_description:llm_knowledge.field_llm_knowledge_chunk__write_date
+#: model:ir.model.fields,field_description:llm_knowledge.field_llm_knowledge_collection__write_date
+#: model:ir.model.fields,field_description:llm_knowledge.field_llm_knowledge_domain__write_date
+#: model:ir.model.fields,field_description:llm_knowledge.field_llm_resource__write_date
+#: model:ir.model.fields,field_description:llm_knowledge.field_llm_upload_resource_wizard__write_date
+msgid "Last Updated on"
+msgstr "Última actualización el"
+
+#. module: llm_knowledge
+#: model_terms:ir.ui.view,arch_db:llm_knowledge.view_llm_upload_resource_wizard_form
+msgid "Local Files"
+msgstr "Archivos locales"
+
+#. module: llm_knowledge
+#: model:ir.model.fields,help:llm_knowledge.field_llm_upload_resource_wizard__file_ids
+msgid "Local files to upload"
+msgstr "Archivos locales para cargar"
+
+#. module: llm_knowledge
+#: model:ir.model.fields,field_description:llm_knowledge.field_llm_resource__lock_date
+msgid "Lock Date"
+msgstr "Fecha de bloqueo"
+
+#. module: llm_knowledge
+#: model_terms:ir.ui.view,arch_db:llm_knowledge.view_llm_resource_search
+msgid "Locked"
+msgstr "bloqueado"
+
+#. module: llm_knowledge
+#: model_terms:ir.ui.view,arch_db:llm_knowledge.view_llm_knowledge_chunk_search
+msgid "Low Similarity (0.25)"
+msgstr "Baja similitud (0,25)"
+
+#. module: llm_knowledge
+#: model_terms:ir.actions.act_window,help:llm_knowledge.action_llm_knowledge_document
+msgid "Manage knowledge documents."
+msgstr "Gestionar documentos de conocimiento."
+
+#. module: llm_knowledge
+#: model:ir.model.fields,help:llm_knowledge.field_llm_resource__content
+msgid "Markdown representation of the resource content"
+msgstr "Representación Markdown del contenido del recurso."
+
+#. module: llm_knowledge
+#. odoo-python
+#: code:addons/llm_knowledge/models/llm_resource.py:0
+msgid "Mass processing resources failed"
+msgstr "Los recursos de procesamiento masivo fallaron"
+
+#. module: llm_knowledge
+#: model_terms:ir.ui.view,arch_db:llm_knowledge.view_llm_knowledge_chunk_search
+msgid "Medium Similarity (0.5)"
+msgstr "Similitud media (0,5)"
+
+#. module: llm_knowledge
+#: model:ir.model.fields,field_description:llm_knowledge.field_llm_knowledge_collection__message_has_error
+#: model:ir.model.fields,field_description:llm_knowledge.field_llm_resource__message_has_error
+msgid "Message Delivery error"
+msgstr "Error de entrega de mensaje"
+
+#. module: llm_knowledge
+#: model:ir.model.fields,field_description:llm_knowledge.field_llm_knowledge_collection__message_ids
+#: model:ir.model.fields,field_description:llm_knowledge.field_llm_resource__message_ids
+msgid "Messages"
+msgstr "Mensajes"
+
+#. module: llm_knowledge
+#: model:ir.model.fields,field_description:llm_knowledge.field_llm_knowledge_chunk__metadata
+#: model_terms:ir.ui.view,arch_db:llm_knowledge.view_llm_knowledge_chunk_detail_form
+msgid "Metadata"
+msgstr "Metadatos"
+
+#. module: llm_knowledge
+#: model:ir.model.fields,help:llm_knowledge.field_llm_resource__chunker
+msgid "Method used to chunk resource content"
+msgstr "Método utilizado para fragmentar el contenido de los recursos."
+
+#. module: llm_knowledge
+#: model:ir.model.fields,help:llm_knowledge.field_llm_resource__parser
+msgid "Method used to parse resource content"
+msgstr "Método utilizado para analizar el contenido de los recursos."
+
+#. module: llm_knowledge
+#: model:ir.model.fields,help:llm_knowledge.field_llm_resource__retriever
+msgid "Method used to retrieve resource content"
+msgstr "Método utilizado para recuperar el contenido del recurso."
+
+#. module: llm_knowledge
+#: model:ir.model.fields,field_description:llm_knowledge.field_llm_knowledge_domain__model_id
+#: model_terms:ir.ui.view,arch_db:llm_knowledge.view_llm_resource_search
+msgid "Model"
+msgstr "Modelo"
+
+#. module: llm_knowledge
+#: model:ir.model.fields,field_description:llm_knowledge.field_llm_knowledge_domain__model_name
+#: model:ir.model.fields,field_description:llm_knowledge.field_llm_resource__res_model
+msgid "Model Name"
+msgstr "Nombre del modelo"
+
+#. module: llm_knowledge
+#: model:ir.model.fields,field_description:llm_knowledge.field_llm_knowledge_collection__my_activity_date_deadline
+#: model:ir.model.fields,field_description:llm_knowledge.field_llm_resource__my_activity_date_deadline
+msgid "My Activity Deadline"
+msgstr "Fecha límite de mi actividad"
+
+#. module: llm_knowledge
+#: model:ir.model.fields,field_description:llm_knowledge.field_llm_knowledge_chunk__name
+#: model:ir.model.fields,field_description:llm_knowledge.field_llm_knowledge_collection__name
+#: model:ir.model.fields,field_description:llm_knowledge.field_llm_knowledge_domain__name
+#: model:ir.model.fields,field_description:llm_knowledge.field_llm_resource__name
+msgid "Name"
+msgstr "Nombre"
+
+#. module: llm_knowledge
+#: model:ir.model.fields,field_description:llm_knowledge.field_llm_knowledge_collection__activity_date_deadline
+#: model:ir.model.fields,field_description:llm_knowledge.field_llm_resource__activity_date_deadline
+msgid "Next Activity Deadline"
+msgstr "Fecha límite para la próxima actividad"
+
+#. module: llm_knowledge
+#: model:ir.model.fields,field_description:llm_knowledge.field_llm_knowledge_collection__activity_summary
+#: model:ir.model.fields,field_description:llm_knowledge.field_llm_resource__activity_summary
+msgid "Next Activity Summary"
+msgstr "Resumen de la próxima actividad"
+
+#. module: llm_knowledge
+#: model:ir.model.fields,field_description:llm_knowledge.field_llm_knowledge_collection__activity_type_id
+#: model:ir.model.fields,field_description:llm_knowledge.field_llm_resource__activity_type_id
+msgid "Next Activity Type"
+msgstr "Siguiente tipo de actividad"
+
+#. module: llm_knowledge
+#. odoo-python
+#: code:addons/llm_knowledge/models/llm_resource.py:0
+msgid "No Resources Reset"
+msgstr "Sin reinicio de recursos"
+
+#. module: llm_knowledge
+#. odoo-python
+#: code:addons/llm_knowledge/models/llm_resource.py:0
+msgid "No Resources Selected"
+msgstr "No hay recursos seleccionados"
+
+#. module: llm_knowledge
+#. odoo-python
+#: code:addons/llm_knowledge/models/llm_knowledge_collection.py:0
+msgid "No changes made - collection is already in sync with domains."
+msgstr ""
+"No se realizaron cambios: la colección ya está sincronizada con los "
+"dominios."
+
+#. module: llm_knowledge
+#. odoo-python
+#: code:addons/llm_knowledge/models/llm_knowledge_collection.py:0
+msgid "No chunks found for resources in chunked state"
+msgstr "No se encontraron fragmentos para recursos en estado fragmentado"
+
+#. module: llm_knowledge
+#. odoo-python
+#: code:addons/llm_knowledge/models/llm_resource.py:0
+msgid "No chunks found for this resource."
+msgstr "No se encontraron fragmentos para este recurso."
+
+#. module: llm_knowledge
+#. odoo-python
+#: code:addons/llm_knowledge/models/llm_knowledge_collection.py:0
+msgid "No chunks were successfully embedded. Check logs for errors."
+msgstr ""
+"No se incrustó ningún fragmento con éxito. Verifique los registros en busca "
+"de errores."
+
+#. module: llm_knowledge
+#. odoo-python
+#: code:addons/llm_knowledge/models/llm_resource.py:0
+msgid "No collections found for the selected resources."
+msgstr "No se encontraron colecciones para los recursos seleccionados."
+
+#. module: llm_knowledge
+#. odoo-python
+#: code:addons/llm_knowledge/models/llm_resource_chunker.py:0
+msgid "No content to chunk"
+msgstr "No hay contenido para fragmentar"
+
+#. module: llm_knowledge
+#. odoo-python
+#: code:addons/llm_knowledge/models/llm_knowledge_collection.py:0
+msgid "No embedding model configured for this collection."
+msgstr "No hay ningún modelo de inserción configurado para esta colección."
+
+#. module: llm_knowledge
+#: model_terms:ir.actions.act_window,help:llm_knowledge.action_llm_knowledge_chunk
+msgid "No knowledge chunks found"
+msgstr "No se encontraron fragmentos de conocimiento"
+
+#. module: llm_knowledge
+#. odoo-python
+#: code:addons/llm_knowledge/models/llm_resource.py:0
+msgid ""
+"No resources could be embedded. Check that resources have correct "
+"collections and collections have valid embedding models and stores."
+msgstr ""
+"No se pudieron incorporar recursos. Compruebe que los recursos tengan "
+"colecciones correctas y que las colecciones tengan modelos y bloques de "
+"inserción válidos."
+
+#. module: llm_knowledge
+#. odoo-python
+#: code:addons/llm_knowledge/models/llm_resource.py:0
+msgid "No resources found that need resetting."
+msgstr "No se encontraron recursos que deban restablecerse."
+
+#. module: llm_knowledge
+#. odoo-python
+#: code:addons/llm_knowledge/models/llm_knowledge_collection.py:0
+msgid "No resources found to reindex."
+msgstr "No se encontraron recursos para reindexar."
+
+#. module: llm_knowledge
+#. odoo-python
+#: code:addons/llm_knowledge/models/llm_resource.py:0
+msgid "No resources in 'chunked' state to embed."
+msgstr "No hay recursos en estado \"fragmentado\" para insertar."
+
+#. module: llm_knowledge
+#. odoo-python
+#: code:addons/llm_knowledge/models/llm_knowledge_collection.py:0
+msgid "No vector store configured for this collection."
+msgstr "No hay ningún almacén de vectores configurado para esta colección."
+
+#. module: llm_knowledge
+#: model:ir.model.fields,field_description:llm_knowledge.field_llm_knowledge_collection__message_needaction_counter
+#: model:ir.model.fields,field_description:llm_knowledge.field_llm_resource__message_needaction_counter
+msgid "Number of Actions"
+msgstr "Número de acciones"
+
+#. module: llm_knowledge
+#: model:ir.model.fields,field_description:llm_knowledge.field_llm_knowledge_collection__message_has_error_counter
+#: model:ir.model.fields,field_description:llm_knowledge.field_llm_resource__message_has_error_counter
+msgid "Number of errors"
+msgstr "Número de errores"
+
+#. module: llm_knowledge
+#: model:ir.model.fields,help:llm_knowledge.field_llm_knowledge_collection__message_needaction_counter
+#: model:ir.model.fields,help:llm_knowledge.field_llm_resource__message_needaction_counter
+msgid "Number of messages requiring action"
+msgstr "Número de mensajes que requieren acción"
+
+#. module: llm_knowledge
+#: model:ir.model.fields,help:llm_knowledge.field_llm_knowledge_collection__message_has_error_counter
+#: model:ir.model.fields,help:llm_knowledge.field_llm_resource__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr "Número de mensajes con error de entrega"
+
+#. module: llm_knowledge
+#: model:ir.model.fields,help:llm_knowledge.field_llm_resource__target_chunk_overlap
+msgid "Number of tokens to overlap between chunks"
+msgstr "Número de tokens que se superpondrán entre fragmentos"
+
+#. module: llm_knowledge
+#: model:ir.model.fields,help:llm_knowledge.field_llm_knowledge_collection__vector_count
+msgid "Number of vectors in this collection"
+msgstr "Número de vectores en esta colección"
+
+#. module: llm_knowledge
+#: model:ir.model.fields,help:llm_knowledge.field_llm_knowledge_domain__sequence
+msgid "Order of application"
+msgstr "Orden de aplicación"
+
+#. module: llm_knowledge
+#: model:ir.model.fields,help:llm_knowledge.field_llm_knowledge_chunk__sequence
+msgid "Order of the chunk within the resource"
+msgstr "Orden del fragmento dentro del recurso."
+
+#. module: llm_knowledge
+#: model_terms:ir.ui.view,arch_db:llm_knowledge.view_llm_resource_form
+#: model_terms:ir.ui.view,arch_db:llm_knowledge.view_llm_resource_kanban
+msgid "Parse"
+msgstr "Analizar gramaticalmente"
+
+#. module: llm_knowledge
+#: model:ir.model.fields.selection,name:llm_knowledge.selection__llm_resource__state__parsed
+#: model_terms:ir.ui.view,arch_db:llm_knowledge.view_llm_resource_search
+msgid "Parsed"
+msgstr "analizado"
+
+#. module: llm_knowledge
+#: model:ir.model.fields,field_description:llm_knowledge.field_llm_resource__parser
+msgid "Parser"
+msgstr "analizador"
+
+#. module: llm_knowledge
+#. odoo-python
+#: code:addons/llm_knowledge/wizards/upload_resource_wizard.py:0
+msgid "Please provide at least one file or URL"
+msgstr "Proporcione al menos un archivo o URL"
+
+#. module: llm_knowledge
+#. odoo-python
+#: code:addons/llm_knowledge/models/llm_resource.py:0
+msgid "Please select resources to process."
+msgstr "Seleccione los recursos para procesar."
+
+#. module: llm_knowledge
+#. odoo-python
+#: code:addons/llm_knowledge/models/llm_resource.py:0
+msgid "Please select resources to reset."
+msgstr "Seleccione los recursos para restablecer."
+
+#. module: llm_knowledge
+#: model_terms:ir.ui.view,arch_db:llm_knowledge.view_llm_knowledge_collection_form
+msgid "Process"
+msgstr "Proceso"
+
+#. module: llm_knowledge
+#: model_terms:ir.ui.view,arch_db:llm_knowledge.view_llm_resource_form
+#: model_terms:ir.ui.view,arch_db:llm_knowledge.view_llm_resource_kanban
+msgid "Process All"
+msgstr "Procesar todo"
+
+#. module: llm_knowledge
+#: model:ir.model.fields,field_description:llm_knowledge.field_llm_create_rag_resource_wizard__process_immediately
+#: model:ir.model.fields,field_description:llm_knowledge.field_llm_upload_resource_wizard__process_immediately
+msgid "Process Immediately"
+msgstr "Procesar inmediatamente"
+
+#. module: llm_knowledge
+#: model:ir.actions.server,name:llm_knowledge.action_mass_process_rag_resources
+#: model_terms:ir.ui.view,arch_db:llm_knowledge.view_llm_knowledge_collection_form
+msgid "Process Resources"
+msgstr "Recursos de proceso"
+
+#. module: llm_knowledge
+#. odoo-python
+#: code:addons/llm_knowledge/models/llm_knowledge_collection.py:0
+msgid ""
+"Processed %d chunks, but no resources were fully completed due to errors in "
+"some batches."
+msgstr ""
+"Se procesaron fragmentos %d, pero no se completaron completamente los "
+"recursos debido a errores en algunos lotes."
+
+#. module: llm_knowledge
+#. odoo-python
+#: code:addons/llm_knowledge/models/llm_resource.py:0
+msgid "Processing Failed"
+msgstr "Error de procesamiento"
+
+#. module: llm_knowledge
+#: model_terms:ir.ui.view,arch_db:llm_knowledge.view_create_rag_resource_wizard_form
+msgid ""
+"RAG (Retrieval Augmented Generation) resources will be used by AI models to "
+"retrieve relevant information."
+msgstr ""
+"Los modelos de IA utilizarán recursos RAG (Retrieval Augmented Generation) "
+"para recuperar información relevante."
+
+#. module: llm_knowledge
+#: model_terms:ir.ui.view,arch_db:llm_knowledge.view_create_rag_resource_wizard_form
+#: model_terms:ir.ui.view,arch_db:llm_knowledge.view_llm_upload_resource_wizard_form
+msgid "RAG resources!"
+msgstr "Recursos RAG!"
+
+#. module: llm_knowledge
+#: model_terms:ir.ui.view,arch_db:llm_knowledge.view_llm_resource_form
+msgid "RESET CHUNK SETTINGS"
+msgstr "RESTABLECER LA CONFIGURACIÓN DE FRACCIONES"
+
+#. module: llm_knowledge
+#: model_terms:ir.ui.view,arch_db:llm_knowledge.view_llm_resource_form
+#: model_terms:ir.ui.view,arch_db:llm_knowledge.view_llm_resource_kanban
+msgid "Re-index"
+msgstr "Volver a indexar"
+
+#. module: llm_knowledge
+#: model:ir.actions.server,name:llm_knowledge.action_reindex_rag_resources
+msgid "Re-index RAG Resources"
+msgstr "Volver a indexar los recursos de RAG"
+
+#. module: llm_knowledge
+#: model:ir.model.fields.selection,name:llm_knowledge.selection__llm_resource__kanban_state__normal
+#: model:ir.model.fields.selection,name:llm_knowledge.selection__llm_resource__state__ready
+#: model_terms:ir.ui.view,arch_db:llm_knowledge.view_llm_resource_search
+msgid "Ready"
+msgstr "Listo"
+
+#. module: llm_knowledge
+#: model:ir.model.fields,field_description:llm_knowledge.field_llm_resource__res_id
+msgid "Record ID"
+msgstr "ID de registro"
+
+#. module: llm_knowledge
+#: model:ir.model.fields,field_description:llm_knowledge.field_llm_create_rag_resource_wizard__record_count
+msgid "Records"
+msgstr "Archivos"
+
+#. module: llm_knowledge
+#. odoo-python
+#: code:addons/llm_knowledge/models/llm_resource_parser.py:0
+#: code:addons/llm_knowledge/models/llm_resource_retriever.py:0
+msgid "Referenced record not found"
+msgstr "Registro referenciado no encontrado"
+
+#. module: llm_knowledge
+#: model_terms:ir.ui.view,arch_db:llm_knowledge.view_llm_knowledge_collection_form
+msgid "Reindex Collection"
+msgstr "Colección Reindexar"
+
+#. module: llm_knowledge
+#. odoo-python
+#: code:addons/llm_knowledge/models/llm_resource.py:0
+msgid "Reindexing"
+msgstr "Reindexación"
+
+#. module: llm_knowledge
+#: model:ir.model.fields,field_description:llm_knowledge.field_llm_resource__model_id
+msgid "Related Model"
+msgstr "Modelo relacionado"
+
+#. module: llm_knowledge
+#: model:ir.actions.server,name:llm_knowledge.action_mass_reset_resources
+msgid "Reset Resources"
+msgstr "Restablecer recursos"
+
+#. module: llm_knowledge
+#. odoo-python
+#: code:addons/llm_knowledge/models/llm_resource.py:0
+msgid "Reset to 'chunked' state after removal from all collections"
+msgstr ""
+"Restablecer al estado \"fragmentado\" después de la eliminación de todas las"
+" colecciones"
+
+#. module: llm_knowledge
+#: model:ir.model.fields,field_description:llm_knowledge.field_llm_knowledge_chunk__resource_id
+msgid "Resource"
+msgstr "Recurso"
+
+#. module: llm_knowledge
+#. odoo-python
+#: code:addons/llm_knowledge/models/llm_resource_chunker.py:0
+msgid "Resource Chunks"
+msgstr "Trozos de recursos"
+
+#. module: llm_knowledge
+#: model:ir.model.fields,field_description:llm_knowledge.field_llm_knowledge_collection__resource_count
+msgid "Resource Count"
+msgstr "Recuento de recursos"
+
+#. module: llm_knowledge
+#: model_terms:ir.ui.view,arch_db:llm_knowledge.view_llm_resource_form
+msgid "Resource Name"
+msgstr "Nombre del recurso"
+
+#. module: llm_knowledge
+#: model:ir.model.fields,field_description:llm_knowledge.field_llm_create_rag_resource_wizard__resource_name_template
+#: model:ir.model.fields,field_description:llm_knowledge.field_llm_upload_resource_wizard__resource_name_template
+msgid "Resource Name Template"
+msgstr "Plantilla de nombre de recurso"
+
+#. module: llm_knowledge
+#: model_terms:ir.ui.view,arch_db:llm_knowledge.view_llm_resource_form
+msgid "Resource content will appear here after retrieval and parsing"
+msgstr ""
+"El contenido del recurso aparecerá aquí después de la recuperación y el "
+"análisis."
+
+#. module: llm_knowledge
+#. odoo-python
+#: code:addons/llm_knowledge/models/llm_resource.py:0
+msgid "Resource does not belong to any collections."
+msgstr "El recurso no pertenece a ninguna colección."
+
+#. module: llm_knowledge
+#: model:ir.actions.act_window,name:llm_knowledge.action_llm_resource
+#: model:ir.model.fields,field_description:llm_knowledge.field_llm_knowledge_collection__resource_ids
+#: model:ir.ui.menu,name:llm_knowledge.menu_llm_resource
+#: model_terms:ir.ui.view,arch_db:llm_knowledge.view_llm_knowledge_collection_form
+msgid "Resources"
+msgstr "Recursos"
+
+#. module: llm_knowledge
+#. odoo-python
+#: code:addons/llm_knowledge/models/llm_resource.py:0
+msgid "Resources Unlocked"
+msgstr "Recursos desbloqueados"
+
+#. module: llm_knowledge
+#: model:ir.model.fields,field_description:llm_knowledge.field_llm_knowledge_collection__activity_user_id
+#: model:ir.model.fields,field_description:llm_knowledge.field_llm_resource__activity_user_id
+msgid "Responsible User"
+msgstr "Usuario responsable"
+
+#. module: llm_knowledge
+#: model_terms:ir.ui.view,arch_db:llm_knowledge.view_llm_resource_form
+#: model_terms:ir.ui.view,arch_db:llm_knowledge.view_llm_resource_kanban
+msgid "Retrieve"
+msgstr "Recuperar"
+
+#. module: llm_knowledge
+#: model:ir.model.fields.selection,name:llm_knowledge.selection__llm_resource__state__retrieved
+#: model_terms:ir.ui.view,arch_db:llm_knowledge.view_llm_resource_search
+msgid "Retrieved"
+msgstr "Recuperado"
+
+#. module: llm_knowledge
+#: model:ir.model.fields,field_description:llm_knowledge.field_llm_resource__retriever
+msgid "Retriever"
+msgstr "Retriever"
+
+#. module: llm_knowledge
+#: model:ir.model.fields,field_description:llm_knowledge.field_llm_knowledge_collection__message_has_sms_error
+#: model:ir.model.fields,field_description:llm_knowledge.field_llm_resource__message_has_sms_error
+msgid "SMS Delivery error"
+msgstr "Error de entrega de SMS"
+
+#. module: llm_knowledge
+#: model_terms:ir.ui.view,arch_db:llm_knowledge.view_llm_knowledge_chunk_search
+msgid "Search Method"
+msgstr "Método de búsqueda"
+
+#. module: llm_knowledge
+#: model:ir.model.fields,field_description:llm_knowledge.field_llm_knowledge_chunk__sequence
+#: model:ir.model.fields,field_description:llm_knowledge.field_llm_knowledge_domain__sequence
+msgid "Sequence"
+msgstr "Secuencia"
+
+#. module: llm_knowledge
+#: model:ir.model.fields,field_description:llm_knowledge.field_llm_knowledge_chunk__similarity
+msgid "Similarity Score"
+msgstr "Puntuación de similitud"
+
+#. module: llm_knowledge
+#: model_terms:ir.ui.view,arch_db:llm_knowledge.view_llm_knowledge_chunk_search
+msgid "Similarity Threshold"
+msgstr "Umbral de similitud"
+
+#. module: llm_knowledge
+#: model:ir.model.fields,field_description:llm_knowledge.field_llm_create_rag_resource_wizard__state
+#: model:ir.model.fields,field_description:llm_knowledge.field_llm_resource__state
+#: model:ir.model.fields,field_description:llm_knowledge.field_llm_upload_resource_wizard__state
+#: model_terms:ir.ui.view,arch_db:llm_knowledge.view_llm_resource_search
+msgid "State"
+msgstr "Estado"
+
+#. module: llm_knowledge
+#: model:ir.model.fields,help:llm_knowledge.field_llm_knowledge_collection__activity_state
+#: model:ir.model.fields,help:llm_knowledge.field_llm_resource__activity_state
+msgid ""
+"Status based on activities\n"
+"Overdue: Due date is already passed\n"
+"Today: Activity date is today\n"
+"Planned: Future activities."
+msgstr ""
+"Estado basado en actividades.\r\n"
+"Vencido: la fecha de vencimiento ya pasó\r\n"
+"Hoy: la fecha de la actividad es hoy.\r\n"
+"Planificado: Actividades futuras."
+
+#. module: llm_knowledge
+#. odoo-python
+#: code:addons/llm_knowledge/models/llm_knowledge_collection.py:0
+msgid ""
+"Store changed. Reset {count} resources for re-embedding into the new store."
+msgstr ""
+"Bloque cambiado. Restablezca {count} recursos para volver a insertarlos en "
+"el nuevo bloque."
+
+#. module: llm_knowledge
+#: model_terms:ir.ui.view,arch_db:llm_knowledge.view_create_rag_resource_wizard_form
+#: model_terms:ir.ui.view,arch_db:llm_knowledge.view_llm_upload_resource_wizard_form
+msgid "Successfully created"
+msgstr "Creado con éxito"
+
+#. module: llm_knowledge
+#: model_terms:ir.ui.view,arch_db:llm_knowledge.view_llm_knowledge_collection_form
+msgid "Sync Resources"
+msgstr "Sincronizar recursos"
+
+#. module: llm_knowledge
+#: model:ir.model.fields,field_description:llm_knowledge.field_llm_resource__target_chunk_size
+msgid "Target Chunk Size"
+msgstr "Tamaño del fragmento objetivo"
+
+#. module: llm_knowledge
+#: model:ir.model.fields,help:llm_knowledge.field_llm_resource__target_chunk_size
+msgid "Target size of chunks in tokens"
+msgstr "Tamaño objetivo de fragmentos en tokens"
+
+#. module: llm_knowledge
+#: model:ir.model.fields,help:llm_knowledge.field_llm_resource__res_model
+msgid "Technical name of the related model"
+msgstr "Nombre técnico del modelo relacionado."
+
+#. module: llm_knowledge
+#: model:ir.model.fields,help:llm_knowledge.field_llm_upload_resource_wizard__resource_name_template
+msgid ""
+"Template for resource names. Use {filename}, {collection}, and {index} as "
+"placeholders."
+msgstr ""
+"Plantilla para nombres de recursos. Utilice {nombre de archivo}, {colección}"
+" e {índice} como marcadores de posición."
+
+#. module: llm_knowledge
+#: model:ir.model.fields,help:llm_knowledge.field_llm_create_rag_resource_wizard__resource_name_template
+msgid ""
+"Template for resource names. Use {record_name}, {model_name}, and {id} as "
+"placeholders."
+msgstr ""
+"Plantilla para nombres de recursos. Utilice {record_name}, {model_name} y "
+"{id} como marcadores de posición."
+
+#. module: llm_knowledge
+#: model:ir.model.fields,help:llm_knowledge.field_llm_resource__res_id
+msgid "The ID of the referenced record"
+msgstr "El ID del registro al que se hace referencia."
+
+#. module: llm_knowledge
+#: model:ir.model.fields,help:llm_knowledge.field_llm_resource__model_id
+msgid "The model of the referenced document"
+msgstr "El modelo del documento de referencia."
+
+#. module: llm_knowledge
+#: model:ir.model.fields,help:llm_knowledge.field_llm_knowledge_collection__embedding_model_id
+msgid "The model used to create embeddings for documents in this collection"
+msgstr ""
+"El modelo utilizado para crear incrustaciones de documentos en esta "
+"colección."
+
+#. module: llm_knowledge
+#: model_terms:ir.actions.act_window,help:llm_knowledge.action_llm_knowledge_document
+msgid "These are resources used for Retrieval Augmented Generation (RAG)."
+msgstr ""
+"Estos son recursos utilizados para la generación aumentada de recuperación "
+"(RAG)."
+
+#. module: llm_knowledge
+#: model_terms:ir.ui.view,arch_db:llm_knowledge.view_llm_knowledge_collection_form
+msgid ""
+"This will embed all resource chunks with the selected embedding model. "
+"Continue?"
+msgstr ""
+"Esto incrustará todos los fragmentos de recursos con el modelo de "
+"incrustación seleccionado. ¿Continuar?"
+
+#. module: llm_knowledge
+#: model_terms:ir.ui.view,arch_db:llm_knowledge.view_llm_knowledge_collection_form
+msgid ""
+"This will process resources through the RAG pipeline until chunked state. "
+"Continue?"
+msgstr ""
+"Esto procesará los recursos a través de la canalización RAG hasta el estado "
+"fragmentado. ¿Continuar?"
+
+#. module: llm_knowledge
+#: model_terms:ir.ui.view,arch_db:llm_knowledge.view_llm_knowledge_collection_form
+msgid "This will recreate vector indexes for resources. Continue?"
+msgstr "Esto recreará índices vectoriales para recursos. ¿Continuar?"
+
+#. module: llm_knowledge
+#: model_terms:ir.ui.view,arch_db:llm_knowledge.view_llm_knowledge_collection_form
+msgid ""
+"This will synchronize the collection with domain filters, adding new "
+"resources and removing those no longer matching. Continue?"
+msgstr ""
+"Esto sincronizará la colección con los filtros de dominio, agregando nuevos "
+"recursos y eliminando aquellos que ya no coinciden. ¿Continuar?"
+
+#. module: llm_knowledge
+#: model_terms:ir.ui.view,arch_db:llm_knowledge.view_llm_knowledge_collection_form
+msgid "Total Chunks"
+msgstr "Fragmentos totales"
+
+#. module: llm_knowledge
+#: model:ir.model.fields,help:llm_knowledge.field_llm_knowledge_collection__activity_exception_decoration
+#: model:ir.model.fields,help:llm_knowledge.field_llm_resource__activity_exception_decoration
+msgid "Type of the exception activity on record."
+msgstr "Tipo de actividad de excepción registrada."
+
+#. module: llm_knowledge
+#: model_terms:ir.ui.view,arch_db:llm_knowledge.view_llm_upload_resource_wizard_form
+msgid "Upload RAG Resources"
+msgstr "Cargar recursos RAG"
+
+#. module: llm_knowledge
+#: model:ir.model,name:llm_knowledge.model_llm_upload_resource_wizard
+msgid "Upload RAG Resources Wizard"
+msgstr "Asistente para cargar recursos de RAG"
+
+#. module: llm_knowledge
+#: model:ir.actions.server,name:llm_knowledge.action_button_upload_resources_knowledge
+#: model:ir.actions.server,name:llm_knowledge.action_collection_upload_resources
+#: model_terms:ir.ui.view,arch_db:llm_knowledge.view_llm_knowledge_collection_form
+#: model_terms:ir.ui.view,arch_db:llm_knowledge.view_llm_upload_resource_wizard_form
+msgid "Upload Resources"
+msgstr "Cargar recursos"
+
+#. module: llm_knowledge
+#: model:ir.model.fields,field_description:llm_knowledge.field_llm_knowledge_collection__vector_count
+msgid "Vector Count"
+msgstr "Recuento de vectores"
+
+#. module: llm_knowledge
+#: model:ir.model.fields,field_description:llm_knowledge.field_llm_knowledge_collection__store_id
+msgid "Vector Store"
+msgstr "Bloque de vectores"
+
+#. module: llm_knowledge
+#. odoo-python
+#: code:addons/llm_knowledge/models/llm_knowledge_collection.py:0
+msgid "Vectors removed for resource %s"
+msgstr "Vectores eliminados para el recurso %s"
+
+#. module: llm_knowledge
+#. odoo-python
+#: code:addons/llm_knowledge/models/llm_knowledge_collection.py:0
+msgid "Vectors removed from collection %s"
+msgstr "Vectores eliminados de la colección %s"
+
+#. module: llm_knowledge
+#: model_terms:ir.ui.view,arch_db:llm_knowledge.view_llm_knowledge_collection_form
+msgid "View"
+msgstr "Vista"
+
+#. module: llm_knowledge
+#: model_terms:ir.ui.view,arch_db:llm_knowledge.view_create_rag_resource_wizard_form
+#: model_terms:ir.ui.view,arch_db:llm_knowledge.view_llm_upload_resource_wizard_form
+msgid "View Resources"
+msgstr "Ver recursos"
+
+#. module: llm_knowledge
+#: model:ir.model.fields,field_description:llm_knowledge.field_llm_knowledge_collection__website_message_ids
+#: model:ir.model.fields,field_description:llm_knowledge.field_llm_resource__website_message_ids
+msgid "Website Messages"
+msgstr "Mensajes del sitio web"
+
+#. module: llm_knowledge
+#: model:ir.model.fields,help:llm_knowledge.field_llm_knowledge_collection__website_message_ids
+#: model:ir.model.fields,help:llm_knowledge.field_llm_resource__website_message_ids
+msgid "Website communication history"
+msgstr "Historial de comunicación del sitio web"
+
+#. module: llm_knowledge
+#: model_terms:ir.ui.view,arch_db:llm_knowledge.view_create_rag_resource_wizard_form
+msgid "You are about to create RAG resources for"
+msgstr "Estás a punto de crear recursos RAG para"
+
+#. module: llm_knowledge
+#: model_terms:ir.ui.view,arch_db:llm_knowledge.view_llm_upload_resource_wizard_form
+msgid ""
+"You can upload local files and/or provide external URLs. Resources will be "
+"added to the selected collection."
+msgstr ""
+"Puede cargar archivos locales y/o proporcionar URL externas. Los recursos se"
+" agregarán a la colección seleccionada."
+
+#. module: llm_knowledge
+#: model_terms:ir.ui.view,arch_db:llm_knowledge.view_llm_resource_kanban
+msgid "chunks"
+msgstr "trozos"
+
+#. module: llm_knowledge
+#: model_terms:ir.ui.view,arch_db:llm_knowledge.view_create_rag_resource_wizard_form
+msgid "e.g. RAG - {record_name}"
+msgstr "p.ej. TRAPO - {record_name}"
+
+#. module: llm_knowledge
+#: model_terms:ir.ui.view,arch_db:llm_knowledge.view_llm_upload_resource_wizard_form
+msgid "e.g. {filename}"
+msgstr "p.ej. {Nombre del archivo}"
+
+#. module: llm_knowledge
+#: model_terms:ir.ui.view,arch_db:llm_knowledge.view_create_rag_resource_wizard_form
+msgid "records."
+msgstr "archivos."

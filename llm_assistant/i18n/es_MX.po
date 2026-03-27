@@ -1,0 +1,1908 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0-20250123\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-03-06 18:29+0000\n"
+"PO-Revision-Date: 2026-03-06 18:29+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: llm_assistant
+#: model_terms:ir.ui.view,arch_db:llm_assistant.view_llm_assistant_form
+msgid ""
+"<i class=\"fa fa-info-circle\"/>\n"
+"                                    The template is read-only here. Click the button above to edit it in the prompt record."
+msgstr ""
+"<i class=\"fa fa-info-circle\"/>\r\n"
+"                                    La plantilla es de sólo lectura aquí. Haga clic en el botón de arriba para editarlo en el registro de solicitud."
+
+#. module: llm_assistant
+#: model_terms:ir.ui.view,arch_db:llm_assistant.view_llm_assistant_form
+msgid "<span class=\"o_stat_text\">Template</span>"
+msgstr "<span class=\"o_stat_text\">Plantilla</span>"
+
+#. module: llm_assistant
+#: model_terms:ir.ui.view,arch_db:llm_assistant.llm_prompt_view_form
+msgid ""
+"<span class=\"o_stat_text\">Test</span>\n"
+"                                <span class=\"o_stat_text\">Prompt</span>"
+msgstr ""
+"<span class=\"o_stat_text\">Prueba</span>\r\n"
+"                                <span class=\"o_stat_text\">Pregunta</span>"
+
+#. module: llm_assistant
+#: model_terms:ir.ui.view,arch_db:llm_assistant.llm_prompt_test_view_form
+msgid "<span>Test Prompt: </span>"
+msgstr "<span>Mensaje de prueba: </span>"
+
+#. module: llm_assistant
+#: model_terms:ir.ui.view,arch_db:llm_assistant.llm_prompt_view_form
+msgid "<strong>Arguments Schema Format:</strong>"
+msgstr "<strong>Formato del esquema de argumentos:</strong>"
+
+#. module: llm_assistant
+#: model_terms:ir.ui.view,arch_db:llm_assistant.llm_prompt_test_view_form
+msgid ""
+"<strong>Auto-population:</strong> Common fields are automatically added as "
+"\"record_fieldname\" when you select a record"
+msgstr ""
+"<strong>Relleno automático:</strong> Los campos comunes se agregan "
+"automáticamente como \"record_fieldname\" cuando selecciona un registro"
+
+#. module: llm_assistant
+#: model_terms:ir.ui.view,arch_db:llm_assistant.view_llm_assistant_form
+msgid ""
+"<strong>Default Values:</strong> Define default values for prompt variables in JSON format.\n"
+"                                    These will be used as inputs to the prompt template."
+msgstr ""
+"<strong>Valores predeterminados:</strong> Defina valores predeterminados para las variables de solicitud en formato JSON.\r\n"
+"                                    Estos se utilizarán como entradas para la plantilla de solicitud."
+
+#. module: llm_assistant
+#: model_terms:ir.ui.view,arch_db:llm_assistant.view_llm_assistant_form
+msgid ""
+"<strong>Dynamic Defaults:</strong> When enabled, you can use template syntax like\n"
+"                                    <code>{{ user.name }}</code> or <code>{{ related_record.get_field('name') }}</code> in your default values."
+msgstr ""
+"<strong>Valores predeterminados dinámicos:</strong> Cuando está habilitado, puede usar una sintaxis de plantilla como\r\n"
+"                                    <code>{{ user.name }}</code> o <code>{{ related_record.get_field('name') }}</code> en sus valores predeterminados."
+
+#. module: llm_assistant
+#: model_terms:ir.ui.view,arch_db:llm_assistant.llm_prompt_test_view_form
+msgid "<strong>Evaluation Error:</strong>"
+msgstr "<strong>Error de evaluación:</strong>"
+
+#. module: llm_assistant
+#: model_terms:ir.ui.view,arch_db:llm_assistant.llm_prompt_test_view_form
+msgid ""
+"<strong>Generated Messages:</strong> These are the final messages that would"
+" be sent to the LLM, including system messages and all processed content."
+msgstr ""
+"<strong>Mensajes generados:</strong> Estos son los mensajes finales que se "
+"enviarían al LLM, incluidos los mensajes del sistema y todo el contenido "
+"procesado."
+
+#. module: llm_assistant
+#: model_terms:ir.ui.view,arch_db:llm_assistant.llm_prompt_view_form
+msgid ""
+"<strong>JSON Format:\n"
+"                                        </strong>\n"
+"                                        Structured messages in JSON format."
+msgstr ""
+"<strong>Formato JSON:\r\n"
+"                                        </strong>\r\n"
+"                                        Mensajes estructurados en formato JSON."
+
+#. module: llm_assistant
+#: model_terms:ir.ui.view,arch_db:llm_assistant.llm_prompt_test_view_form
+msgid "<strong>JSON:</strong> Raw message format as used by the LLM API"
+msgstr ""
+"<strong>JSON:</strong> Formato de mensaje sin formato utilizado por la API "
+"LLM"
+
+#. module: llm_assistant
+#: model_terms:ir.ui.view,arch_db:llm_assistant.llm_prompt_test_view_form
+msgid ""
+"<strong>Manual Evaluation:</strong> Click \"Evaluate Prompt\" to re-run "
+"evaluation with modified context"
+msgstr ""
+"<strong>Evaluación manual:</strong> Haga clic en \"Evaluar mensaje\" para "
+"volver a ejecutar la evaluación con el contexto modificado"
+
+#. module: llm_assistant
+#: model_terms:ir.ui.view,arch_db:llm_assistant.llm_prompt_test_view_form
+msgid ""
+"<strong>Pro Tip:</strong> The context includes related_model_name, "
+"related_model_id, and related_res_id for debugging."
+msgstr ""
+"<strong>Consejo profesional:</strong> El contexto incluye "
+"related_model_name, related_model_id y related_res_id para la depuración."
+
+#. module: llm_assistant
+#: model_terms:ir.ui.view,arch_db:llm_assistant.llm_prompt_test_view_form
+msgid ""
+"<strong>Related Record Access:</strong> Use {{ "
+"related_record.get_field('field_name') }} in templates for direct field "
+"access"
+msgstr ""
+"<strong>Acceso a registros relacionados:</strong> Utilice {{ "
+"related_record.get_field('field_name') }} en plantillas para acceso directo "
+"al campo"
+
+#. module: llm_assistant
+#: model_terms:ir.ui.view,arch_db:llm_assistant.llm_prompt_test_view_form
+msgid ""
+"<strong>Related Record:</strong> Select any record above - context will "
+"auto-populate and prompt will auto-evaluate"
+msgstr ""
+"<strong>Registro relacionado:</strong> Seleccione cualquier registro "
+"anterior: el contexto se completará automáticamente y el mensaje se evaluará"
+" automáticamente"
+
+#. module: llm_assistant
+#: model_terms:ir.ui.view,arch_db:llm_assistant.llm_prompt_test_view_form
+msgid ""
+"<strong>Rendered Template:</strong> This shows your template after all "
+"{{argument}} placeholders have been replaced with actual values."
+msgstr ""
+"<strong>Plantilla renderizada:</strong> Esto muestra su plantilla después de"
+" que todos los marcadores de posición {{argument}} hayan sido reemplazados "
+"con valores reales."
+
+#. module: llm_assistant
+#: model_terms:ir.ui.view,arch_db:llm_assistant.view_llm_assistant_form
+msgid ""
+"<strong>Reset Defaults:</strong> Click \"Reset Defaults\" to automatically populate this field\n"
+"                                    with default values from the selected prompt template's argument schema."
+msgstr ""
+"<strong>Reset Defaults:</strong> Click \"Reset Defaults\" to automatically populate this field\r\n"
+"                                    con valores predeterminados del esquema de argumentos de la plantilla de solicitud seleccionada."
+
+#. module: llm_assistant
+#: model_terms:ir.ui.view,arch_db:llm_assistant.view_llm_assistant_form
+msgid ""
+"<strong>Template Management:</strong>\n"
+"                                    The template is managed through the associated prompt record.\n"
+"                                    Format:"
+msgstr ""
+"<strong>Gestión de plantillas:</strong>\r\n"
+"                                    La plantilla se gestiona a través del registro de aviso asociado.\r\n"
+"                                    Formato:"
+
+#. module: llm_assistant
+#: model_terms:ir.ui.view,arch_db:llm_assistant.llm_prompt_test_view_form
+msgid ""
+"<strong>Test Context:</strong> Provide arguments in JSON format that match "
+"your prompt's schema"
+msgstr ""
+"<strong>Contexto de prueba:</strong> Proporcione argumentos en formato JSON "
+"que coincidan con el esquema de su mensaje"
+
+#. module: llm_assistant
+#: model_terms:ir.ui.view,arch_db:llm_assistant.llm_prompt_view_form
+msgid ""
+"<strong>Text Format:\n"
+"                                        </strong>\n"
+"                                        Simple text with {{argument_name}} placeholders."
+msgstr ""
+"<strong>Formato de texto:\r\n"
+"                                        </strong>\r\n"
+"                                        Texto simple con {{argument_name}} marcadores de posición."
+
+#. module: llm_assistant
+#: model_terms:ir.ui.view,arch_db:llm_assistant.llm_prompt_test_view_form
+msgid "<strong>Text:</strong> Plain text representation for easy reading"
+msgstr ""
+"<strong>Text:</strong> Representación de texto sin formato para facilitar la"
+" lectura"
+
+#. module: llm_assistant
+#: model_terms:ir.ui.view,arch_db:llm_assistant.llm_prompt_view_form
+msgid ""
+"<strong>Warning:\n"
+"                                </strong>\n"
+"                                The following arguments are used in the template but not defined in the schema:"
+msgstr ""
+"<strong>Advertencia:\r\n"
+"                                </strong>\r\n"
+"                                Los siguientes argumentos se utilizan en la plantilla pero no se definen en el esquema:"
+
+#. module: llm_assistant
+#: model_terms:ir.ui.view,arch_db:llm_assistant.llm_prompt_view_form
+msgid ""
+"<strong>YAML Format:\n"
+"                                        </strong>\n"
+"                                        Structured messages in YAML format."
+msgstr ""
+"<strong>YAML Formato:\r\n"
+"                                        </strong>\r\n"
+"                                        Mensajes estructurados en formato YAML."
+
+#. module: llm_assistant
+#: model_terms:ir.ui.view,arch_db:llm_assistant.llm_prompt_test_view_form
+msgid "<strong>YAML:</strong> Human-readable structured format"
+msgstr "<strong>YAML:</strong> Formato estructurado legible por humanos"
+
+#. module: llm_assistant
+#: model_terms:ir.ui.view,arch_db:llm_assistant.llm_prompt_view_form
+msgid "<strong>default</strong>: Default value if not provided"
+msgstr "<strong>default</strong>: valor predeterminado si no se proporciona"
+
+#. module: llm_assistant
+#: model_terms:ir.ui.view,arch_db:llm_assistant.llm_prompt_view_form
+msgid "<strong>description</strong>: Human-readable description"
+msgstr "<strong>description</strong>: descripción legible por humanos"
+
+#. module: llm_assistant
+#: model_terms:ir.ui.view,arch_db:llm_assistant.llm_prompt_view_form
+msgid "<strong>examples</strong>: Array of example values"
+msgstr "<strong>examples</strong>: Matriz de valores de ejemplo"
+
+#. module: llm_assistant
+#: model_terms:ir.ui.view,arch_db:llm_assistant.llm_prompt_view_form
+msgid "<strong>required</strong>: Whether the argument is required (boolean)"
+msgstr "<strong>required</strong>: si el argumento es obligatorio (booleano)"
+
+#. module: llm_assistant
+#: model_terms:ir.ui.view,arch_db:llm_assistant.llm_prompt_view_form
+msgid "<strong>type</strong>: string, number, boolean, etc."
+msgstr "<strong>type</strong>: cadena, número, booleano, etc."
+
+#. module: llm_assistant
+#: model_terms:ir.ui.view,arch_db:llm_assistant.view_llm_assistant_search
+msgid "Access Level"
+msgstr "Nivel de acceso"
+
+#. module: llm_assistant
+#: model:ir.model.fields,field_description:llm_assistant.field_llm_assistant__message_needaction
+#: model:ir.model.fields,field_description:llm_assistant.field_llm_prompt__message_needaction
+#: model:ir.model.fields,field_description:llm_assistant.field_llm_thread_mock__message_needaction
+msgid "Action Needed"
+msgstr "Acción necesaria"
+
+#. module: llm_assistant
+#: model:ir.model.fields,field_description:llm_assistant.field_llm_assistant__active
+#: model:ir.model.fields,field_description:llm_assistant.field_llm_prompt__active
+#: model:ir.model.fields,field_description:llm_assistant.field_llm_prompt_category__active
+#: model:ir.model.fields,field_description:llm_assistant.field_llm_thread_mock__active
+msgid "Active"
+msgstr "Activo"
+
+#. module: llm_assistant
+#: model:ir.model.fields,field_description:llm_assistant.field_llm_prompt__activity_ids
+msgid "Activities"
+msgstr "Actividades"
+
+#. module: llm_assistant
+#: model:ir.model.fields,field_description:llm_assistant.field_llm_prompt__activity_exception_decoration
+msgid "Activity Exception Decoration"
+msgstr "Decoración de excepción de actividad"
+
+#. module: llm_assistant
+#: model:ir.model.fields,field_description:llm_assistant.field_llm_prompt__activity_state
+msgid "Activity State"
+msgstr "Estado de actividad"
+
+#. module: llm_assistant
+#: model:ir.model.fields,field_description:llm_assistant.field_llm_prompt__activity_type_icon
+msgid "Activity Type Icon"
+msgstr "Icono de tipo de actividad"
+
+#. module: llm_assistant
+#: model:ir.model.fields,field_description:llm_assistant.field_llm_thread_mock__attachment_ids
+msgid "All Thread Attachments"
+msgstr "Todos los archivos adjuntos de hilo"
+
+#. module: llm_assistant
+#: model:ir.model.fields,help:llm_assistant.field_llm_thread_mock__attachment_ids
+msgid "All attachments from all messages in this thread"
+msgstr "Todos los archivos adjuntos de todos los mensajes en este hilo"
+
+#. module: llm_assistant
+#: model:ir.model.fields,field_description:llm_assistant.field_llm_assistant__allowed_group_ids
+msgid "Allowed Groups"
+msgstr "Grupos permitidos"
+
+#. module: llm_assistant
+#: model_terms:ir.ui.view,arch_db:llm_assistant.llm_prompt_category_view_search
+#: model_terms:ir.ui.view,arch_db:llm_assistant.llm_prompt_view_search
+#: model_terms:ir.ui.view,arch_db:llm_assistant.view_llm_assistant_search
+msgid "Archived"
+msgstr "Archivado"
+
+#. module: llm_assistant
+#: model:ir.model.fields,field_description:llm_assistant.field_llm_prompt__argument_count
+msgid "Argument Count"
+msgstr "Recuento de argumentos"
+
+#. module: llm_assistant
+#: model_terms:ir.ui.view,arch_db:llm_assistant.llm_prompt_view_form
+msgid "Arguments"
+msgstr "Argumentos"
+
+#. module: llm_assistant
+#: model:ir.model.fields,field_description:llm_assistant.field_llm_prompt__arguments_json
+#: model:ir.model.fields,field_description:llm_assistant.field_llm_prompt_test__arguments_schema
+#: model_terms:ir.ui.view,arch_db:llm_assistant.llm_prompt_test_view_form
+msgid "Arguments Schema"
+msgstr "Esquema de argumentos"
+
+#. module: llm_assistant
+#: model:ir.model.fields,help:llm_assistant.field_llm_prompt_test__arguments_schema
+msgid "Arguments schema from the prompt"
+msgstr "Esquema de argumentos desde el mensaje"
+
+#. module: llm_assistant
+#: model:ir.model.fields,help:llm_assistant.field_llm_prompt__undefined_arguments
+msgid "Arguments used in templates but not defined in schema"
+msgstr "Argumentos utilizados en plantillas pero no definidos en el esquema"
+
+#. module: llm_assistant
+#: model:ir.model.fields,field_description:llm_assistant.field_llm_thread__assistant_id
+#: model:ir.model.fields,field_description:llm_assistant.field_llm_thread_mock__assistant_id
+#: model:llm.prompt.tag,name:llm_assistant.tag_assistant
+#: model_terms:ir.ui.view,arch_db:llm_assistant.view_llm_assistant_form
+#: model_terms:ir.ui.view,arch_db:llm_assistant.view_llm_thread_search_inherit_assistant
+msgid "Assistant"
+msgstr "Asistente"
+
+#. module: llm_assistant
+#: model_terms:ir.ui.view,arch_db:llm_assistant.view_llm_assistant_form
+msgid "Assistant Name"
+msgstr "Nombre del asistente"
+
+#. module: llm_assistant
+#: model:ir.model.constraint,message:llm_assistant.constraint_llm_assistant_unique_code
+msgid "Assistant code must be unique."
+msgstr "El código del asistente debe ser único."
+
+#. module: llm_assistant
+#: model:ir.actions.act_window,name:llm_assistant.action_llm_assistant
+#: model:ir.ui.menu,name:llm_assistant.menu_llm_assistant
+msgid "Assistants"
+msgstr "Asistentes"
+
+#. module: llm_assistant
+#: model_terms:ir.actions.act_window,help:llm_assistant.action_llm_assistant
+msgid ""
+"Assistants can be configured with specific roles, goals, and tools to "
+"enhance your AI interactions."
+msgstr ""
+"Los asistentes se pueden configurar con roles, objetivos y herramientas "
+"específicos para mejorar sus interacciones con IA."
+
+#. module: llm_assistant
+#: model:ir.model.fields,field_description:llm_assistant.field_llm_assistant__message_attachment_count
+#: model:ir.model.fields,field_description:llm_assistant.field_llm_prompt__message_attachment_count
+#: model:ir.model.fields,field_description:llm_assistant.field_llm_thread_mock__message_attachment_count
+msgid "Attachment Count"
+msgstr "Recuento de archivos adjuntos"
+
+#. module: llm_assistant
+#: model_terms:ir.ui.view,arch_db:llm_assistant.llm_prompt_view_form
+msgid "Auto-detect Arguments"
+msgstr "Argumentos de detección automática"
+
+#. module: llm_assistant
+#: model:ir.model.fields,field_description:llm_assistant.field_llm_thread_mock__tool_ids
+msgid "Available Tools"
+msgstr "Herramientas disponibles"
+
+#. module: llm_assistant
+#: model:llm.prompt.tag,name:llm_assistant.tag_business
+msgid "Business"
+msgstr "Negocio"
+
+#. module: llm_assistant
+#: model:ir.ui.menu,name:llm_assistant.llm_prompt_category_menu
+msgid "Categories"
+msgstr "Categorías"
+
+#. module: llm_assistant
+#: model_terms:ir.actions.act_window,help:llm_assistant.llm_prompt_category_action
+msgid "Categories help organize and classify your prompt templates."
+msgstr ""
+"Las categorías ayudan a organizar y clasificar sus plantillas de mensajes."
+
+#. module: llm_assistant
+#: model:ir.model.fields,field_description:llm_assistant.field_llm_assistant__category_id
+#: model:ir.model.fields,field_description:llm_assistant.field_llm_prompt__category_id
+#: model_terms:ir.ui.view,arch_db:llm_assistant.llm_prompt_view_search
+#: model_terms:ir.ui.view,arch_db:llm_assistant.view_llm_assistant_search
+msgid "Category"
+msgstr "Categoría"
+
+#. module: llm_assistant
+#: model:ir.model.fields,field_description:llm_assistant.field_llm_prompt_category__code
+msgid "Category Code"
+msgstr "Código de categoría"
+
+#. module: llm_assistant
+#: model:ir.model.fields,field_description:llm_assistant.field_llm_prompt_category__name
+msgid "Category Name"
+msgstr "Nombre de categoría"
+
+#. module: llm_assistant
+#: model:ir.model.fields,help:llm_assistant.field_llm_prompt__category_id
+msgid "Category for organizing prompts"
+msgstr "Categoría para organizar indicaciones"
+
+#. module: llm_assistant
+#: model:ir.model.fields,help:llm_assistant.field_llm_assistant__category_id
+msgid "Category inherited from the prompt template"
+msgstr "Categoría heredada de la plantilla de solicitud"
+
+#. module: llm_assistant
+#: model:ir.model.fields,field_description:llm_assistant.field_llm_prompt_category__child_ids
+#: model_terms:ir.ui.view,arch_db:llm_assistant.llm_prompt_category_view_form
+msgid "Child Categories"
+msgstr "Categorías infantiles"
+
+#. module: llm_assistant
+#: model_terms:ir.ui.view,arch_db:llm_assistant.llm_prompt_test_view_form
+msgid "Choose any record..."
+msgstr "Elija cualquier registro..."
+
+#. module: llm_assistant
+#: model:ir.model.fields,help:llm_assistant.field_llm_prompt__tag_ids
+msgid "Classify and analyze your prompts"
+msgstr "Clasifica y analiza tus indicaciones"
+
+#. module: llm_assistant
+#. odoo-javascript
+#: code:addons/llm_assistant/static/src/patches/llm_thread_header_patch.xml:0
+msgid "Clear Assistant"
+msgstr "Asistente claro"
+
+#. module: llm_assistant
+#: model_terms:ir.ui.view,arch_db:llm_assistant.llm_prompt_test_view_form
+msgid "Clear Record"
+msgstr "Borrar registro"
+
+#. module: llm_assistant
+#: model_terms:ir.ui.view,arch_db:llm_assistant.llm_prompt_test_view_form
+msgid "Close"
+msgstr "Cerca"
+
+#. module: llm_assistant
+#: model:ir.model.fields,field_description:llm_assistant.field_llm_assistant__code
+msgid "Code"
+msgstr "Código"
+
+#. module: llm_assistant
+#: model:ir.model.fields,field_description:llm_assistant.field_llm_prompt_tag__color
+msgid "Color"
+msgstr "Color"
+
+#. module: llm_assistant
+#: model:ir.model.fields,field_description:llm_assistant.field_llm_prompt__provider_ids
+msgid "Compatible Providers"
+msgstr "Proveedores compatibles"
+
+#. module: llm_assistant
+#: model:ir.model.fields,field_description:llm_assistant.field_llm_prompt__publisher_ids
+msgid "Compatible Publishers"
+msgstr "Editores compatibles"
+
+#. module: llm_assistant
+#: model:ir.model.fields,field_description:llm_assistant.field_llm_prompt_category__complete_name
+msgid "Complete Name"
+msgstr "Nombre completo"
+
+#. module: llm_assistant
+#: model_terms:ir.ui.view,arch_db:llm_assistant.view_llm_assistant_form
+msgid "Configuration"
+msgstr "Configuración"
+
+#. module: llm_assistant
+#: model:ir.model.fields,help:llm_assistant.field_llm_prompt_test__test_context
+msgid "Context arguments to test the prompt with"
+msgstr "Argumentos de contexto para probar el mensaje con"
+
+#. module: llm_assistant
+#. odoo-python
+#: code:addons/llm_assistant/models/llm_prompt.py:0
+msgid ""
+"Could not parse the rendered %s content. The template may have syntax errors or produce invalid output.\n"
+"\n"
+"Tips:\n"
+"• For YAML: Check indentation and special characters\n"
+"• For JSON: Ensure quotes and brackets are balanced\n"
+"\n"
+"Details: %s"
+msgstr ""
+"No se pudo analizar el contenido %s renderizado. La plantilla puede tener errores de sintaxis o generar resultados no válidos.\r\n"
+"\r\n"
+"Consejos:\r\n"
+"• Para YAML: verifique la sangría y los caracteres especiales\r\n"
+"• Para JSON: asegúrese de que las comillas y los corchetes estén equilibrados\r\n"
+"\r\n"
+"Detalles: ___formato_0___"
+
+#. module: llm_assistant
+#. odoo-python
+#: code:addons/llm_assistant/utils.py:0
+msgid ""
+"Could not process the prompt template. Check that all placeholder variables ({{variable}}) are correctly named and the template syntax is valid.\n"
+"\n"
+"Details: %s"
+msgstr ""
+"No se pudo procesar la plantilla de solicitud. Compruebe que todas las variables de marcador de posición ({{variable}}) tengan el nombre correcto y que la sintaxis de la plantilla sea válida.\r\n"
+"\r\n"
+"Detalles: ___formato_0___"
+
+#. module: llm_assistant
+#: model_terms:ir.actions.act_window,help:llm_assistant.llm_prompt_category_action
+msgid "Create a new prompt category"
+msgstr "Crear una nueva categoría de aviso"
+
+#. module: llm_assistant
+#: model_terms:ir.actions.act_window,help:llm_assistant.llm_prompt_tag_action
+msgid "Create a new prompt tag"
+msgstr "Crear una nueva etiqueta de aviso"
+
+#. module: llm_assistant
+#: model_terms:ir.actions.act_window,help:llm_assistant.action_llm_assistant
+msgid "Create your first AI Assistant!"
+msgstr "¡Crea tu primer asistente de IA!"
+
+#. module: llm_assistant
+#: model_terms:ir.actions.act_window,help:llm_assistant.llm_prompt_action
+msgid "Create your first prompt template"
+msgstr "Crea tu primera plantilla de aviso"
+
+#. module: llm_assistant
+#: model:ir.model.fields,field_description:llm_assistant.field_llm_assistant__create_uid
+#: model:ir.model.fields,field_description:llm_assistant.field_llm_prompt__create_uid
+#: model:ir.model.fields,field_description:llm_assistant.field_llm_prompt_category__create_uid
+#: model:ir.model.fields,field_description:llm_assistant.field_llm_prompt_tag__create_uid
+#: model:ir.model.fields,field_description:llm_assistant.field_llm_prompt_test__create_uid
+#: model:ir.model.fields,field_description:llm_assistant.field_llm_thread_mock__create_uid
+msgid "Created by"
+msgstr "Created by"
+
+#. module: llm_assistant
+#: model:ir.model.fields,field_description:llm_assistant.field_llm_assistant__create_date
+#: model:ir.model.fields,field_description:llm_assistant.field_llm_prompt__create_date
+#: model:ir.model.fields,field_description:llm_assistant.field_llm_prompt_category__create_date
+#: model:ir.model.fields,field_description:llm_assistant.field_llm_prompt_tag__create_date
+#: model:ir.model.fields,field_description:llm_assistant.field_llm_prompt_test__create_date
+#: model:ir.model.fields,field_description:llm_assistant.field_llm_thread_mock__create_date
+msgid "Created on"
+msgstr "Creado el"
+
+#. module: llm_assistant
+#: model:llm.prompt.tag,name:llm_assistant.tag_creative
+msgid "Creative"
+msgstr "Creativo"
+
+#. module: llm_assistant
+#: model:llm.prompt.tag,name:llm_assistant.tag_data
+msgid "Data"
+msgstr "Datos"
+
+#. module: llm_assistant
+#: model_terms:ir.ui.view,arch_db:llm_assistant.llm_prompt_test_view_form
+msgid "Debug Info"
+msgstr "Información de depuración"
+
+#. module: llm_assistant
+#: model_terms:ir.ui.view,arch_db:llm_assistant.view_llm_assistant_search
+msgid "Default"
+msgstr "Por defecto"
+
+#. module: llm_assistant
+#: model:ir.model.fields,field_description:llm_assistant.field_llm_assistant__default_values
+msgid "Default Values"
+msgstr "Valores predeterminados"
+
+#. module: llm_assistant
+#: model_terms:ir.ui.view,arch_db:llm_assistant.llm_prompt_view_form
+msgid ""
+"Define arguments as a JSON object where each key is the argument name and "
+"the value is its schema."
+msgstr ""
+"Defina los argumentos como un objeto JSON donde cada clave es el nombre del "
+"argumento y el valor es su esquema."
+
+#. module: llm_assistant
+#: model_terms:ir.ui.view,arch_db:llm_assistant.llm_prompt_view_form
+msgid "Describe the purpose and usage of this prompt..."
+msgstr "Describe el propósito y uso de este mensaje..."
+
+#. module: llm_assistant
+#: model_terms:ir.ui.view,arch_db:llm_assistant.llm_prompt_category_view_form
+msgid "Describe the purpose of this category..."
+msgstr "Describe el propósito de esta categoría..."
+
+#. module: llm_assistant
+#: model:ir.model.fields,field_description:llm_assistant.field_llm_prompt__description
+#: model:ir.model.fields,field_description:llm_assistant.field_llm_prompt_category__description
+#: model_terms:ir.ui.view,arch_db:llm_assistant.llm_prompt_category_view_form
+msgid "Description"
+msgstr "Descripción"
+
+#. module: llm_assistant
+#: model_terms:ir.ui.view,arch_db:llm_assistant.llm_prompt_test_view_form
+msgid "Display Format:"
+msgstr "Formato de visualización:"
+
+#. module: llm_assistant
+#: model:ir.model.fields,field_description:llm_assistant.field_llm_assistant__display_name
+#: model:ir.model.fields,field_description:llm_assistant.field_llm_prompt__display_name
+#: model:ir.model.fields,field_description:llm_assistant.field_llm_prompt_category__display_name
+#: model:ir.model.fields,field_description:llm_assistant.field_llm_prompt_tag__display_name
+#: model:ir.model.fields,field_description:llm_assistant.field_llm_prompt_test__display_name
+#: model:ir.model.fields,field_description:llm_assistant.field_llm_thread_mock__display_name
+msgid "Display Name"
+msgstr "Nombre para mostrar"
+
+#. module: llm_assistant
+#: model_terms:ir.ui.view,arch_db:llm_assistant.llm_prompt_view_form
+msgid "Each argument schema can include:"
+msgstr "Cada esquema de argumento puede incluir:"
+
+#. module: llm_assistant
+#: model_terms:ir.ui.view,arch_db:llm_assistant.view_llm_assistant_form
+msgid "Edit Template in Prompt"
+msgstr "Editar plantilla en el mensaje"
+
+#. module: llm_assistant
+#: model:ir.model.fields,help:llm_assistant.field_llm_assistant__has_dynamic_defaults
+#: model_terms:ir.ui.view,arch_db:llm_assistant.view_llm_assistant_form
+msgid ""
+"Enable if your default values contain template expressions that should be "
+"evaluated"
+msgstr ""
+"Habilítelo si sus valores predeterminados contienen expresiones de plantilla"
+" que deben evaluarse"
+
+#. module: llm_assistant
+#: model_terms:ir.ui.view,arch_db:llm_assistant.llm_prompt_view_form
+msgid "Enter your prompt template here..."
+msgstr "Ingrese su plantilla de aviso aquí..."
+
+#. module: llm_assistant
+#: model:ir.model.fields,field_description:llm_assistant.field_llm_prompt_test__error_message
+msgid "Error Message"
+msgstr "Mensaje de error"
+
+#. module: llm_assistant
+#: model:ir.model.fields,help:llm_assistant.field_llm_prompt_test__error_message
+msgid "Error message if evaluation failed"
+msgstr "Mensaje de error si la evaluación falló"
+
+#. module: llm_assistant
+#. odoo-python
+#: code:addons/llm_assistant/models/llm_prompt_category.py:0
+msgid "Error! You cannot create recursive categories."
+msgstr "¡Error! No se pueden crear categorías recursivas."
+
+#. module: llm_assistant
+#: model_terms:ir.ui.view,arch_db:llm_assistant.llm_prompt_test_view_form
+msgid "Evaluate Prompt"
+msgstr "Evaluar mensaje"
+
+#. module: llm_assistant
+#: model_terms:ir.ui.view,arch_db:llm_assistant.llm_prompt_test_view_form
+msgid "Evaluation Status"
+msgstr "Estado de evaluación"
+
+#. module: llm_assistant
+#: model:ir.model.fields,field_description:llm_assistant.field_llm_assistant__message_follower_ids
+#: model:ir.model.fields,field_description:llm_assistant.field_llm_prompt__message_follower_ids
+#: model:ir.model.fields,field_description:llm_assistant.field_llm_thread_mock__message_follower_ids
+msgid "Followers"
+msgstr "Seguidores"
+
+#. module: llm_assistant
+#: model:ir.model.fields,field_description:llm_assistant.field_llm_assistant__message_partner_ids
+#: model:ir.model.fields,field_description:llm_assistant.field_llm_prompt__message_partner_ids
+#: model:ir.model.fields,field_description:llm_assistant.field_llm_thread_mock__message_partner_ids
+msgid "Followers (Partners)"
+msgstr "Seguidores (Socios)"
+
+#. module: llm_assistant
+#: model:ir.model.fields,help:llm_assistant.field_llm_prompt__activity_type_icon
+msgid "Font awesome icon e.g. fa-tasks"
+msgstr "Icono de fuente impresionante, p. tareas fa"
+
+#. module: llm_assistant
+#: model:ir.model.fields,field_description:llm_assistant.field_llm_prompt__format
+#: model_terms:ir.ui.view,arch_db:llm_assistant.llm_prompt_view_search
+msgid "Format"
+msgstr "Formato"
+
+#. module: llm_assistant
+#: model:ir.model.fields,help:llm_assistant.field_llm_assistant__template_format
+msgid "Format of the template (text, yaml, json)"
+msgstr "Formato de la plantilla (texto, yaml, json)"
+
+#. module: llm_assistant
+#: model:ir.model.fields,help:llm_assistant.field_llm_prompt__format
+msgid "Format of the template content after rendering"
+msgstr "Formato del contenido de la plantilla después de renderizar"
+
+#. module: llm_assistant
+#: model_terms:ir.ui.view,arch_db:llm_assistant.llm_prompt_test_view_form
+msgid "Generated Messages"
+msgstr "Mensajes generados"
+
+#. module: llm_assistant
+#: model:ir.model.fields,field_description:llm_assistant.field_llm_prompt_test__messages_json
+msgid "Generated Messages (JSON)"
+msgstr "Mensajes generados (JSON)"
+
+#. module: llm_assistant
+#: model:ir.model.fields,field_description:llm_assistant.field_llm_prompt_test__messages_text
+msgid "Generated Messages (Text)"
+msgstr "Mensajes generados (texto)"
+
+#. module: llm_assistant
+#: model:ir.model.fields,field_description:llm_assistant.field_llm_prompt_test__messages_yaml
+msgid "Generated Messages (YAML)"
+msgstr "Mensajes generados (YAML)"
+
+#. module: llm_assistant
+#: model:ir.model.fields,help:llm_assistant.field_llm_prompt_test__messages_json
+msgid "Generated messages in JSON format"
+msgstr "Mensajes generados en formato JSON."
+
+#. module: llm_assistant
+#: model:ir.model.fields,help:llm_assistant.field_llm_prompt_test__messages_yaml
+msgid "Generated messages in YAML format"
+msgstr "Mensajes generados en formato YAML"
+
+#. module: llm_assistant
+#: model:ir.model.fields,help:llm_assistant.field_llm_prompt_test__messages_text
+msgid "Generated messages in readable text format"
+msgstr "Mensajes generados en formato de texto legible."
+
+#. module: llm_assistant
+#: model_terms:ir.ui.view,arch_db:llm_assistant.llm_prompt_category_view_search
+#: model_terms:ir.ui.view,arch_db:llm_assistant.llm_prompt_view_search
+#: model_terms:ir.ui.view,arch_db:llm_assistant.view_llm_assistant_search
+msgid "Group By"
+msgstr "Agrupar por"
+
+#. module: llm_assistant
+#: model:ir.model.fields,help:llm_assistant.field_llm_assistant__allowed_group_ids
+msgid ""
+"Groups that can access this assistant. If empty and not public, only "
+"internal users can access it."
+msgstr ""
+"Grupos que pueden acceder a este asistente. Si está vacío y no es público, "
+"sólo los usuarios internos pueden acceder a él."
+
+#. module: llm_assistant
+#: model:ir.model.fields,field_description:llm_assistant.field_llm_assistant__has_dynamic_defaults
+msgid "Has Dynamic Defaults"
+msgstr "Tiene valores predeterminados dinámicos"
+
+#. module: llm_assistant
+#: model:ir.model.fields,field_description:llm_assistant.field_llm_prompt_test__has_error
+msgid "Has Error"
+msgstr "Tiene error"
+
+#. module: llm_assistant
+#: model:ir.model.fields,field_description:llm_assistant.field_llm_assistant__has_message
+#: model:ir.model.fields,field_description:llm_assistant.field_llm_prompt__has_message
+#: model:ir.model.fields,field_description:llm_assistant.field_llm_thread_mock__has_message
+msgid "Has Message"
+msgstr "Tiene mensaje"
+
+#. module: llm_assistant
+#: model_terms:ir.ui.view,arch_db:llm_assistant.llm_prompt_view_form
+msgid "Hello {{user_name}}, please analyze the following data: {{data_input}}"
+msgstr ""
+"Hola {{user_name}}, por favor analiza los siguientes datos: {{data_input}}"
+
+#. module: llm_assistant
+#: model:ir.model.fields,help:llm_assistant.field_llm_prompt__description
+msgid "Human-readable description of the prompt"
+msgstr "Descripción legible por humanos del mensaje"
+
+#. module: llm_assistant
+#: model:ir.model.fields,field_description:llm_assistant.field_llm_assistant__id
+#: model:ir.model.fields,field_description:llm_assistant.field_llm_prompt__id
+#: model:ir.model.fields,field_description:llm_assistant.field_llm_prompt_category__id
+#: model:ir.model.fields,field_description:llm_assistant.field_llm_prompt_tag__id
+#: model:ir.model.fields,field_description:llm_assistant.field_llm_prompt_test__id
+#: model:ir.model.fields,field_description:llm_assistant.field_llm_thread_mock__id
+msgid "ID"
+msgstr "ID"
+
+#. module: llm_assistant
+#: model:ir.model.fields,help:llm_assistant.field_llm_thread_mock__res_id
+msgid "ID of the related record"
+msgstr "ID del registro relacionado"
+
+#. module: llm_assistant
+#: model:ir.model.fields,field_description:llm_assistant.field_llm_prompt__activity_exception_icon
+msgid "Icon"
+msgstr "Icono"
+
+#. module: llm_assistant
+#: model:ir.model.fields,help:llm_assistant.field_llm_prompt__activity_exception_icon
+msgid "Icon to indicate an exception activity."
+msgstr "Icono para indicar una actividad de excepción."
+
+#. module: llm_assistant
+#: model:ir.model.fields,help:llm_assistant.field_llm_assistant__message_needaction
+#: model:ir.model.fields,help:llm_assistant.field_llm_prompt__message_needaction
+#: model:ir.model.fields,help:llm_assistant.field_llm_thread_mock__message_needaction
+msgid "If checked, new messages require your attention."
+msgstr "Si está marcado, los mensajes nuevos requieren su atención."
+
+#. module: llm_assistant
+#: model:ir.model.fields,help:llm_assistant.field_llm_assistant__message_has_error
+#: model:ir.model.fields,help:llm_assistant.field_llm_assistant__message_has_sms_error
+#: model:ir.model.fields,help:llm_assistant.field_llm_prompt__message_has_error
+#: model:ir.model.fields,help:llm_assistant.field_llm_prompt__message_has_sms_error
+#: model:ir.model.fields,help:llm_assistant.field_llm_thread_mock__message_has_error
+#: model:ir.model.fields,help:llm_assistant.field_llm_thread_mock__message_has_sms_error
+msgid "If checked, some messages have a delivery error."
+msgstr "Si está marcado, algunos mensajes tienen un error de entrega."
+
+#. module: llm_assistant
+#: model:ir.model.fields,help:llm_assistant.field_llm_assistant__is_public
+msgid "If checked, this assistant will be available to all users"
+msgstr ""
+"Si se marca, este asistente estará disponible para todos los usuarios."
+
+#. module: llm_assistant
+#: model:ir.model.fields,help:llm_assistant.field_llm_assistant__is_default
+msgid ""
+"If enabled, this assistant will be used as the default for its "
+"model/category"
+msgstr ""
+"Si está habilitado, este asistente se utilizará como predeterminado para su "
+"modelo/categoría."
+
+#. module: llm_assistant
+#: model_terms:ir.ui.view,arch_db:llm_assistant.llm_prompt_test_view_form
+msgid "Input Configuration"
+msgstr "Configuración de entrada"
+
+#. module: llm_assistant
+#: model:ir.model.fields,field_description:llm_assistant.field_llm_prompt__input_schema_json
+msgid "Input Schema JSON"
+msgstr "Esquema de entrada JSON"
+
+#. module: llm_assistant
+#. odoo-python
+#: code:addons/llm_assistant/models/arguments_schema.py:0
+msgid "Invalid JSON: %s"
+msgstr "JSON no válido: ___formato_0___"
+
+#. module: llm_assistant
+#: model:ir.model.fields,field_description:llm_assistant.field_llm_assistant__is_default
+msgid "Is Default"
+msgstr "Es predeterminado"
+
+#. module: llm_assistant
+#: model:ir.model.fields,field_description:llm_assistant.field_llm_assistant__message_is_follower
+#: model:ir.model.fields,field_description:llm_assistant.field_llm_prompt__message_is_follower
+#: model:ir.model.fields,field_description:llm_assistant.field_llm_thread_mock__message_is_follower
+msgid "Is Follower"
+msgstr "es seguidor"
+
+#. module: llm_assistant
+#: model:ir.model.fields.selection,name:llm_assistant.selection__llm_prompt__format__json
+#: model:ir.model.fields.selection,name:llm_assistant.selection__llm_prompt_test__result_format__json
+msgid "JSON"
+msgstr "JSON"
+
+#. module: llm_assistant
+#: model_terms:ir.ui.view,arch_db:llm_assistant.llm_prompt_view_search
+msgid "JSON Format"
+msgstr "Formato JSON"
+
+#. module: llm_assistant
+#: model_terms:ir.ui.view,arch_db:llm_assistant.view_llm_assistant_search
+msgid "JSON Templates"
+msgstr "Plantillas JSON"
+
+#. module: llm_assistant
+#: model:ir.model.fields,help:llm_assistant.field_llm_prompt__arguments_json
+msgid "JSON object defining all arguments used in this prompt"
+msgstr ""
+"Objeto JSON que define todos los argumentos utilizados en este mensaje"
+
+#. module: llm_assistant
+#: model:ir.model.fields,help:llm_assistant.field_llm_assistant__default_values
+msgid ""
+"JSON object with default values for prompt variables. Can include template "
+"expressions that will be evaluated."
+msgstr ""
+"Objeto JSON con valores predeterminados para variables de solicitud. Puede "
+"incluir expresiones de plantilla que serán evaluadas."
+
+#. module: llm_assistant
+#: model:ir.model.fields,help:llm_assistant.field_llm_prompt__input_schema_json
+msgid "JSON schema for input fields"
+msgstr "Esquema JSON para campos de entrada"
+
+#. module: llm_assistant
+#: model:ir.model,name:llm_assistant.model_llm_assistant
+msgid "LLM Assistant"
+msgstr "Asistente de Maestría en Derecho"
+
+#. module: llm_assistant
+#: model:ir.model,name:llm_assistant.model_llm_assistant_action_mixin
+msgid "LLM Assistant Action Mixin"
+msgstr "Mezclador de acción asistente de LLM"
+
+#. module: llm_assistant
+#: model:ir.model,name:llm_assistant.model_llm_thread
+msgid "LLM Chat Thread"
+msgstr "Hilo de chat de LLM"
+
+#. module: llm_assistant
+#: model_terms:ir.ui.view,arch_db:llm_assistant.llm_prompt_view_form
+msgid "LLM Prompt"
+msgstr "Mensaje de Maestría en Derecho"
+
+#. module: llm_assistant
+#: model:ir.model,name:llm_assistant.model_llm_prompt_category
+msgid "LLM Prompt Category"
+msgstr "Categoría de solicitud de LLM"
+
+#. module: llm_assistant
+#: model:ir.model,name:llm_assistant.model_llm_prompt_tag
+msgid "LLM Prompt Tag"
+msgstr "Etiqueta de aviso de LLM"
+
+#. module: llm_assistant
+#: model:ir.model,name:llm_assistant.model_llm_prompt
+msgid "LLM Prompt Template"
+msgstr "Plantilla de mensaje de LLM"
+
+#. module: llm_assistant
+#: model:ir.model,name:llm_assistant.model_llm_prompt_test
+msgid "LLM Prompt Test Wizard"
+msgstr "Asistente de prueba de solicitud de LLM"
+
+#. module: llm_assistant
+#: model:ir.model.fields,help:llm_assistant.field_llm_prompt__provider_ids
+msgid "LLM providers that can use this prompt"
+msgstr "Proveedores de LLM que pueden utilizar este mensaje"
+
+#. module: llm_assistant
+#: model:ir.model.fields,help:llm_assistant.field_llm_prompt__publisher_ids
+msgid "LLM publishers whose models work well with this prompt"
+msgstr "Editores de LLM cuyos modelos funcionan bien con este mensaje"
+
+#. module: llm_assistant
+#: model:ir.model.fields,field_description:llm_assistant.field_llm_assistant__write_uid
+#: model:ir.model.fields,field_description:llm_assistant.field_llm_prompt__write_uid
+#: model:ir.model.fields,field_description:llm_assistant.field_llm_prompt_category__write_uid
+#: model:ir.model.fields,field_description:llm_assistant.field_llm_prompt_tag__write_uid
+#: model:ir.model.fields,field_description:llm_assistant.field_llm_prompt_test__write_uid
+#: model:ir.model.fields,field_description:llm_assistant.field_llm_thread_mock__write_uid
+msgid "Last Updated by"
+msgstr "Actualizado por última vez por"
+
+#. module: llm_assistant
+#: model:ir.model.fields,field_description:llm_assistant.field_llm_assistant__write_date
+#: model:ir.model.fields,field_description:llm_assistant.field_llm_prompt__write_date
+#: model:ir.model.fields,field_description:llm_assistant.field_llm_prompt_category__write_date
+#: model:ir.model.fields,field_description:llm_assistant.field_llm_prompt_tag__write_date
+#: model:ir.model.fields,field_description:llm_assistant.field_llm_prompt_test__write_date
+#: model:ir.model.fields,field_description:llm_assistant.field_llm_thread_mock__write_date
+msgid "Last Updated on"
+msgstr "Última actualización el"
+
+#. module: llm_assistant
+#: model:ir.model.fields,field_description:llm_assistant.field_llm_prompt__last_used
+#: model_terms:ir.ui.view,arch_db:llm_assistant.llm_prompt_view_search
+msgid "Last Used"
+msgstr "Usado por última vez"
+
+#. module: llm_assistant
+#: model:ir.model.fields,field_description:llm_assistant.field_llm_assistant__tool_calls_max
+msgid "Max Tool Calls"
+msgstr "Llamadas máximas a herramientas"
+
+#. module: llm_assistant
+#: model:ir.model.fields,help:llm_assistant.field_llm_assistant__tool_calls_max
+#: model_terms:ir.ui.view,arch_db:llm_assistant.view_llm_assistant_form
+msgid ""
+"Maximum number of consecutive tool calls allowed before breaking the loop to"
+" prevent infinite tool calling"
+msgstr ""
+"Número máximo de llamadas de herramientas consecutivas permitidas antes de "
+"romper el bucle para evitar llamadas de herramientas infinitas"
+
+#. module: llm_assistant
+#: model:ir.model.fields,field_description:llm_assistant.field_llm_assistant__message_has_error
+#: model:ir.model.fields,field_description:llm_assistant.field_llm_prompt__message_has_error
+#: model:ir.model.fields,field_description:llm_assistant.field_llm_thread_mock__message_has_error
+msgid "Message Delivery error"
+msgstr "Error de entrega de mensaje"
+
+#. module: llm_assistant
+#: model:ir.model.fields,field_description:llm_assistant.field_llm_assistant__message_ids
+#: model:ir.model.fields,field_description:llm_assistant.field_llm_prompt__message_ids
+#: model:ir.model.fields,field_description:llm_assistant.field_llm_thread_mock__message_ids
+msgid "Messages"
+msgstr "Mensajes"
+
+#. module: llm_assistant
+#: model:ir.model,name:llm_assistant.model_llm_thread_mock
+msgid "Mock LLM Thread for Testing"
+msgstr "Hilo simulado de LLM para pruebas"
+
+#. module: llm_assistant
+#: model:ir.model.fields,field_description:llm_assistant.field_llm_assistant__model_id
+#: model:ir.model.fields,field_description:llm_assistant.field_llm_thread_mock__model_id
+#: model_terms:ir.ui.view,arch_db:llm_assistant.view_llm_assistant_search
+msgid "Model"
+msgstr "Modelo"
+
+#. module: llm_assistant
+#: model:ir.model.fields,help:llm_assistant.field_llm_assistant__res_model
+msgid "Model that this assistant is associated with (e.g., fleek.character)"
+msgstr ""
+"Modelo con el que está asociado este asistente (p. ej.,fleek.character)"
+
+#. module: llm_assistant
+#: model:ir.model.fields,field_description:llm_assistant.field_llm_prompt__my_activity_date_deadline
+msgid "My Activity Deadline"
+msgstr "Fecha límite de mi actividad"
+
+#. module: llm_assistant
+#: model:ir.model.fields,field_description:llm_assistant.field_llm_assistant__name
+msgid "Name"
+msgstr "Nombre"
+
+#. module: llm_assistant
+#: model:ir.model.fields,field_description:llm_assistant.field_llm_prompt__activity_date_deadline
+msgid "Next Activity Calendar Event"
+msgstr "Próximo evento del calendario de actividades"
+
+#. module: llm_assistant
+msgid "Next Activity Deadline"
+msgstr "Fecha límite para la próxima actividad"
+
+#. module: llm_assistant
+#: model:ir.model.fields,field_description:llm_assistant.field_llm_prompt__activity_summary
+msgid "Next Activity Summary"
+msgstr "Resumen de la próxima actividad"
+
+#. module: llm_assistant
+#: model:ir.model.fields,field_description:llm_assistant.field_llm_prompt__activity_type_id
+msgid "Next Activity Type"
+msgstr "Siguiente tipo de actividad"
+
+#. module: llm_assistant
+#. odoo-javascript
+#: code:addons/llm_assistant/static/src/patches/llm_thread_header_patch.xml:0
+msgid "No Assistant"
+msgstr "Sin asistente"
+
+#. module: llm_assistant
+#. odoo-javascript
+#: code:addons/llm_assistant/static/src/patches/llm_thread_header_patch.xml:0
+msgid "No assistants available"
+msgstr "No hay asistentes disponibles"
+
+#. module: llm_assistant
+#. odoo-python
+#: code:addons/llm_assistant/models/llm_thread.py:0
+msgid ""
+"Note: The prompt '%s' could not be loaded. Continuing without it. (Error: "
+"%s)"
+msgstr ""
+"Nota: No se pudo cargar el mensaje '%s'. Continuar sin él. (Error: "
+"___formato_0___)"
+
+#. module: llm_assistant
+#: model:ir.model.fields,field_description:llm_assistant.field_llm_assistant__message_needaction_counter
+#: model:ir.model.fields,field_description:llm_assistant.field_llm_prompt__message_needaction_counter
+#: model:ir.model.fields,field_description:llm_assistant.field_llm_thread_mock__message_needaction_counter
+msgid "Number of Actions"
+msgstr "Número de acciones"
+
+#. module: llm_assistant
+#: model:ir.model.fields,field_description:llm_assistant.field_llm_assistant__message_has_error_counter
+#: model:ir.model.fields,field_description:llm_assistant.field_llm_prompt__message_has_error_counter
+#: model:ir.model.fields,field_description:llm_assistant.field_llm_thread_mock__message_has_error_counter
+msgid "Number of errors"
+msgstr "Número de errores"
+
+#. module: llm_assistant
+#: model:ir.model.fields,help:llm_assistant.field_llm_assistant__message_needaction_counter
+#: model:ir.model.fields,help:llm_assistant.field_llm_prompt__message_needaction_counter
+#: model:ir.model.fields,help:llm_assistant.field_llm_thread_mock__message_needaction_counter
+msgid "Number of messages requiring action"
+msgstr "Número de mensajes que requieren acción"
+
+#. module: llm_assistant
+#: model:ir.model.fields,help:llm_assistant.field_llm_assistant__message_has_error_counter
+#: model:ir.model.fields,help:llm_assistant.field_llm_prompt__message_has_error_counter
+#: model:ir.model.fields,help:llm_assistant.field_llm_thread_mock__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr "Número de mensajes con error de entrega"
+
+#. module: llm_assistant
+#: model:ir.model.fields,help:llm_assistant.field_llm_assistant__thread_count
+msgid "Number of threads using this assistant"
+msgstr "Número de hilos que utilizan este asistente"
+
+#. module: llm_assistant
+#: model:ir.model.fields,help:llm_assistant.field_llm_prompt__usage_count
+msgid "Number of times this prompt has been used"
+msgstr "Número de veces que se ha utilizado este mensaje"
+
+#. module: llm_assistant
+#: model_terms:ir.ui.view,arch_db:llm_assistant.view_llm_assistant_form
+msgid "Open"
+msgstr "Abierto"
+
+#. module: llm_assistant
+#: model:ir.model.fields,field_description:llm_assistant.field_llm_prompt_test__original_template
+#: model_terms:ir.ui.view,arch_db:llm_assistant.llm_prompt_test_view_form
+msgid "Original Template"
+msgstr "Plantilla Original"
+
+#. module: llm_assistant
+#: model:ir.model.fields,help:llm_assistant.field_llm_prompt_test__original_template
+msgid "Original template content from the prompt"
+msgstr "Contenido de la plantilla original del mensaje"
+
+#. module: llm_assistant
+#: model:ir.model.fields,field_description:llm_assistant.field_llm_prompt_category__parent_id
+#: model_terms:ir.ui.view,arch_db:llm_assistant.llm_prompt_category_view_search
+msgid "Parent Category"
+msgstr "Categoría principal"
+
+#. module: llm_assistant
+#: model:ir.model.fields,field_description:llm_assistant.field_llm_prompt_category__parent_path
+msgid "Parent Path"
+msgstr "Ruta principal"
+
+#. module: llm_assistant
+#. odoo-python
+#: code:addons/llm_assistant/wizards/llm_prompt_test.py:0
+msgid "Please select a prompt template before testing."
+msgstr "Seleccione una plantilla de aviso antes de realizar la prueba."
+
+#. module: llm_assistant
+#: model:ir.model.fields,field_description:llm_assistant.field_llm_assistant__tool_ids
+msgid "Preferred Tools"
+msgstr "Herramientas preferidas"
+
+#. module: llm_assistant
+#: model_terms:ir.ui.view,arch_db:llm_assistant.view_llm_assistant_form
+msgid "Preview"
+msgstr "Avance"
+
+#. module: llm_assistant
+#: model:ir.model.fields,help:llm_assistant.field_llm_assistant__system_prompt_preview
+msgid "Preview of the formatted system prompt based on the prompt template"
+msgstr ""
+"Vista previa del mensaje del sistema formateado según la plantilla del "
+"mensaje"
+
+#. module: llm_assistant
+#: model_terms:ir.ui.view,arch_db:llm_assistant.view_llm_assistant_search
+msgid "Private"
+msgstr "Privado"
+
+#. module: llm_assistant
+#: model:ir.model.fields,field_description:llm_assistant.field_llm_prompt_test__prompt_id
+msgid "Prompt"
+msgstr "Inmediato"
+
+#. module: llm_assistant
+#: model:ir.actions.act_window,name:llm_assistant.llm_prompt_category_action
+msgid "Prompt Categories"
+msgstr "Categorías rápidas"
+
+#. module: llm_assistant
+#: model_terms:ir.ui.view,arch_db:llm_assistant.llm_prompt_category_view_form
+msgid "Prompt Category"
+msgstr "Categoría de mensaje"
+
+#. module: llm_assistant
+#: model:ir.model.fields,field_description:llm_assistant.field_llm_prompt_category__prompt_count
+msgid "Prompt Count"
+msgstr "Conteo rápido"
+
+#. module: llm_assistant
+#: model_terms:ir.ui.view,arch_db:llm_assistant.llm_prompt_test_view_form
+msgid "Prompt Evaluation"
+msgstr "Evaluación inmediata"
+
+#. module: llm_assistant
+#: model_terms:ir.ui.view,arch_db:llm_assistant.llm_prompt_test_view_form
+msgid "Prompt Information"
+msgstr "Información inmediata"
+
+#. module: llm_assistant
+#: model:ir.model.fields,field_description:llm_assistant.field_llm_prompt__name
+msgid "Prompt Name"
+msgstr "Nombre del mensaje"
+
+#. module: llm_assistant
+#: model_terms:ir.ui.view,arch_db:llm_assistant.llm_prompt_tag_view_form
+msgid "Prompt Tag"
+msgstr "Etiqueta de aviso"
+
+#. module: llm_assistant
+#: model:ir.actions.act_window,name:llm_assistant.llm_prompt_tag_action
+msgid "Prompt Tags"
+msgstr "Etiquetas rápidas"
+
+#. module: llm_assistant
+#: model:ir.model.fields,field_description:llm_assistant.field_llm_assistant__prompt_id
+#: model_terms:ir.ui.view,arch_db:llm_assistant.view_llm_assistant_search
+msgid "Prompt Template"
+msgstr "Plantilla de aviso"
+
+#. module: llm_assistant
+#: model:ir.model.fields,field_description:llm_assistant.field_llm_thread__prompt_id
+#: model:ir.model.fields,field_description:llm_assistant.field_llm_thread_mock__prompt_id
+msgid "Prompt for workflow"
+msgstr "Solicitar flujo de trabajo"
+
+#. module: llm_assistant
+#: model:ir.model.fields,help:llm_assistant.field_llm_prompt__template
+msgid "Prompt template content in the selected format"
+msgstr "Contenido de la plantilla de solicitud en el formato seleccionado"
+
+#. module: llm_assistant
+#: model:ir.model.fields,help:llm_assistant.field_llm_assistant__prompt_id
+msgid "Prompt template to use for generating system prompts"
+msgstr "Plantilla de avisos a utilizar para generar avisos del sistema"
+
+#. module: llm_assistant
+#: model_terms:ir.actions.act_window,help:llm_assistant.llm_prompt_action
+msgid ""
+"Prompt templates help you create reusable messages for LLM interactions with"
+" support for text, YAML, and JSON formats."
+msgstr ""
+"Las plantillas de mensajes lo ayudan a crear mensajes reutilizables para "
+"interacciones LLM con soporte para formatos de texto, YAML y JSON."
+
+#. module: llm_assistant
+#: model:ir.model.fields,help:llm_assistant.field_llm_thread__prompt_id
+#: model:ir.model.fields,help:llm_assistant.field_llm_thread_mock__prompt_id
+msgid "Prompt to use for workflow"
+msgstr "Solicitud de uso para el flujo de trabajo"
+
+#. module: llm_assistant
+#: model:ir.actions.act_window,name:llm_assistant.llm_prompt_action
+#: model:ir.ui.menu,name:llm_assistant.llm_prompt_menu
+msgid "Prompts"
+msgstr "Prompts"
+
+#. module: llm_assistant
+#: model:ir.ui.menu,name:llm_assistant.llm_prompt_configuration_menu
+msgid "Prompts Configuration"
+msgstr "Configuración de indicaciones"
+
+#. module: llm_assistant
+#: model:ir.model.fields,field_description:llm_assistant.field_llm_assistant__provider_id
+#: model:ir.model.fields,field_description:llm_assistant.field_llm_thread_mock__provider_id
+#: model_terms:ir.ui.view,arch_db:llm_assistant.view_llm_assistant_search
+msgid "Provider"
+msgstr "Proveedor"
+
+#. module: llm_assistant
+#: model_terms:ir.ui.view,arch_db:llm_assistant.llm_prompt_view_form
+msgid "Providers"
+msgstr "Proveedores"
+
+#. module: llm_assistant
+#: model:ir.model.fields,field_description:llm_assistant.field_llm_assistant__is_public
+#: model_terms:ir.ui.view,arch_db:llm_assistant.view_llm_assistant_search
+msgid "Public"
+msgstr "Público"
+
+#. module: llm_assistant
+msgid "Ratings"
+msgstr "Calificaciones"
+
+#. module: llm_assistant
+#: model_terms:ir.ui.view,arch_db:llm_assistant.llm_prompt_view_form
+msgid ""
+"Referenced in templates using <strong>{{argument_name}}\n"
+"                                </strong> placeholders."
+msgstr ""
+"Referenciado en plantillas usando <strong>{{argument_name}}\r\n"
+"                                </strong> marcadores de posición."
+
+#. module: llm_assistant
+#: model:ir.model.fields,field_description:llm_assistant.field_llm_thread_mock__res_id
+msgid "Related Document ID"
+msgstr "ID del documento relacionado"
+
+#. module: llm_assistant
+#: model:ir.model.fields,field_description:llm_assistant.field_llm_thread_mock__model
+msgid "Related Document Model"
+msgstr "Modelo de documento relacionado"
+
+#. module: llm_assistant
+#: model:ir.model.fields,field_description:llm_assistant.field_llm_assistant__res_model
+msgid "Related Model"
+msgstr "Modelo relacionado"
+
+#. module: llm_assistant
+#: model:ir.model.fields,field_description:llm_assistant.field_llm_prompt_test__related_record_ref
+msgid "Related Record"
+msgstr "Registro relacionado"
+
+#. module: llm_assistant
+#: model_terms:ir.ui.view,arch_db:llm_assistant.llm_prompt_test_view_form
+msgid "Related Record Info"
+msgstr "Información de registro relacionada"
+
+#. module: llm_assistant
+#: model_terms:ir.ui.view,arch_db:llm_assistant.view_llm_assistant_form
+msgid "Related Threads"
+msgstr "Temas relacionados"
+
+#. module: llm_assistant
+#: model:ir.model.fields,field_description:llm_assistant.field_llm_prompt_test__rendered_template
+#: model_terms:ir.ui.view,arch_db:llm_assistant.llm_prompt_test_view_form
+msgid "Rendered Template"
+msgstr "Plantilla renderizada"
+
+#. module: llm_assistant
+#: model_terms:ir.ui.view,arch_db:llm_assistant.llm_prompt_test_view_form
+msgid "Reset Context"
+msgstr "Restablecer contexto"
+
+#. module: llm_assistant
+#: model_terms:ir.ui.view,arch_db:llm_assistant.view_llm_assistant_form
+msgid "Reset Defaults"
+msgstr "Restablecer valores predeterminados"
+
+#. module: llm_assistant
+#: model_terms:ir.ui.view,arch_db:llm_assistant.view_llm_assistant_form
+msgid ""
+"Reset default values from the prompt template's argument schema defaults"
+msgstr ""
+"Restablecer los valores predeterminados de los valores predeterminados del "
+"esquema de argumentos de la plantilla de solicitud"
+
+#. module: llm_assistant
+#: model:ir.model.fields,field_description:llm_assistant.field_llm_prompt__activity_user_id
+msgid "Responsible User"
+msgstr "Usuario responsable"
+
+#. module: llm_assistant
+#: model:ir.model.fields,field_description:llm_assistant.field_llm_prompt_test__result_format
+msgid "Result Format"
+msgstr "Formato de resultado"
+
+#. module: llm_assistant
+#: model:ir.model.fields,field_description:llm_assistant.field_llm_assistant__message_has_sms_error
+#: model:ir.model.fields,field_description:llm_assistant.field_llm_prompt__message_has_sms_error
+#: model:ir.model.fields,field_description:llm_assistant.field_llm_thread_mock__message_has_sms_error
+msgid "SMS Delivery error"
+msgstr "Error de entrega de SMS"
+
+#. module: llm_assistant
+#. odoo-python
+#: code:addons/llm_assistant/models/arguments_schema.py:0
+msgid "Schema validation error: %s"
+msgstr "Error de validación del esquema: %s"
+
+#. module: llm_assistant
+#: model_terms:ir.ui.view,arch_db:llm_assistant.view_llm_assistant_search
+msgid "Search Assistants"
+msgstr "Asistentes de búsqueda"
+
+#. module: llm_assistant
+#: model_terms:ir.ui.view,arch_db:llm_assistant.llm_prompt_category_view_search
+msgid "Search Categories"
+msgstr "Categorías de búsqueda"
+
+#. module: llm_assistant
+#: model_terms:ir.ui.view,arch_db:llm_assistant.llm_prompt_tag_view_search
+msgid "Search Prompt Tags"
+msgstr "Etiquetas de solicitud de búsqueda"
+
+#. module: llm_assistant
+#: model_terms:ir.ui.view,arch_db:llm_assistant.llm_prompt_view_search
+msgid "Search Prompts"
+msgstr "Mensajes de búsqueda"
+
+#. module: llm_assistant
+#: model_terms:ir.ui.view,arch_db:llm_assistant.llm_prompt_test_view_form
+msgid ""
+"Select a record or click 'Evaluate Prompt' to see the generated messages in "
+"JSON format..."
+msgstr ""
+"Seleccione un registro o haga clic en 'Evaluar mensaje' para ver los "
+"mensajes generados en formato JSON..."
+
+#. module: llm_assistant
+#: model_terms:ir.ui.view,arch_db:llm_assistant.llm_prompt_test_view_form
+msgid ""
+"Select a record or click 'Evaluate Prompt' to see the generated messages in "
+"YAML format..."
+msgstr ""
+"Seleccione un registro o haga clic en 'Evaluar mensaje' para ver los "
+"mensajes generados en formato YAML..."
+
+#. module: llm_assistant
+#: model_terms:ir.ui.view,arch_db:llm_assistant.llm_prompt_test_view_form
+msgid ""
+"Select a record or click 'Evaluate Prompt' to see the generated messages in "
+"readable text format..."
+msgstr ""
+"Seleccione un registro o haga clic en 'Evaluar mensaje' para ver los "
+"mensajes generados en formato de texto legible..."
+
+#. module: llm_assistant
+#: model_terms:ir.ui.view,arch_db:llm_assistant.llm_prompt_test_view_form
+msgid ""
+"Select a record or click 'Evaluate Prompt' to see the rendered template..."
+msgstr ""
+"Seleccione un registro o haga clic en 'Evaluar mensaje' para ver la "
+"plantilla renderizada..."
+
+#. module: llm_assistant
+#: model_terms:ir.ui.view,arch_db:llm_assistant.llm_prompt_test_view_form
+msgid ""
+"Select any record to test get_related_record() functions. Context will auto-"
+"populate and prompt will auto-evaluate."
+msgstr ""
+"Seleccione cualquier registro para probar las funciones get_ "
+"related_record(). El contexto se completará automáticamente y el mensaje se "
+"evaluará automáticamente."
+
+#. module: llm_assistant
+#: model:ir.model.fields,help:llm_assistant.field_llm_prompt_test__related_record_ref
+msgid ""
+"Select any record to use as context for testing related_record.get_field() "
+"functions"
+msgstr ""
+"Seleccione cualquier registro para usarlo como contexto para probar las "
+"funciones related_record.get_field()"
+
+#. module: llm_assistant
+#: model_terms:ir.ui.view,arch_db:llm_assistant.view_llm_assistant_form
+msgid ""
+"Select the tools this assistant may need. These tools will be auto selected when you assign this assistant on LLM Chat Thread.\n"
+"                                <br/>\n"
+"                                <strong>Max Tool Calls:</strong> Prevents infinite loops by limiting consecutive tool executions (default: 5)."
+msgstr ""
+"Seleccione las herramientas que este asistente puede necesitar. Estas herramientas se seleccionarán automáticamente cuando asigne este asistente en LLM Chat Thread.\r\n"
+"                                <br/>\r\n"
+"                                <strong>Llamadas máximas a herramientas:</strong> Evita bucles infinitos al limitar las ejecuciones consecutivas de herramientas (predeterminado: 5)."
+
+#. module: llm_assistant
+#: model_terms:ir.ui.view,arch_db:llm_assistant.view_llm_assistant_form
+msgid "Select tools for this assistant..."
+msgstr "Seleccione herramientas para este asistente..."
+
+#. module: llm_assistant
+#: model_terms:ir.ui.view,arch_db:llm_assistant.llm_prompt_test_view_form
+msgid "Selected Record"
+msgstr "Registro seleccionado"
+
+#. module: llm_assistant
+#: model:ir.model.fields,field_description:llm_assistant.field_llm_prompt_category__sequence
+msgid "Sequence"
+msgstr "Secuencia"
+
+#. module: llm_assistant
+#: model:ir.model.fields,help:llm_assistant.field_llm_prompt__activity_state
+msgid ""
+"Status based on activities\n"
+"Overdue: Due date is already passed\n"
+"Today: Activity date is today\n"
+"Planned: Future activities."
+msgstr ""
+"Estado basado en actividades.\r\n"
+"Vencido: la fecha de vencimiento ya pasó\r\n"
+"Hoy: la fecha de la actividad es hoy.\r\n"
+"Planificado: Actividades futuras."
+
+#. module: llm_assistant
+#: model:llm.prompt.tag,name:llm_assistant.tag_system
+msgid "System"
+msgstr "Sistema"
+
+#. module: llm_assistant
+#: model:ir.model.fields,field_description:llm_assistant.field_llm_assistant__system_prompt_preview
+msgid "System Prompt Preview"
+msgstr "Vista previa del mensaje del sistema"
+
+#. module: llm_assistant
+#: model:ir.model.fields,field_description:llm_assistant.field_llm_prompt_tag__name
+msgid "Tag Name"
+msgstr "Nombre de etiqueta"
+
+#. module: llm_assistant
+#: model:ir.model.constraint,message:llm_assistant.constraint_llm_prompt_tag_name_uniq
+msgid "Tag name already exists!"
+msgstr "¡El nombre de la etiqueta ya existe!"
+
+#. module: llm_assistant
+#: model:ir.model.fields,field_description:llm_assistant.field_llm_assistant__tag_ids
+#: model:ir.model.fields,field_description:llm_assistant.field_llm_prompt__tag_ids
+#: model:ir.ui.menu,name:llm_assistant.llm_prompt_tag_menu
+msgid "Tags"
+msgstr "Etiquetas"
+
+#. module: llm_assistant
+#: model_terms:ir.actions.act_window,help:llm_assistant.llm_prompt_tag_action
+msgid "Tags help classify and filter your prompts."
+msgstr "Las etiquetas ayudan a clasificar y filtrar sus mensajes."
+
+#. module: llm_assistant
+#: model:ir.model.fields,help:llm_assistant.field_llm_assistant__tag_ids
+msgid "Tags inherited from the prompt template"
+msgstr "Etiquetas heredadas de la plantilla de solicitud"
+
+#. module: llm_assistant
+#: model:llm.prompt.tag,name:llm_assistant.tag_technical
+msgid "Technical"
+msgstr "Técnico"
+
+#. module: llm_assistant
+#: model:ir.model.fields,help:llm_assistant.field_llm_prompt_category__code
+msgid "Technical code to identify this category"
+msgstr "Código técnico para identificar esta categoría."
+
+#. module: llm_assistant
+#: model:ir.model.fields,help:llm_assistant.field_llm_thread_mock__model
+msgid "Technical name of the related model"
+msgstr "Nombre técnico del modelo relacionado."
+
+#. module: llm_assistant
+#: model:ir.model.fields,field_description:llm_assistant.field_llm_assistant__template
+#: model:ir.model.fields,field_description:llm_assistant.field_llm_prompt__template
+#: model_terms:ir.ui.view,arch_db:llm_assistant.llm_prompt_view_form
+#: model_terms:ir.ui.view,arch_db:llm_assistant.view_llm_assistant_form
+msgid "Template"
+msgstr "Plantilla"
+
+#. module: llm_assistant
+#: model:ir.model.fields,field_description:llm_assistant.field_llm_assistant__template_format
+#: model_terms:ir.ui.view,arch_db:llm_assistant.view_llm_assistant_search
+msgid "Template Format"
+msgstr "Formato de plantilla"
+
+#. module: llm_assistant
+#: model_terms:ir.ui.view,arch_db:llm_assistant.llm_prompt_view_form
+msgid "Template Format Guide:"
+msgstr "Guía de formato de plantilla:"
+
+#. module: llm_assistant
+#: model:ir.model.fields,help:llm_assistant.field_llm_prompt_test__rendered_template
+msgid "Template after argument substitution"
+msgstr "Plantilla después de la sustitución de argumentos"
+
+#. module: llm_assistant
+#: model:ir.model.fields,help:llm_assistant.field_llm_assistant__template
+msgid "Template content from the associated prompt"
+msgstr "Contenido de la plantilla del mensaje asociado"
+
+#. module: llm_assistant
+#: model_terms:ir.ui.view,arch_db:llm_assistant.llm_prompt_test_view_form
+msgid "Test Context"
+msgstr "Contexto de prueba"
+
+#. module: llm_assistant
+#: model:ir.model.fields,field_description:llm_assistant.field_llm_prompt_test__test_context
+msgid "Test Context (JSON)"
+msgstr "Contexto de prueba (JSON)"
+
+#. module: llm_assistant
+#: model:ir.actions.act_window,name:llm_assistant.llm_prompt_test_action
+#: model_terms:ir.ui.view,arch_db:llm_assistant.llm_prompt_view_form
+msgid "Test Prompt"
+msgstr "Mensaje de prueba"
+
+#. module: llm_assistant
+#. odoo-python
+#: code:addons/llm_assistant/models/llm_prompt.py:0
+msgid "Test Prompt: %s"
+msgstr "Mensaje de prueba: ___formato_0___"
+
+#. module: llm_assistant
+#: model_terms:ir.ui.view,arch_db:llm_assistant.llm_prompt_test_view_form
+msgid "Test Record"
+msgstr "Registro de prueba"
+
+#. module: llm_assistant
+#: model_terms:ir.ui.view,arch_db:llm_assistant.llm_prompt_test_view_form
+msgid "Testing Instructions:"
+msgstr "Instrucciones de prueba:"
+
+#. module: llm_assistant
+#: model:ir.model.fields.selection,name:llm_assistant.selection__llm_prompt__format__text
+#: model:ir.model.fields.selection,name:llm_assistant.selection__llm_prompt_test__result_format__text
+msgid "Text"
+msgstr "Texto"
+
+#. module: llm_assistant
+#: model_terms:ir.ui.view,arch_db:llm_assistant.llm_prompt_view_search
+msgid "Text Format"
+msgstr "Formato de texto"
+
+#. module: llm_assistant
+#: model_terms:ir.ui.view,arch_db:llm_assistant.view_llm_assistant_search
+msgid "Text Templates"
+msgstr "Plantillas de texto"
+
+#. module: llm_assistant
+#: model:ir.model.fields,help:llm_assistant.field_llm_thread__assistant_id
+#: model:ir.model.fields,help:llm_assistant.field_llm_thread_mock__assistant_id
+msgid "The assistant used for this thread"
+msgstr "El asistente utilizado para este hilo."
+
+#. module: llm_assistant
+#: model:ir.model.constraint,message:llm_assistant.constraint_llm_prompt_name_unique
+msgid "The prompt name must be unique."
+msgstr "El nombre del mensaje debe ser único."
+
+#. module: llm_assistant
+#. odoo-python
+#: code:addons/llm_assistant/models/llm_prompt.py:0
+msgid ""
+"The rendered template is not valid %s.\n"
+"\n"
+"Please check your template syntax and ensure it produces valid %s output after variable substitution.\n"
+"\n"
+"Error: %s"
+msgstr ""
+"La plantilla renderizada no es válida %s.\r\n"
+"\r\n"
+"Verifique la sintaxis de su plantilla y asegúrese de que produzca una salida %s válida después de la sustitución de variables.\r\n"
+"\r\n"
+"Error: ___formato_0___"
+
+#. module: llm_assistant
+#. odoo-python
+#: code:addons/llm_assistant/models/llm_prompt.py:0
+msgid ""
+"The required argument '%s' is missing. Please provide a value for this "
+"argument before running the prompt."
+msgstr ""
+"Falta el argumento requerido '%s'. Proporcione un valor para este argumento "
+"antes de ejecutar el mensaje."
+
+#. module: llm_assistant
+#. odoo-python
+#: code:addons/llm_assistant/models/llm_prompt.py:0
+msgid ""
+"The template format '%s' is not supported. Please use Text, YAML, or JSON "
+"format."
+msgstr ""
+"El formato de plantilla '%s' no es compatible. Utilice el formato Texto, "
+"YAML o JSON."
+
+#. module: llm_assistant
+#. odoo-python
+#: code:addons/llm_assistant/wizards/llm_prompt_test.py:0
+msgid ""
+"The test context contains invalid JSON. Please check the format and ensure all brackets and quotes are properly matched.\n"
+"\n"
+"Details: %s"
+msgstr ""
+"El contexto de prueba contiene JSON no válido. Verifique el formato y asegúrese de que todos los corchetes y comillas coincidan correctamente.\r\n"
+"\r\n"
+"Detalles: ___formato_0___"
+
+#. module: llm_assistant
+#: model:ir.model.fields,field_description:llm_assistant.field_llm_thread_mock__attachment_count
+msgid "Thread Attachments"
+msgstr "Accesorios de hilo"
+
+#. module: llm_assistant
+#: model:ir.model.fields,field_description:llm_assistant.field_llm_assistant__thread_count
+msgid "Thread Count"
+msgstr "Número de hilos"
+
+#. module: llm_assistant
+#: model:ir.model.fields,field_description:llm_assistant.field_llm_assistant__thread_ids
+#: model_terms:ir.ui.view,arch_db:llm_assistant.view_llm_assistant_form
+msgid "Threads"
+msgstr "Trapos"
+
+#. module: llm_assistant
+#: model:ir.model.fields,help:llm_assistant.field_llm_assistant__thread_ids
+msgid "Threads using this assistant"
+msgstr "Temas que utilizan este asistente"
+
+#. module: llm_assistant
+#: model:ir.model.fields,field_description:llm_assistant.field_llm_thread_mock__name
+msgid "Title"
+msgstr "Título"
+
+#. module: llm_assistant
+#: model_terms:ir.ui.view,arch_db:llm_assistant.view_llm_assistant_form
+msgid "Tools"
+msgstr "Herramientas"
+
+#. module: llm_assistant
+#: model:ir.model.fields,help:llm_assistant.field_llm_thread_mock__tool_ids
+msgid "Tools that can be used by the LLM in this thread"
+msgstr "Herramientas que puede utilizar el LLM en este hilo"
+
+#. module: llm_assistant
+#: model:ir.model.fields,help:llm_assistant.field_llm_assistant__tool_ids
+msgid "Tools that this assistant can use"
+msgstr "Herramientas que puede utilizar este asistente"
+
+#. module: llm_assistant
+#: model:ir.model.fields,help:llm_assistant.field_llm_thread_mock__attachment_count
+msgid "Total number of attachments in this thread"
+msgstr "Número total de archivos adjuntos en este hilo"
+
+#. module: llm_assistant
+#: model:ir.model.fields,help:llm_assistant.field_llm_prompt__activity_exception_decoration
+msgid "Type of the exception activity on record."
+msgstr "Tipo de actividad de excepción registrada."
+
+#. module: llm_assistant
+#: model:ir.model.fields,field_description:llm_assistant.field_llm_prompt__undefined_arguments
+msgid "Undefined Arguments"
+msgstr "Argumentos indefinidos"
+
+#. module: llm_assistant
+#: model:ir.model.fields,help:llm_assistant.field_llm_assistant__code
+msgid ""
+"Unique code identifier for the assistant (e.g., roleplay, avatar_generation)"
+msgstr ""
+"Identificador de código único para el asistente (por ejemplo, juego de rol, "
+"generación_avatar)"
+
+#. module: llm_assistant
+#: model:ir.model.fields,help:llm_assistant.field_llm_prompt__name
+msgid "Unique identifier for the prompt template"
+msgstr "Identificador único para la plantilla de solicitud"
+
+#. module: llm_assistant
+#: model:ir.model.fields,field_description:llm_assistant.field_llm_prompt__usage_count
+msgid "Usage Count"
+msgstr "Conteo de uso"
+
+#. module: llm_assistant
+#: model:ir.model.fields,field_description:llm_assistant.field_llm_thread_mock__user_id
+msgid "User"
+msgstr "Usuario"
+
+#. module: llm_assistant
+#. odoo-python
+#: code:addons/llm_assistant/models/arguments_schema.py:0
+msgid "Validation error: %s"
+msgstr "Error de validación: %s"
+
+#. module: llm_assistant
+#: model:ir.model.fields,field_description:llm_assistant.field_llm_assistant__website_message_ids
+#: model:ir.model.fields,field_description:llm_assistant.field_llm_prompt__website_message_ids
+#: model:ir.model.fields,field_description:llm_assistant.field_llm_thread_mock__website_message_ids
+msgid "Website Messages"
+msgstr "Mensajes del sitio web"
+
+#. module: llm_assistant
+#: model:ir.model.fields,help:llm_assistant.field_llm_assistant__website_message_ids
+#: model:ir.model.fields,help:llm_assistant.field_llm_prompt__website_message_ids
+#: model:ir.model.fields,help:llm_assistant.field_llm_thread_mock__website_message_ids
+msgid "Website communication history"
+msgstr "Historial de comunicación del sitio web"
+
+#. module: llm_assistant
+#: model:ir.model.fields,help:llm_assistant.field_llm_prompt__last_used
+msgid "When this prompt was last used"
+msgstr "Cuándo se utilizó este mensaje por última vez"
+
+#. module: llm_assistant
+#: model:ir.model.fields,help:llm_assistant.field_llm_prompt_test__has_error
+msgid "Whether there was an error during evaluation"
+msgstr "Si hubo un error durante la evaluación"
+
+#. module: llm_assistant
+#: model:ir.model.fields.selection,name:llm_assistant.selection__llm_prompt__format__yaml
+#: model:ir.model.fields.selection,name:llm_assistant.selection__llm_prompt_test__result_format__yaml
+msgid "YAML"
+msgstr "YAML"
+
+#. module: llm_assistant
+#: model_terms:ir.ui.view,arch_db:llm_assistant.llm_prompt_view_search
+msgid "YAML Format"
+msgstr "Formato YAML"
+
+#. module: llm_assistant
+#: model_terms:ir.ui.view,arch_db:llm_assistant.view_llm_assistant_search
+msgid "YAML Templates"
+msgstr "Plantillas YAML"
+
+#. module: llm_assistant
+#: model_terms:ir.ui.view,arch_db:llm_assistant.llm_prompt_category_view_form
+msgid "e.g. Data Analysis"
+msgstr "p.ej. Análisis de datos"
+
+#. module: llm_assistant
+#: model_terms:ir.ui.view,arch_db:llm_assistant.llm_prompt_view_form
+msgid "e.g. Data Analysis Prompt"
+msgstr "p.ej. Mensaje de análisis de datos"
+
+#. module: llm_assistant
+#: model_terms:ir.ui.view,arch_db:llm_assistant.view_llm_assistant_form
+msgid "e.g., fleek.character"
+msgstr "por ejemplo, personaje.fleek"
+
+#. module: llm_assistant
+#: model_terms:ir.ui.view,arch_db:llm_assistant.view_llm_assistant_form
+msgid "e.g., roleplay, avatar_generation"
+msgstr "por ejemplo, juego de rol, avatar_generación"
+
+#. module: llm_assistant
+#: model_terms:ir.ui.view,arch_db:llm_assistant.llm_prompt_view_form
+msgid ""
+"messages:\n"
+"                                        - type: system\n"
+"                                        content: |\n"
+"                                        You are a helpful assistant. The user's name is {{user_name}}.\n"
+"                                        - type: user\n"
+"                                        content: |\n"
+"                                        Please analyze: {{data_input}}"
+msgstr ""
+"mensajes:\r\n"
+"                                        - tipo: sistema\r\n"
+"                                        contenido: |\r\n"
+"                                        Eres un asistente útil. El nombre del usuario es {{user_name}}.\r\n"
+"                                        - tipo: usuario\r\n"
+"                                        contenido: |\r\n"
+"                                        Por favor analice: {{data_input}}"
+
+#. module: llm_assistant
+#: model_terms:ir.ui.view,arch_db:llm_assistant.llm_prompt_view_form
+msgid ""
+"{\n"
+"                                        \"messages\": [\n"
+"                                        {\n"
+"                                        \"type\": \"system\",\n"
+"                                        \"content\": \"You are a helpful assistant. The user's name is {{user_name}}.\"\n"
+"                                        },\n"
+"                                        {\n"
+"                                        \"type\": \"user\",\n"
+"                                        \"content\": \"Please analyze: {{data_input}}\"\n"
+"                                        }\n"
+"                                        ]\n"
+"                                        }"
+msgstr ""
+"{\r\n"
+"                                        \"mensajes\": [\r\n"
+"                                        {\r\n"
+"                                        \"tipo\": \"sistema\",\r\n"
+"                                        \"content\": \"Eres un asistente útil. El nombre de usuario es {{user_name}}.\"\r\n"
+"                                        },\r\n"
+"                                        {\r\n"
+"                                        \"tipo\": \"usuario\",\r\n"
+"                                        \"content\": \"Por favor analice: {{data_input}}\"\r\n"
+"                                        }\r\n"
+"                                        ]\r\n"
+"                                        }"
+
+#. module: llm_assistant
+#: model_terms:ir.ui.view,arch_db:llm_assistant.llm_prompt_view_form
+msgid ""
+"{   'user_name': {     'type': 'string',     'description': 'Name of the "
+"user',     'required': true,     'default': 'User'   },   'data_input': {"
+"     'type': 'string',     'description': 'The data to analyze',     "
+"'required': true   } }"
+msgstr ""
+"{ 'user_name': { 'type': 'string', 'description': 'Nombre del usuario', "
+"'required': true, 'default': 'User' }, 'data_input': { 'type': 'string', "
+"'description': 'Los datos a analizar', 'required': true } }"
+
+#. module: llm_assistant
+#: model_terms:ir.ui.view,arch_db:llm_assistant.llm_prompt_test_view_form
+msgid "{\\n  \"argument1\": \"value1\",\\n  \"argument2\": \"value2\"\\n}"
+msgstr "{\\n \"argumento1\": \"valor1\",\\n \"argumento2\": \"valor2\"\\n}"
