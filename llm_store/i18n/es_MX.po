@@ -1,0 +1,293 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0-20250123\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-03-06 18:31+0000\n"
+"PO-Revision-Date: 2026-03-06 18:31+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: llm_store
+#: model:ir.model.fields,field_description:llm_store.field_llm_store__message_needaction
+#: model:ir.model.fields,field_description:llm_store.field_llm_store_collection__message_needaction
+msgid "Action Needed"
+msgstr "Acción necesaria"
+
+#. module: llm_store
+#: model:ir.model.fields,field_description:llm_store.field_llm_store__active
+#: model:ir.model.fields,field_description:llm_store.field_llm_store_collection__active
+msgid "Active"
+msgstr "Activo"
+
+#. module: llm_store
+#: model:ir.model.fields,field_description:llm_store.field_llm_store__api_key
+msgid "Api Key"
+msgstr "Clave de API"
+
+#. module: llm_store
+#: model_terms:ir.ui.view,arch_db:llm_store.llm_store_view_search
+msgid "Archived"
+msgstr "Archivado"
+
+#. module: llm_store
+#: model:ir.model.fields,field_description:llm_store.field_llm_store__message_attachment_count
+#: model:ir.model.fields,field_description:llm_store.field_llm_store_collection__message_attachment_count
+msgid "Attachment Count"
+msgstr "Recuento de archivos adjuntos"
+
+#. module: llm_store
+#: model:ir.model.fields,field_description:llm_store.field_llm_store_collection__metadata
+msgid "Collection Metadata"
+msgstr "Metadatos de colección"
+
+#. module: llm_store
+#: model:ir.model.constraint,message:llm_store.constraint_llm_knowledge_collection_unique_name_per_store
+#: model:ir.model.constraint,message:llm_store.constraint_llm_store_collection_unique_name_per_store
+msgid "Collection names must be unique per store."
+msgstr "Los nombres de las colecciones deben ser únicos por bloque."
+
+#. module: llm_store
+#: model_terms:ir.actions.act_window,help:llm_store.llm_store_action
+msgid ""
+"Configure vector stores like Chroma, Qdrant, or PostgreSQL to enable vector "
+"search for RAG."
+msgstr ""
+"Configure almacenes de vectores como Chroma, Qdrant o PostgreSQL para "
+"habilitar la búsqueda de vectores para RAG."
+
+#. module: llm_store
+#: model:ir.model.fields,field_description:llm_store.field_llm_store__connection_uri
+msgid "Connection Uri"
+msgstr "Uri de conexión"
+
+#. module: llm_store
+#: model_terms:ir.actions.act_window,help:llm_store.llm_store_action
+msgid "Create your first vector store!"
+msgstr "¡Crea tu primer bloque de vectores!"
+
+#. module: llm_store
+#: model:ir.model.fields,field_description:llm_store.field_llm_store__create_uid
+msgid "Created by"
+msgstr "Created by"
+
+#. module: llm_store
+#: model:ir.model.fields,field_description:llm_store.field_llm_store__create_date
+msgid "Created on"
+msgstr "Creado el"
+
+#. module: llm_store
+#: model:ir.model.fields,field_description:llm_store.field_llm_store_collection__description
+msgid "Description"
+msgstr "Descripción"
+
+#. module: llm_store
+#: model:ir.model.fields,field_description:llm_store.field_llm_store_collection__dimension
+msgid "Dimension"
+msgstr "Dimensión"
+
+#. module: llm_store
+#: model:ir.model.fields,help:llm_store.field_llm_store_collection__dimension
+msgid "Dimension of vectors in this collection"
+msgstr "Dimensión de vectores en esta colección."
+
+#. module: llm_store
+#: model:ir.model.fields,field_description:llm_store.field_llm_store__display_name
+msgid "Display Name"
+msgstr "Nombre para mostrar"
+
+#. module: llm_store
+#: model:ir.model.fields,field_description:llm_store.field_llm_store__message_follower_ids
+#: model:ir.model.fields,field_description:llm_store.field_llm_store_collection__message_follower_ids
+msgid "Followers"
+msgstr "Seguidores"
+
+#. module: llm_store
+#: model:ir.model.fields,field_description:llm_store.field_llm_store__message_partner_ids
+#: model:ir.model.fields,field_description:llm_store.field_llm_store_collection__message_partner_ids
+msgid "Followers (Partners)"
+msgstr "Seguidores (Socios)"
+
+#. module: llm_store
+#: model_terms:ir.ui.view,arch_db:llm_store.llm_store_view_search
+msgid "Group By"
+msgstr "Agrupar por"
+
+#. module: llm_store
+#: model:ir.model.fields,field_description:llm_store.field_llm_store__has_message
+#: model:ir.model.fields,field_description:llm_store.field_llm_store_collection__has_message
+msgid "Has Message"
+msgstr "Tiene mensaje"
+
+#. module: llm_store
+#: model:ir.model.fields,field_description:llm_store.field_llm_store__id
+msgid "ID"
+msgstr "ID"
+
+#. module: llm_store
+#: model:ir.model.fields,help:llm_store.field_llm_store__message_needaction
+#: model:ir.model.fields,help:llm_store.field_llm_store_collection__message_needaction
+msgid "If checked, new messages require your attention."
+msgstr "Si está marcado, los mensajes nuevos requieren su atención."
+
+#. module: llm_store
+#: model:ir.model.fields,help:llm_store.field_llm_store__message_has_error
+#: model:ir.model.fields,help:llm_store.field_llm_store__message_has_sms_error
+#: model:ir.model.fields,help:llm_store.field_llm_store_collection__message_has_error
+#: model:ir.model.fields,help:llm_store.field_llm_store_collection__message_has_sms_error
+msgid "If checked, some messages have a delivery error."
+msgstr "Si está marcado, algunos mensajes tienen un error de entrega."
+
+#. module: llm_store
+#: model:ir.model.fields,field_description:llm_store.field_llm_store__message_is_follower
+#: model:ir.model.fields,field_description:llm_store.field_llm_store_collection__message_is_follower
+msgid "Is Follower"
+msgstr "es seguidor"
+
+#. module: llm_store
+#: model:ir.model,name:llm_store.model_llm_store
+msgid "LLM Vector Store"
+msgstr ""
+
+#. module: llm_store
+#: model:ir.model,name:llm_store.model_llm_store_collection
+msgid "LLM Vector Store Collection"
+msgstr "Colección de vectores LLM"
+
+#. module: llm_store
+#: model:ir.model.fields,field_description:llm_store.field_llm_store__write_uid
+msgid "Last Updated by"
+msgstr "Actualizado por última vez por"
+
+#. module: llm_store
+#: model:ir.model.fields,field_description:llm_store.field_llm_store__write_date
+msgid "Last Updated on"
+msgstr "Última actualización el"
+
+#. module: llm_store
+#: model:ir.model.fields,field_description:llm_store.field_llm_store__message_has_error
+#: model:ir.model.fields,field_description:llm_store.field_llm_store_collection__message_has_error
+msgid "Message Delivery error"
+msgstr "Error de entrega de mensaje"
+
+#. module: llm_store
+#: model:ir.model.fields,field_description:llm_store.field_llm_store__message_ids
+#: model:ir.model.fields,field_description:llm_store.field_llm_store_collection__message_ids
+msgid "Messages"
+msgstr "Mensajes"
+
+#. module: llm_store
+#. odoo-python
+#: code:addons/llm_store/models/llm_store.py:0
+msgid "Method %s not implemented for service %s"
+msgstr "Método %s no implementado para el servicio %s"
+
+#. module: llm_store
+#: model:ir.model.fields,field_description:llm_store.field_llm_store__name
+#: model:ir.model.fields,field_description:llm_store.field_llm_store_collection__name
+msgid "Name"
+msgstr "Nombre"
+
+#. module: llm_store
+#. odoo-python
+#: code:addons/llm_store/models/llm_store_collection.py:0
+msgid "No store configured for this collection."
+msgstr "No hay bloque configurado para esta colección."
+
+#. module: llm_store
+#: model:ir.model.fields,field_description:llm_store.field_llm_store__message_needaction_counter
+#: model:ir.model.fields,field_description:llm_store.field_llm_store_collection__message_needaction_counter
+msgid "Number of Actions"
+msgstr "Número de acciones"
+
+#. module: llm_store
+#: model:ir.model.fields,field_description:llm_store.field_llm_store__message_has_error_counter
+#: model:ir.model.fields,field_description:llm_store.field_llm_store_collection__message_has_error_counter
+msgid "Number of errors"
+msgstr "Número de errores"
+
+#. module: llm_store
+#: model:ir.model.fields,help:llm_store.field_llm_store__message_needaction_counter
+#: model:ir.model.fields,help:llm_store.field_llm_store_collection__message_needaction_counter
+msgid "Number of messages requiring action"
+msgstr "Número de mensajes que requieren acción"
+
+#. module: llm_store
+#: model:ir.model.fields,help:llm_store.field_llm_store__message_has_error_counter
+#: model:ir.model.fields,help:llm_store.field_llm_store_collection__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr "Número de mensajes con error de entrega"
+
+#. module: llm_store
+#: model:ir.model.fields,help:llm_store.field_llm_store_collection__vector_count
+msgid "Number of vectors in this collection"
+msgstr "Número de vectores en esta colección"
+
+#. module: llm_store
+msgid "PgVector Store Implementation"
+msgstr "Implementación del bloque PgVector"
+
+#. module: llm_store
+#: model:ir.model.fields,field_description:llm_store.field_llm_store__message_has_sms_error
+#: model:ir.model.fields,field_description:llm_store.field_llm_store_collection__message_has_sms_error
+msgid "SMS Delivery error"
+msgstr "Error de entrega de SMS"
+
+#. module: llm_store
+#: model:ir.model.fields,field_description:llm_store.field_llm_store__service
+#: model_terms:ir.ui.view,arch_db:llm_store.llm_store_view_search
+msgid "Service"
+msgstr "Servicio"
+
+#. module: llm_store
+#: model:ir.model.fields,field_description:llm_store.field_llm_store__metadata
+msgid "Store Metadata"
+msgstr "Almacenar metadatos"
+
+#. module: llm_store
+#: model_terms:ir.ui.view,arch_db:llm_store.llm_store_view_form
+msgid "Store Name"
+msgstr "Nombre del bloque"
+
+#. module: llm_store
+#: model:ir.model.fields,field_description:llm_store.field_llm_store_collection__vector_count
+msgid "Vector Count"
+msgstr "Recuento de vectores"
+
+#. module: llm_store
+#: model:ir.model.fields,field_description:llm_store.field_llm_store_collection__store_id
+msgid "Vector Store"
+msgstr "Bloque de vectores"
+
+#. module: llm_store
+#: model:ir.actions.act_window,name:llm_store.llm_store_action
+#: model:ir.ui.menu,name:llm_store.menu_llm_store
+msgid "Vector Stores"
+msgstr "Bloques de vectores"
+
+#. module: llm_store
+#. odoo-python
+#: code:addons/llm_store/models/llm_store.py:0
+msgid "Vector store service not configured"
+msgstr "Servicio de bloques vectores no configurado"
+
+#. module: llm_store
+#: model:ir.model.fields,field_description:llm_store.field_llm_store__website_message_ids
+#: model:ir.model.fields,field_description:llm_store.field_llm_store_collection__website_message_ids
+msgid "Website Messages"
+msgstr "Mensajes del sitio web"
+
+#. module: llm_store
+#: model:ir.model.fields,help:llm_store.field_llm_store__website_message_ids
+#: model:ir.model.fields,help:llm_store.field_llm_store_collection__website_message_ids
+msgid "Website communication history"
+msgstr "Historial de comunicación del sitio web"
+
+#. module: llm_store
+#: model_terms:ir.ui.view,arch_db:llm_store.llm_store_view_form
+msgid "postgres://username:password@localhost:5432/database"
+msgstr "postgres://nombre de usuario:contraseña@localhost:5432/base de datos"

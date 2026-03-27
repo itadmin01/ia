@@ -1,0 +1,152 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0-20250123\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-03-06 18:31+0000\n"
+"PO-Revision-Date: 2026-03-06 18:31+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: llm_pgvector
+#: model:ir.model.constraint,message:llm_pgvector.constraint_llm_knowledge_chunk_embedding_unique_chunk_embedding_model
+msgid "A chunk can only have one embedding per embedding model"
+msgstr ""
+"Un fragmento solo puede tener una incrustación por modelo de incrustación"
+
+#. module: llm_pgvector
+#: model:ir.model.fields,field_description:llm_pgvector.field_llm_knowledge_chunk_embedding__chunk_id
+msgid "Chunk"
+msgstr "Pedazo"
+
+#. module: llm_pgvector
+#: model:ir.actions.act_window,name:llm_pgvector.action_llm_knowledge_chunk_embedding
+#: model:ir.ui.menu,name:llm_pgvector.menu_llm_knowledge_chunk_embedding
+msgid "Chunk Embeddings"
+msgstr "Incrustaciones de fragmentos"
+
+#. module: llm_pgvector
+#: model_terms:ir.actions.act_window,help:llm_pgvector.action_llm_knowledge_chunk_embedding
+msgid ""
+"Chunk embeddings store vector representations of knowledge chunks for "
+"semantic search."
+msgstr ""
+"Las incrustaciones de fragmentos almacenan representaciones vectoriales de "
+"fragmentos de conocimiento para búsqueda semántica."
+
+#. module: llm_pgvector
+#: model:ir.model.fields,field_description:llm_pgvector.field_llm_knowledge_chunk_embedding__collection_ids
+msgid "Collections"
+msgstr "Colecciones"
+
+#. module: llm_pgvector
+#: model:ir.model.fields,field_description:llm_pgvector.field_llm_knowledge_chunk_embedding__create_uid
+msgid "Created by"
+msgstr "Created by"
+
+#. module: llm_pgvector
+#: model:ir.model.fields,field_description:llm_pgvector.field_llm_knowledge_chunk_embedding__create_date
+msgid "Created on"
+msgstr "Creado el"
+
+#. module: llm_pgvector
+#: model:ir.model.fields,field_description:llm_pgvector.field_llm_knowledge_chunk_embedding__display_name
+msgid "Display Name"
+msgstr "Nombre para mostrar"
+
+#. module: llm_pgvector
+#: model_terms:ir.ui.view,arch_db:llm_pgvector.view_llm_knowledge_chunk_embedding_form
+msgid "Embedding Data"
+msgstr "Incrustar datos"
+
+#. module: llm_pgvector
+#: model:ir.model.fields,field_description:llm_pgvector.field_llm_knowledge_chunk_embedding__embedding_model_id
+#: model_terms:ir.ui.view,arch_db:llm_pgvector.view_llm_knowledge_chunk_embedding_search
+msgid "Embedding Model"
+msgstr "Modelo de incrustación"
+
+#. module: llm_pgvector
+#: model_terms:ir.ui.view,arch_db:llm_pgvector.view_llm_knowledge_chunk_embedding_search
+msgid "Group By"
+msgstr "Agrupar por"
+
+#. module: llm_pgvector
+#: model:ir.model.fields.selection,name:llm_pgvector.selection__llm_store__pgvector_index_method__hnsw
+msgid "HNSW (balanced)"
+msgstr "HNSW (equilibrado)"
+
+#. module: llm_pgvector
+#: model:ir.model.fields,field_description:llm_pgvector.field_llm_knowledge_chunk_embedding__id
+msgid "ID"
+msgstr "ID"
+
+#. module: llm_pgvector
+#: model:ir.model.fields.selection,name:llm_pgvector.selection__llm_store__pgvector_index_method__ivfflat
+msgid "IVFFlat (faster search)"
+msgstr "IVFFlat (búsqueda más rápida)"
+
+#. module: llm_pgvector
+#: model:ir.model.fields,field_description:llm_pgvector.field_llm_store__pgvector_index_method
+msgid "Index Method"
+msgstr "Método de índice"
+
+#. module: llm_pgvector
+#: model_terms:ir.ui.view,arch_db:llm_pgvector.view_llm_knowledge_chunk_embedding_form
+msgid "Knowledge Chunk Embedding"
+msgstr "Incrustación de fragmentos de conocimiento"
+
+#. module: llm_pgvector
+#: model:ir.model.fields,field_description:llm_pgvector.field_llm_knowledge_chunk_embedding__write_uid
+msgid "Last Updated by"
+msgstr "Actualizado por última vez por"
+
+#. module: llm_pgvector
+#: model:ir.model.fields,field_description:llm_pgvector.field_llm_knowledge_chunk_embedding__write_date
+msgid "Last Updated on"
+msgstr "Última actualización el"
+
+#. module: llm_pgvector
+#. odoo-python
+#: code:addons/llm_pgvector/models/llm_store_pgvector.py:0
+msgid "Must provide chunk IDs matching the vectors"
+msgstr "Debe proporcionar ID de fragmentos que coincidan con los vectores."
+
+#. module: llm_pgvector
+#: model_terms:ir.actions.act_window,help:llm_pgvector.action_llm_knowledge_chunk_embedding
+msgid "No chunk embeddings found"
+msgstr "No se encontraron incrustaciones de fragmentos"
+
+#. module: llm_pgvector
+#: model:ir.model,name:llm_pgvector.model_llm_store
+msgid "PgVector Store Implementation"
+msgstr "Implementación de la tienda PgVector"
+
+#. module: llm_pgvector
+#: model:ir.model.fields,field_description:llm_pgvector.field_llm_knowledge_chunk_embedding__resource_id
+#: model_terms:ir.ui.view,arch_db:llm_pgvector.view_llm_knowledge_chunk_embedding_search
+msgid "Resource"
+msgstr "Recurso"
+
+#. module: llm_pgvector
+#: model:ir.model.fields,help:llm_pgvector.field_llm_store__pgvector_index_method
+msgid "The index method to use for vector search"
+msgstr "El método de índice a utilizar para la búsqueda de vectores."
+
+#. module: llm_pgvector
+#: model:ir.model.fields,field_description:llm_pgvector.field_llm_knowledge_chunk_embedding__embedding
+msgid "Vector Embedding"
+msgstr "Incrustación de vectores"
+
+#. module: llm_pgvector
+#: model:ir.model,name:llm_pgvector.model_llm_knowledge_chunk_embedding
+msgid "Vector Embedding for Knowledge Chunks"
+msgstr "Incrustación de vectores para fragmentos de conocimiento"
+
+#. module: llm_pgvector
+#: model:ir.model.fields,help:llm_pgvector.field_llm_knowledge_chunk_embedding__embedding
+msgid "Vector embedding for similarity search"
+msgstr "Incrustación de vectores para búsqueda de similitudes"

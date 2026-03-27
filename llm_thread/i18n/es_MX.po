@@ -1,0 +1,876 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0-20250123\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-03-06 20:57+0000\n"
+"PO-Revision-Date: 2026-03-06 20:57+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: llm_thread
+#. odoo-javascript
+#: code:addons/llm_thread/static/src/components/llm_chat_container/llm_chat_container.js:0
+msgid "%sd ago"
+msgstr "___formato_0___d hace"
+
+#. module: llm_thread
+#. odoo-javascript
+#: code:addons/llm_thread/static/src/components/llm_chat_container/llm_chat_container.js:0
+msgid "%sh ago"
+msgstr "___formato_0___h hace"
+
+#. module: llm_thread
+#. odoo-javascript
+#: code:addons/llm_thread/static/src/components/llm_tool_message/llm_tool_message.xml:0
+msgid "(ID:"
+msgstr "(IDENTIFICACIÓN:"
+
+#. module: llm_thread
+#. odoo-javascript
+#: code:addons/llm_thread/static/src/components/llm_related_record/llm_record_picker_dialog.xml:0
+msgid "1. Choose Record Type"
+msgstr "1. Elija el tipo de registro"
+
+#. module: llm_thread
+#. odoo-javascript
+#: code:addons/llm_thread/static/src/components/llm_related_record/llm_record_picker_dialog.xml:0
+msgid "2. Search and Select Record"
+msgstr "2. Buscar y seleccionar registro"
+
+#. module: llm_thread
+#. odoo-javascript
+#: code:addons/llm_thread/static/src/components/llm_chat_container/llm_chat_container.xml:0
+#: code:addons/llm_thread/static/src/templates/chatter_ai_button.xml:0
+msgid "AI Chat"
+msgstr "Chat de IA"
+
+#. module: llm_thread
+#. odoo-javascript
+#: code:addons/llm_thread/static/src/client_actions/open_chatter_action.js:0
+msgid "AI chat is not available. Please refresh the page and try again."
+msgstr ""
+"El chat AI no está disponible. Actualice la página e inténtelo de nuevo."
+
+#. module: llm_thread
+#. odoo-javascript
+#: code:addons/llm_thread/static/src/patches/composer_patch.js:0
+msgid "AI is responding..."
+msgstr "La IA está respondiendo..."
+
+#. module: llm_thread
+#. odoo-javascript
+#: code:addons/llm_thread/static/src/components/llm_chat_container/llm_chat_container.xml:0
+msgid "AI is thinking..."
+msgstr "La IA está pensando..."
+
+#. module: llm_thread
+#. odoo-javascript
+#: code:addons/llm_thread/static/src/services/llm_store_service.js:0
+msgid "AI response error"
+msgstr "Error de respuesta de la IA"
+
+#. module: llm_thread
+#: model:ir.model.fields,field_description:llm_thread.field_llm_thread__message_needaction
+msgid "Action Needed"
+msgstr "Acción necesaria"
+
+#. module: llm_thread
+#: model:ir.model.fields,field_description:llm_thread.field_llm_thread__active
+msgid "Active"
+msgstr "Activo"
+
+#. module: llm_thread
+#: model:ir.model.fields,field_description:llm_thread.field_llm_thread__attachment_ids
+msgid "All Thread Attachments"
+msgstr "Todos los archivos adjuntos de hilo"
+
+#. module: llm_thread
+#: model:ir.model.fields,help:llm_thread.field_llm_thread__attachment_ids
+msgid "All attachments from all messages in this thread"
+msgstr "Todos los archivos adjuntos de todos los mensajes en este hilo"
+
+#. module: llm_thread
+#. odoo-javascript
+#: code:addons/llm_thread/static/src/components/llm_related_record/llm_related_record.js:0
+msgid ""
+"Are you sure you want to unlink %s from this chat? This won't delete the "
+"record, only remove the link."
+msgstr ""
+"¿Estás seguro de que deseas desvincular %s de este chat? Esto no eliminará "
+"el registro, solo eliminará el enlace."
+
+#. module: llm_thread
+#. odoo-javascript
+#: code:addons/llm_thread/static/src/components/llm_tool_message/llm_tool_message.xml:0
+msgid "Arguments"
+msgstr "Argumentos"
+
+#. module: llm_thread
+#. odoo-javascript
+#: code:addons/llm_thread/static/src/patches/composer_patch.js:0
+msgid "Ask anything..."
+msgstr "Pregunta cualquier cosa..."
+
+#. module: llm_thread
+#. odoo-javascript
+#: code:addons/llm_thread/static/src/templates/chatter_ai_button.xml:0
+msgid "Attach files"
+msgstr "Adjuntar archivos"
+
+#. module: llm_thread
+#: model:ir.model.fields,field_description:llm_thread.field_llm_thread__message_attachment_count
+msgid "Attachment Count"
+msgstr "Recuento de archivos adjuntos"
+
+#. module: llm_thread
+#: model:ir.model.fields,field_description:llm_thread.field_llm_thread__tool_ids
+msgid "Available Tools"
+msgstr "Herramientas disponibles"
+
+#. module: llm_thread
+#. odoo-javascript
+#: code:addons/llm_thread/static/src/components/llm_related_record/llm_record_picker_dialog.xml:0
+#: code:addons/llm_thread/static/src/components/llm_thread_header/llm_thread_header.xml:0
+msgid "Cancel"
+msgstr "Cancelar"
+
+#. module: llm_thread
+#: model:ir.actions.client,name:llm_thread.action_llm_chat
+#: model:ir.ui.menu,name:llm_thread.menu_llm_chat
+msgid "Chat"
+msgstr "Chat"
+
+#. module: llm_thread
+#: model:ir.actions.act_window,name:llm_thread.llm_thread_action
+#: model:ir.actions.act_window,name:llm_thread.llm_thread_action
+msgid "Chat Threads"
+msgstr "Hilos de chat"
+
+#. module: llm_thread
+#: model_terms:ir.ui.view,arch_db:llm_thread.llm_thread_view_form
+msgid "Chat Title"
+msgstr "Título del chat"
+
+#. module: llm_thread
+#. odoo-javascript
+#: code:addons/llm_thread/static/src/components/llm_thread_header/llm_thread_header.xml:0
+msgid "Click to edit"
+msgstr "Haga clic para editar"
+
+#. module: llm_thread
+#. odoo-javascript
+#: code:addons/llm_thread/static/src/components/llm_chat_container/llm_chat_container.xml:0
+msgid "Collapse sidebar"
+msgstr "Contraer barra lateral"
+
+#. module: llm_thread
+#. odoo-javascript
+#: code:addons/llm_thread/static/src/components/llm_chat_container/llm_chat_container.xml:0
+msgid "Conversations"
+msgstr "Conversaciones"
+
+#. module: llm_thread
+#. odoo-javascript
+#: code:addons/llm_thread/static/src/components/llm_thread_header/llm_thread_header.js:0
+msgid "Could not change the AI model. Please try again."
+msgstr "No se pudo cambiar el modelo de IA. Por favor inténtalo de nuevo."
+
+#. module: llm_thread
+#. odoo-javascript
+#: code:addons/llm_thread/static/src/components/llm_thread_header/llm_thread_header.js:0
+msgid "Could not change the AI provider. Please try again."
+msgstr "No se pudo cambiar el proveedor de IA. Por favor inténtalo de nuevo."
+
+#. module: llm_thread
+#. odoo-javascript
+#: code:addons/llm_thread/static/src/services/llm_store_service.js:0
+msgid "Could not link the record to this conversation. Please try again."
+msgstr ""
+"No se pudo vincular el registro a esta conversación. Por favor inténtalo de "
+"nuevo."
+
+#. module: llm_thread
+#. odoo-javascript
+#: code:addons/llm_thread/static/src/services/llm_store_service.js:0
+msgid ""
+"Could not load this conversation. It may have been deleted or you may not "
+"have access."
+msgstr ""
+"No se pudo cargar esta conversación. Es posible que se haya eliminado o que "
+"no tengas acceso."
+
+#. module: llm_thread
+#. odoo-javascript
+#: code:addons/llm_thread/static/src/client_actions/llm_chat_client_action.js:0
+msgid ""
+"Could not load your conversations. Please refresh the page and try again."
+msgstr ""
+"No se pudieron cargar tus conversaciones. Actualice la página e inténtelo de"
+" nuevo."
+
+#. module: llm_thread
+#. odoo-javascript
+#: code:addons/llm_thread/static/src/client_actions/open_chatter_action.js:0
+msgid "Could not open AI chat. Required information is missing."
+msgstr "No se pudo abrir el chat AI. Falta la información requerida."
+
+#. module: llm_thread
+#. odoo-javascript
+#: code:addons/llm_thread/static/src/client_actions/llm_chat_client_action.js:0
+msgid "Could not open the new conversation form. Please try again."
+msgstr ""
+"No se pudo abrir el nuevo formulario de conversación. Por favor inténtalo de"
+" nuevo."
+
+#. module: llm_thread
+#. odoo-javascript
+#: code:addons/llm_thread/static/src/components/llm_thread_header/llm_thread_header.js:0
+msgid "Could not save the conversation name. Please try again."
+msgstr ""
+"No se pudo guardar el nombre de la conversación. Por favor inténtalo de "
+"nuevo."
+
+#. module: llm_thread
+#. odoo-javascript
+#: code:addons/llm_thread/static/src/services/llm_store_service.js:0
+msgid ""
+"Could not send your message. Please check your connection and try again."
+msgstr ""
+"No se pudo enviar tu mensaje. Por favor verifique su conexión e inténtelo "
+"nuevamente."
+
+#. module: llm_thread
+#. odoo-javascript
+#: code:addons/llm_thread/static/src/client_actions/llm_chat_client_action.js:0
+msgid "Could not start AI chat. Please refresh the page and try again."
+msgstr ""
+"No se pudo iniciar el chat AI. Actualice la página e inténtelo de nuevo."
+
+#. module: llm_thread
+#. odoo-javascript
+#: code:addons/llm_thread/static/src/services/llm_store_service.js:0
+msgid ""
+"Could not start AI response. Please check your connection and try again."
+msgstr ""
+"No se pudo iniciar la respuesta de la IA. Por favor verifique su conexión e "
+"inténtelo nuevamente."
+
+#. module: llm_thread
+#. odoo-javascript
+#: code:addons/llm_thread/static/src/services/llm_store_service.js:0
+msgid "Could not unlink the record from this conversation. Please try again."
+msgstr ""
+"No se pudo desvincular el registro de esta conversación. Por favor inténtalo"
+" de nuevo."
+
+#. module: llm_thread
+#. odoo-javascript
+#: code:addons/llm_thread/static/src/components/llm_thread_header/llm_thread_header.js:0
+msgid "Could not update the enabled tools. Please try again."
+msgstr ""
+"No se pudieron actualizar las herramientas habilitadas. Por favor inténtalo "
+"de nuevo."
+
+#. module: llm_thread
+#. odoo-javascript
+#: code:addons/llm_thread/static/src/components/llm_chat_container/llm_chat_container.xml:0
+msgid "Create New Thread"
+msgstr "Crear nuevo hilo"
+
+#. module: llm_thread
+#: model_terms:ir.actions.act_window,help:llm_thread.llm_thread_action
+msgid "Create your first chat thread!"
+msgstr "¡Crea tu primer hilo de chat!"
+
+#. module: llm_thread
+#: model:ir.model.fields,field_description:llm_thread.field_llm_thread__create_uid
+msgid "Created by"
+msgstr "Created by"
+
+#. module: llm_thread
+#: model:ir.model.fields,field_description:llm_thread.field_llm_thread__create_date
+msgid "Created on"
+msgstr "Creado el"
+
+#. module: llm_thread
+#. odoo-javascript
+#: code:addons/llm_thread/static/src/components/llm_thread_header/llm_thread_header.xml:0
+msgid "Default"
+msgstr "Por defecto"
+
+#. module: llm_thread
+#: model:ir.model.fields,field_description:llm_thread.field_llm_thread__display_name
+msgid "Display Name"
+msgstr "Nombre para mostrar"
+
+#. module: llm_thread
+#. odoo-javascript
+#: code:addons/llm_thread/static/src/components/llm_tool_message/llm_tool_message.xml:0
+msgid "Error"
+msgstr "Error"
+
+#. module: llm_thread
+#. odoo-javascript
+#: code:addons/llm_thread/static/src/components/llm_chat_container/llm_chat_container.xml:0
+msgid "Expand sidebar"
+msgstr "Expandir barra lateral"
+
+#. module: llm_thread
+#. odoo-javascript
+#: code:addons/llm_thread/static/src/components/llm_related_record/llm_related_record.js:0
+msgid "Failed to open related record"
+msgstr "No se pudo abrir el registro relacionado"
+
+#. module: llm_thread
+#. odoo-javascript
+#: code:addons/llm_thread/static/src/templates/chatter_ai_button.xml:0
+msgid "Files"
+msgstr "Archivos"
+
+#. module: llm_thread
+#: model:ir.model.fields,field_description:llm_thread.field_llm_thread__message_follower_ids
+msgid "Followers"
+msgstr "Seguidores"
+
+#. module: llm_thread
+#: model:ir.model.fields,field_description:llm_thread.field_llm_thread__message_partner_ids
+msgid "Followers (Partners)"
+msgstr "Seguidores (Socios)"
+
+#. module: llm_thread
+#: model:ir.model.fields,field_description:llm_thread.field_llm_thread__has_message
+msgid "Has Message"
+msgstr "Tiene mensaje"
+
+#. module: llm_thread
+#: model:ir.model.fields,field_description:llm_thread.field_llm_thread__id
+msgid "ID"
+msgstr "ID"
+
+#. module: llm_thread
+#: model:ir.model.fields,help:llm_thread.field_llm_thread__res_id
+msgid "ID of the related record"
+msgstr "ID del registro relacionado"
+
+#. module: llm_thread
+#: model:ir.model.fields,help:llm_thread.field_llm_thread__message_needaction
+msgid "If checked, new messages require your attention."
+msgstr "Si está marcado, los mensajes nuevos requieren su atención."
+
+#. module: llm_thread
+#: model:ir.model.fields,help:llm_thread.field_llm_thread__message_has_error
+#: model:ir.model.fields,help:llm_thread.field_llm_thread__message_has_sms_error
+msgid "If checked, some messages have a delivery error."
+msgstr "Si está marcado, algunos mensajes tienen un error de entrega."
+
+#. module: llm_thread
+#. odoo-python
+#: code:addons/llm_thread/models/mail_message.py:0
+msgid ""
+"Invalid vote value. Must be an integer: 1 (up), -1 (down), or 0 (none)."
+msgstr ""
+"Valor de voto no válido. Debe ser un número entero: 1 (arriba), -1 (abajo) o"
+" 0 (ninguno)."
+
+#. module: llm_thread
+#: model:ir.model.fields,field_description:llm_thread.field_llm_thread__message_is_follower
+msgid "Is Follower"
+msgstr "es seguidor"
+
+#. module: llm_thread
+#. odoo-javascript
+#: code:addons/llm_thread/static/src/components/llm_chat_container/llm_chat_container.js:0
+msgid "Just now"
+msgstr "En este momento"
+
+#. module: llm_thread
+#: model:ir.model,name:llm_thread.model_llm_thread
+#: model:ir.model,name:llm_thread.model_llm_thread
+msgid "LLM Chat Thread"
+msgstr "Hilo de chat de LLM"
+
+#. module: llm_thread
+#. odoo-python
+#: code:addons/llm_thread/controllers/main.py:0
+msgid "LLM Thread not found."
+msgstr "Tema LLM no encontrado."
+
+#. module: llm_thread
+#: model:ir.model.fields,field_description:llm_thread.field_llm_thread__write_uid
+msgid "Last Updated by"
+msgstr "Actualizado por última vez por"
+
+#. module: llm_thread
+#: model:ir.model.fields,field_description:llm_thread.field_llm_thread__write_date
+msgid "Last Updated on"
+msgstr "Última actualización el"
+
+#. module: llm_thread
+#. odoo-javascript
+#: code:addons/llm_thread/static/src/components/llm_related_record/llm_related_record.xml:0
+msgid "Link"
+msgstr "Enlace"
+
+#. module: llm_thread
+#. odoo-javascript
+#: code:addons/llm_thread/static/src/components/llm_related_record/llm_record_picker_dialog.xml:0
+msgid "Link to Chat"
+msgstr "Enlace al chat"
+
+#. module: llm_thread
+#. odoo-javascript
+#: code:addons/llm_thread/static/src/components/llm_related_record/llm_related_record.xml:0
+msgid "Link to a record"
+msgstr "Enlace a un registro"
+
+#. module: llm_thread
+#. odoo-javascript
+#: code:addons/llm_thread/static/src/components/llm_related_record/llm_record_picker_dialog.xml:0
+#: code:addons/llm_thread/static/src/components/llm_related_record/llm_record_picker_dialog.xml:0
+msgid "Loading models..."
+msgstr "Cargando modelos..."
+
+#. module: llm_thread
+#. odoo-javascript
+#: code:addons/llm_thread/static/src/components/llm_related_record/llm_related_record.xml:0
+msgid "Loading..."
+msgstr "Cargando..."
+
+#. module: llm_thread
+#. odoo-javascript
+#: code:addons/llm_thread/static/src/services/llm_store_service.js:0
+msgid "Lost connection to AI service. Please try sending your message again."
+msgstr ""
+"Se perdió la conexión al servicio de IA. Por favor intenta enviar tu mensaje"
+" nuevamente."
+
+#. module: llm_thread
+#: model:ir.model,name:llm_thread.model_mail_message
+msgid "Message"
+msgstr "Mensaje"
+
+#. module: llm_thread
+#: model:ir.model.fields,field_description:llm_thread.field_llm_thread__message_has_error
+msgid "Message Delivery error"
+msgstr "Error de entrega de mensaje"
+
+#. module: llm_thread
+#: model:ir.model.fields,field_description:llm_thread.field_llm_thread__message_ids
+msgid "Messages"
+msgstr "Mensajes"
+
+#. module: llm_thread
+#: model:ir.model.fields,field_description:llm_thread.field_llm_thread__model_id
+#: model:ir.model.fields,field_description:llm_thread.field_llm_thread__model_id
+msgid "Model"
+msgstr "Modelo"
+
+#. module: llm_thread
+#. odoo-javascript
+#: code:addons/llm_thread/static/src/components/llm_chat_container/llm_chat_container.xml:0
+msgid "New Thread"
+msgstr "Nuevo hilo"
+
+#. module: llm_thread
+#. odoo-javascript
+#: code:addons/llm_thread/static/src/services/llm_store_service.js:0
+msgid ""
+"No AI models are available. Please contact your administrator to configure "
+"AI models."
+msgstr ""
+"No hay modelos de IA disponibles. Comuníquese con su administrador para "
+"configurar los modelos de IA."
+
+#. module: llm_thread
+#. odoo-javascript
+#: code:addons/llm_thread/static/src/services/llm_store_service.js:0
+msgid ""
+"No AI providers are configured. Please contact your administrator to set up "
+"an AI provider."
+msgstr ""
+"No hay proveedores de IA configurados. Comuníquese con su administrador para"
+" configurar un proveedor de IA."
+
+#. module: llm_thread
+#. odoo-javascript
+#: code:addons/llm_thread/static/src/components/llm_chat_container/llm_chat_container.xml:0
+msgid "No active conversation"
+msgstr "Ninguna conversación activa"
+
+#. module: llm_thread
+#. odoo-javascript
+#: code:addons/llm_thread/static/src/components/llm_chat_container/llm_chat_container.xml:0
+msgid "No conversations yet"
+msgstr "Aún no hay conversaciones"
+
+#. module: llm_thread
+#. odoo-javascript
+#: code:addons/llm_thread/static/src/components/llm_thread_header/llm_thread_header.xml:0
+msgid "No models available for this provider"
+msgstr "No hay modelos disponibles para este proveedor"
+
+#. module: llm_thread
+#. odoo-javascript
+#: code:addons/llm_thread/static/src/components/llm_thread_header/llm_thread_header.xml:0
+msgid "No models found matching \""
+msgstr "No se encontraron modelos que coincidan \""
+
+#. module: llm_thread
+#. odoo-javascript
+#: code:addons/llm_thread/static/src/components/llm_thread_header/llm_thread_header.xml:0
+msgid "No providers available"
+msgstr "No hay proveedores disponibles"
+
+#. module: llm_thread
+#. odoo-javascript
+#: code:addons/llm_thread/static/src/components/llm_related_record/llm_record_picker_dialog.xml:0
+msgid "No records found for \""
+msgstr "No se encontraron registros para \""
+
+#. module: llm_thread
+#. odoo-javascript
+#: code:addons/llm_thread/static/src/components/llm_thread_header/llm_thread_header.xml:0
+msgid "No tools available"
+msgstr "No hay herramientas disponibles"
+
+#. module: llm_thread
+#: model:ir.model.fields,field_description:llm_thread.field_llm_thread__message_needaction_counter
+msgid "Number of Actions"
+msgstr "Número de acciones"
+
+#. module: llm_thread
+#: model:ir.model.fields,field_description:llm_thread.field_llm_thread__message_has_error_counter
+msgid "Number of errors"
+msgstr "Número de errores"
+
+#. module: llm_thread
+#: model:ir.model.fields,help:llm_thread.field_llm_thread__message_needaction_counter
+msgid "Number of messages requiring action"
+msgstr "Número de mensajes que requieren acción"
+
+#. module: llm_thread
+#: model:ir.model.fields,help:llm_thread.field_llm_thread__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr "Número de mensajes con error de entrega"
+
+#. module: llm_thread
+#. odoo-javascript
+#: code:addons/llm_thread/static/src/components/llm_thread_header/llm_thread_header.js:0
+msgid "Please enter a name for this conversation."
+msgstr "Por favor ingrese un nombre para esta conversación."
+
+#. module: llm_thread
+#. odoo-python
+#: code:addons/llm_thread/models/llm_thread.py:0
+msgid "Please install the llm_assistant module for actual AI generation."
+msgstr "Instale el módulo llm_assistant para la generación real de IA."
+
+#. module: llm_thread
+#: model:ir.model.fields,field_description:llm_thread.field_llm_thread__provider_id
+msgid "Provider"
+msgstr "Proveedor"
+
+#. module: llm_thread
+msgid "Ratings"
+msgstr "Calificaciones"
+
+#. module: llm_thread
+#. odoo-javascript
+#: code:addons/llm_thread/static/src/services/llm_store_service.js:0
+msgid "Record linked to conversation successfully."
+msgstr "Registro vinculado a la conversación con éxito."
+
+#. module: llm_thread
+#. odoo-javascript
+#: code:addons/llm_thread/static/src/components/llm_related_record/llm_related_record.xml:0
+msgid "Record options"
+msgstr "Opciones de grabación"
+
+#. module: llm_thread
+#. odoo-javascript
+#: code:addons/llm_thread/static/src/services/llm_store_service.js:0
+msgid "Record unlinked from conversation successfully."
+msgstr "Grabación desvinculada de la conversación exitosamente."
+
+#. module: llm_thread
+#: model:ir.model.fields,field_description:llm_thread.field_llm_thread__res_id
+msgid "Related Document ID"
+msgstr "ID del documento relacionado"
+
+#. module: llm_thread
+#: model:ir.model.fields,field_description:llm_thread.field_llm_thread__model
+msgid "Related Document Model"
+msgstr "Modelo de documento relacionado"
+
+#. module: llm_thread
+#. odoo-javascript
+#: code:addons/llm_thread/static/src/components/llm_tool_message/llm_tool_message.xml:0
+msgid "Result"
+msgstr "Resultado"
+
+#. module: llm_thread
+#: model:ir.model.fields,field_description:llm_thread.field_llm_thread__message_has_sms_error
+msgid "SMS Delivery error"
+msgstr "Error de entrega de SMS"
+
+#. module: llm_thread
+#. odoo-javascript
+#: code:addons/llm_thread/static/src/components/llm_thread_header/llm_thread_header.xml:0
+msgid "Save"
+msgstr "Ahorrar"
+
+#. module: llm_thread
+#. odoo-javascript
+#: code:addons/llm_thread/static/src/components/llm_related_record/llm_record_picker_dialog.xml:0
+msgid "Search for records above"
+msgstr "Buscar registros arriba"
+
+#. module: llm_thread
+#. odoo-javascript
+#: code:addons/llm_thread/static/src/components/llm_thread_header/llm_thread_header.xml:0
+msgid "Search models..."
+msgstr "Buscar modelos..."
+
+#. module: llm_thread
+#. odoo-javascript
+#: code:addons/llm_thread/static/src/components/llm_related_record/llm_record_picker_dialog.xml:0
+msgid "Searching..."
+msgstr "Búsqueda..."
+
+#. module: llm_thread
+#. odoo-javascript
+#: code:addons/llm_thread/static/src/components/llm_thread_header/llm_thread_header.xml:0
+msgid "Select Model"
+msgstr "Seleccionar modelo"
+
+#. module: llm_thread
+#. odoo-javascript
+#: code:addons/llm_thread/static/src/components/llm_thread_header/llm_thread_header.xml:0
+msgid "Select Provider"
+msgstr "Seleccionar Proveedor"
+
+#. module: llm_thread
+#. odoo-javascript
+#: code:addons/llm_thread/static/src/components/llm_related_record/llm_record_picker_dialog.xml:0
+msgid "Select a record type..."
+msgstr "Seleccione un tipo de registro..."
+
+#. module: llm_thread
+#. odoo-javascript
+#: code:addons/llm_thread/static/src/components/llm_related_record/llm_record_picker_dialog.xml:0
+#: code:addons/llm_thread/static/src/components/llm_related_record/llm_record_picker_dialog.xml:0
+msgid "Selected Record"
+msgstr "Registro seleccionado"
+
+#. module: llm_thread
+#. odoo-javascript
+#: code:addons/llm_thread/static/src/components/llm_chat_container/llm_chat_container.xml:0
+msgid "Show conversations"
+msgstr "Mostrar conversaciones"
+
+#. module: llm_thread
+#: model_terms:ir.actions.act_window,help:llm_thread.llm_thread_action
+msgid "Start a conversation with any of your configured LLM providers."
+msgstr ""
+"Inicie una conversación con cualquiera de sus proveedores de LLM "
+"configurados."
+
+#. module: llm_thread
+#. odoo-javascript
+#: code:addons/llm_thread/static/src/components/llm_chat_container/llm_chat_container.xml:0
+msgid "Start your first AI chat"
+msgstr "Inicie su primer chat de IA"
+
+#. module: llm_thread
+#. odoo-javascript
+#: code:addons/llm_thread/static/src/patches/composer_patch.xml:0
+msgid "Stop generation"
+msgstr "detener la generación"
+
+#. module: llm_thread
+#: model:ir.model.fields,help:llm_thread.field_llm_thread__model
+msgid "Technical name of the related model"
+msgstr "Nombre técnico del modelo relacionado."
+
+#. module: llm_thread
+#. odoo-javascript
+#: code:addons/llm_thread/static/src/client_actions/llm_chat_client_action.js:0
+msgid ""
+"The requested conversation could not be found. Showing your recent "
+"conversations instead."
+msgstr ""
+"No se pudo encontrar la conversación solicitada. En su lugar, muestra tus "
+"conversaciones recientes."
+
+#. module: llm_thread
+#. odoo-python
+#: code:addons/llm_thread/models/llm_thread.py:0
+msgid ""
+"This conversation is currently generating a response. Please wait for it to "
+"complete before sending another message."
+msgstr ""
+"Esta conversación actualmente está generando una respuesta. Espere a que se "
+"complete antes de enviar otro mensaje."
+
+#. module: llm_thread
+#: model:ir.model.fields,field_description:llm_thread.field_llm_thread__attachment_count
+msgid "Thread Attachments"
+msgstr "Accesorios de hilo"
+
+#. module: llm_thread
+#. odoo-javascript
+#: code:addons/llm_thread/static/src/components/llm_thread_header/llm_thread_header.xml:0
+msgid "Thread name..."
+msgstr "Nombre del hilo..."
+
+#. module: llm_thread
+#. odoo-javascript
+#: code:addons/llm_thread/static/src/components/llm_chat_container/llm_chat_container.xml:0
+msgid "Thread settings"
+msgstr "Configuración del hilo"
+
+#. module: llm_thread
+#: model:ir.ui.menu,name:llm_thread.menu_llm_thread
+#: model:ir.ui.menu,name:llm_thread.menu_llm_thread
+msgid "Threads"
+msgstr "Hilos"
+
+#. module: llm_thread
+#: model:ir.model.fields,field_description:llm_thread.field_llm_thread__name
+msgid "Title"
+msgstr "Título"
+
+#. module: llm_thread
+#. odoo-javascript
+#: code:addons/llm_thread/static/src/components/llm_tool_message/llm_tool_message.xml:0
+msgid "Tool:"
+msgstr "Herramienta:"
+
+#. module: llm_thread
+#. odoo-javascript
+#: code:addons/llm_thread/static/src/components/llm_thread_header/llm_thread_header.xml:0
+msgid "Tools"
+msgstr "Herramientas"
+
+#. module: llm_thread
+#. odoo-javascript
+#: code:addons/llm_thread/static/src/patches/message_patch.xml:0
+msgid "Tools Requested:"
+msgstr "Herramientas solicitadas:"
+
+#. module: llm_thread
+#: model:ir.model.fields,help:llm_thread.field_llm_thread__tool_ids
+msgid "Tools that can be used by the LLM in this thread"
+msgstr "Herramientas que puede utilizar el LLM en este hilo"
+
+#. module: llm_thread
+#: model:ir.model.fields,help:llm_thread.field_llm_thread__attachment_count
+msgid "Total number of attachments in this thread"
+msgstr "Número total de archivos adjuntos en este hilo"
+
+#. module: llm_thread
+#. odoo-javascript
+#: code:addons/llm_thread/static/src/components/llm_related_record/llm_record_picker_dialog.xml:0
+msgid "Type at least 2 characters"
+msgstr "Escribe al menos 2 caracteres"
+
+#. module: llm_thread
+#. odoo-javascript
+#: code:addons/llm_thread/static/src/components/llm_related_record/llm_record_picker_dialog.xml:0
+msgid "Type to search records... (min 2 characters)"
+msgstr "Escriba para buscar registros... (mínimo 2 caracteres)"
+
+#. module: llm_thread
+#. odoo-python
+#: code:addons/llm_thread/models/llm_thread.py:0
+msgid ""
+"Unable to process your request due to a system conflict. Please wait a "
+"moment and try again."
+msgstr ""
+"No se puede procesar su solicitud debido a un conflicto en el sistema. "
+"Espere un momento e inténtelo de nuevo."
+
+#. module: llm_thread
+#. odoo-javascript
+#: code:addons/llm_thread/static/src/components/llm_tool_message/llm_tool_message.js:0
+msgid "Unknown Tool"
+msgstr "Herramienta desconocida"
+
+#. module: llm_thread
+#. odoo-javascript
+#: code:addons/llm_thread/static/src/components/llm_tool_message/llm_tool_message.js:0
+msgid "Unknown error"
+msgstr "Error desconocido"
+
+#. module: llm_thread
+#. odoo-javascript
+#: code:addons/llm_thread/static/src/components/llm_related_record/llm_related_record.js:0
+#: code:addons/llm_thread/static/src/components/llm_related_record/llm_related_record.xml:0
+msgid "Unlink Record"
+msgstr "Desvincular registro"
+
+#. module: llm_thread
+#. odoo-javascript
+#: code:addons/llm_thread/static/src/components/llm_related_record/llm_related_record.xml:0
+msgid "Unlink this record from the chat"
+msgstr "Desvincular este registro del chat"
+
+#. module: llm_thread
+#: model:ir.model,name:llm_thread.model_res_users
+#: model:ir.model.fields,field_description:llm_thread.field_llm_thread__user_id
+msgid "User"
+msgstr "Usuario"
+
+#. module: llm_thread
+#: model:ir.model.fields,field_description:llm_thread.field_mail_mail__user_vote
+#: model:ir.model.fields,field_description:llm_thread.field_mail_message__user_vote
+msgid "User Vote"
+msgstr "Voto del usuario"
+
+#. module: llm_thread
+#: model:ir.model.fields,help:llm_thread.field_mail_mail__user_vote
+#: model:ir.model.fields,help:llm_thread.field_mail_message__user_vote
+msgid "Vote status given by the user. 0: No vote, 1: Upvoted, -1: Downvoted."
+msgstr ""
+"Estado de votación proporcionado por el usuario. 0: Sin voto, 1: Votado a "
+"favor, -1: Votado en contra."
+
+#. module: llm_thread
+#. odoo-python
+#: code:addons/llm_thread/models/mail_message.py:0
+#: code:addons/llm_thread/models/mail_message.py:0
+msgid ""
+"Voting is only allowed on messages generated by the assistant or a tool."
+msgstr ""
+"Solo se permite votar sobre mensajes generados por el asistente o una "
+"herramienta."
+
+#. module: llm_thread
+#: model:ir.model.fields,field_description:llm_thread.field_llm_thread__website_message_ids
+msgid "Website Messages"
+msgstr "Mensajes del sitio web"
+
+#. module: llm_thread
+#: model:ir.model.fields,help:llm_thread.field_llm_thread__website_message_ids
+msgid "Website communication history"
+msgstr "Historial de comunicación del sitio web"
+
+#. module: llm_thread
+#. odoo-javascript
+#: code:addons/llm_thread/static/src/patches/composer_patch.js:0
+msgid "Write a message..."
+msgstr "Escribe un mensaje..."
+
+#. module: llm_thread
+#. odoo-python
+#: code:addons/llm_thread/models/llm_thread.py:0
+msgid ""
+"Your request could not be processed. Please refresh the page and try again."
+msgstr ""
+"Su solicitud no pudo ser procesada. Actualice la página e inténtelo de "
+"nuevo."

@@ -1,0 +1,472 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0-20250123\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-03-06 20:59+0000\n"
+"PO-Revision-Date: 2026-03-06 20:59+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: llm_training
+#: model:ir.model.fields,field_description:llm_training.field_llm_training_dataset__message_needaction
+#: model:ir.model.fields,field_description:llm_training.field_llm_training_job__message_needaction
+msgid "Action Needed"
+msgstr "Acción necesaria"
+
+#. module: llm_training
+#: model:ir.model.fields,field_description:llm_training.field_llm_training_dataset__active
+#: model:ir.model.fields,field_description:llm_training.field_llm_training_job__active
+msgid "Active"
+msgstr "Activo"
+
+#. module: llm_training
+#: model_terms:ir.ui.view,arch_db:llm_training.llm_training_dataset_view_search
+#: model_terms:ir.ui.view,arch_db:llm_training.llm_training_job_view_search
+msgid "Archived"
+msgstr "Archivado"
+
+#. module: llm_training
+#: model:ir.model.fields,field_description:llm_training.field_llm_training_dataset__message_attachment_count
+#: model:ir.model.fields,field_description:llm_training.field_llm_training_job__message_attachment_count
+msgid "Attachment Count"
+msgstr "Recuento de archivos adjuntos"
+
+#. module: llm_training
+#: model:ir.model.fields,field_description:llm_training.field_llm_training_job__base_model_id
+#: model_terms:ir.ui.view,arch_db:llm_training.llm_training_job_view_search
+msgid "Base Model"
+msgstr "Modelo básico"
+
+#. module: llm_training
+#: model_terms:ir.ui.view,arch_db:llm_training.llm_training_job_view_form
+msgid "Cancel"
+msgstr "Cancelar"
+
+#. module: llm_training
+#: model:ir.model.fields.selection,name:llm_training.selection__llm_training_job__state__cancelled
+#: model_terms:ir.ui.view,arch_db:llm_training.llm_training_job_view_search
+msgid "Cancelled"
+msgstr "Cancelado"
+
+#. module: llm_training
+#: model_terms:ir.ui.view,arch_db:llm_training.llm_training_job_view_form
+msgid "Check Status"
+msgstr "Verificar estado"
+
+#. module: llm_training
+#: model:ir.model.fields.selection,name:llm_training.selection__llm_training_job__state__completed
+#: model_terms:ir.ui.view,arch_db:llm_training.llm_training_job_view_search
+msgid "Completed"
+msgstr "Terminado"
+
+#. module: llm_training
+#: model_terms:ir.actions.act_window,help:llm_training.llm_training_job_action
+msgid "Configure fine-tuning jobs to train custom LLM models."
+msgstr ""
+"Configure trabajos de ajuste para entrenar modelos LLM personalizados."
+
+#. module: llm_training
+#: model_terms:ir.actions.act_window,help:llm_training.llm_training_dataset_action
+msgid "Create your first training dataset!"
+msgstr "¡Crea tu primer conjunto de datos de entrenamiento!"
+
+#. module: llm_training
+#: model_terms:ir.actions.act_window,help:llm_training.llm_training_job_action
+msgid "Create your first training job!"
+msgstr "¡Crea tu primer trabajo de formación!"
+
+#. module: llm_training
+#: model:ir.model.fields,field_description:llm_training.field_llm_training_dataset__create_uid
+#: model:ir.model.fields,field_description:llm_training.field_llm_training_job__create_uid
+msgid "Created by"
+msgstr "Created by"
+
+#. module: llm_training
+#: model:ir.model.fields,field_description:llm_training.field_llm_training_dataset__create_date
+#: model:ir.model.fields,field_description:llm_training.field_llm_training_job__create_date
+msgid "Created on"
+msgstr "Creado el"
+
+#. module: llm_training
+#: model:ir.model.fields,field_description:llm_training.field_llm_training_dataset__attachment_ids
+#: model_terms:ir.ui.view,arch_db:llm_training.llm_training_dataset_view_form
+msgid "Dataset Files"
+msgstr "Archivos de conjunto de datos"
+
+#. module: llm_training
+#: model_terms:ir.ui.view,arch_db:llm_training.llm_training_dataset_view_form
+msgid "Dataset Name"
+msgstr "Nombre del conjunto de datos"
+
+#. module: llm_training
+#: model_terms:ir.ui.view,arch_db:llm_training.llm_training_dataset_view_form
+msgid "Dataset description..."
+msgstr "Descripción del conjunto de datos..."
+
+#. module: llm_training
+#: model:ir.model.fields,field_description:llm_training.field_llm_training_job__dataset_ids
+#: model:ir.ui.menu,name:llm_training.menu_llm_training_dataset
+#: model_terms:ir.ui.view,arch_db:llm_training.llm_training_job_view_form
+msgid "Datasets"
+msgstr "Conjuntos de datos"
+
+#. module: llm_training
+#: model:ir.model.fields,field_description:llm_training.field_llm_training_dataset__description
+#: model:ir.model.fields,field_description:llm_training.field_llm_training_job__description
+#: model_terms:ir.ui.view,arch_db:llm_training.llm_training_dataset_view_form
+#: model_terms:ir.ui.view,arch_db:llm_training.llm_training_job_view_form
+msgid "Description"
+msgstr "Descripción"
+
+#. module: llm_training
+#: model:ir.model.fields,field_description:llm_training.field_llm_training_dataset__display_name
+#: model:ir.model.fields,field_description:llm_training.field_llm_training_job__display_name
+msgid "Display Name"
+msgstr "Nombre para mostrar"
+
+#. module: llm_training
+#: model:ir.model.fields.selection,name:llm_training.selection__llm_training_job__state__draft
+#: model_terms:ir.ui.view,arch_db:llm_training.llm_training_job_view_search
+msgid "Draft"
+msgstr "Borrador"
+
+#. module: llm_training
+#: model:ir.model.fields,field_description:llm_training.field_llm_training_job__estimated_cost
+msgid "Estimated Cost"
+msgstr "Costo estimado"
+
+#. module: llm_training
+#: model:ir.model.fields,help:llm_training.field_llm_training_job__estimated_cost
+msgid "Estimated cost of the training job in USD"
+msgstr "Costo estimado del trabajo de capacitación en USD"
+
+#. module: llm_training
+#: model:ir.model.fields,field_description:llm_training.field_llm_training_job__external_job_id
+msgid "External Job ID"
+msgstr "ID de trabajo externo"
+
+#. module: llm_training
+#: model:ir.model.fields.selection,name:llm_training.selection__llm_training_job__state__failed
+#: model_terms:ir.ui.view,arch_db:llm_training.llm_training_job_view_search
+msgid "Failed"
+msgstr "Fallido"
+
+#. module: llm_training
+#: model:ir.model.fields,field_description:llm_training.field_llm_training_job__final_cost
+msgid "Final Cost"
+msgstr "Costo final"
+
+#. module: llm_training
+#: model:ir.model.fields,help:llm_training.field_llm_training_job__final_cost
+msgid "Final cost of the training job in USD"
+msgstr "Costo final del trabajo de capacitación en USD"
+
+#. module: llm_training
+#: model:ir.model.fields,field_description:llm_training.field_llm_training_dataset__message_follower_ids
+#: model:ir.model.fields,field_description:llm_training.field_llm_training_job__message_follower_ids
+msgid "Followers"
+msgstr "Seguidores"
+
+#. module: llm_training
+#: model:ir.model.fields,field_description:llm_training.field_llm_training_dataset__message_partner_ids
+#: model:ir.model.fields,field_description:llm_training.field_llm_training_job__message_partner_ids
+msgid "Followers (Partners)"
+msgstr "Seguidores (Socios)"
+
+#. module: llm_training
+#: model_terms:ir.ui.view,arch_db:llm_training.llm_training_job_view_search
+msgid "Group By"
+msgstr "Agrupar por"
+
+#. module: llm_training
+#: model:ir.model.fields,field_description:llm_training.field_llm_training_dataset__has_message
+#: model:ir.model.fields,field_description:llm_training.field_llm_training_job__has_message
+msgid "Has Message"
+msgstr "Tiene mensaje"
+
+#. module: llm_training
+#: model:ir.model.fields,field_description:llm_training.field_llm_training_job__hyperparameters
+#: model_terms:ir.ui.view,arch_db:llm_training.llm_training_job_view_form
+msgid "Hyperparameters"
+msgstr "Hiperparámetros"
+
+#. module: llm_training
+#: model:ir.model.fields,field_description:llm_training.field_llm_training_dataset__id
+#: model:ir.model.fields,field_description:llm_training.field_llm_training_job__id
+msgid "ID"
+msgstr "ID"
+
+#. module: llm_training
+#: model:ir.model.fields,help:llm_training.field_llm_training_job__external_job_id
+msgid "ID of the job on the provider's system"
+msgstr "ID del trabajo en el sistema del proveedor"
+
+#. module: llm_training
+#: model:ir.model.fields,help:llm_training.field_llm_training_dataset__message_needaction
+#: model:ir.model.fields,help:llm_training.field_llm_training_job__message_needaction
+msgid "If checked, new messages require your attention."
+msgstr "Si está marcado, los mensajes nuevos requieren su atención."
+
+#. module: llm_training
+#: model:ir.model.fields,help:llm_training.field_llm_training_dataset__message_has_error
+#: model:ir.model.fields,help:llm_training.field_llm_training_dataset__message_has_sms_error
+#: model:ir.model.fields,help:llm_training.field_llm_training_job__message_has_error
+#: model:ir.model.fields,help:llm_training.field_llm_training_job__message_has_sms_error
+msgid "If checked, some messages have a delivery error."
+msgstr "Si está marcado, algunos mensajes tienen un error de entrega."
+
+#. module: llm_training
+#: model_terms:ir.ui.view,arch_db:llm_training.llm_training_job_view_search
+msgid "In Progress"
+msgstr "En curso"
+
+#. module: llm_training
+#: model:ir.model.fields,field_description:llm_training.field_llm_training_dataset__message_is_follower
+#: model:ir.model.fields,field_description:llm_training.field_llm_training_job__message_is_follower
+msgid "Is Follower"
+msgstr "es seguidor"
+
+#. module: llm_training
+#: model:ir.model.fields,help:llm_training.field_llm_training_dataset__attachment_ids
+msgid "JSON files containing training examples"
+msgstr "Archivos JSON que contienen ejemplos de entrenamiento"
+
+#. module: llm_training
+#: model_terms:ir.ui.view,arch_db:llm_training.llm_training_job_view_form
+msgid "Job Name"
+msgstr "Nombre del trabajo"
+
+#. module: llm_training
+#: model_terms:ir.ui.view,arch_db:llm_training.llm_training_job_view_form
+msgid "Job description..."
+msgstr "Descripción del trabajo..."
+
+#. module: llm_training
+#: model:ir.ui.menu,name:llm_training.menu_llm_training_job
+msgid "Jobs"
+msgstr "Tareas"
+
+#. module: llm_training
+#: model:ir.model,name:llm_training.model_llm_training_job
+msgid "LLM Fine-tuning Job"
+msgstr "Trabajo de ajuste de LLM"
+
+#. module: llm_training
+#: model:ir.model,name:llm_training.model_llm_provider
+#: model:ir.model.fields,field_description:llm_training.field_llm_training_job__provider_id
+msgid "LLM Provider"
+msgstr "Proveedor de LLM"
+
+#. module: llm_training
+#: model:ir.model,name:llm_training.model_llm_training_dataset
+msgid "LLM Training Dataset"
+msgstr "Conjunto de datos de formación LLM"
+
+#. module: llm_training
+#: model:ir.actions.act_window,name:llm_training.llm_training_dataset_action
+msgid "LLM Training Datasets"
+msgstr "Conjuntos de datos de formación LLM"
+
+#. module: llm_training
+#: model:ir.actions.act_window,name:llm_training.llm_training_job_action
+msgid "LLM Training Jobs"
+msgstr "Tareas de entrenamiento en LLM"
+
+#. module: llm_training
+#: model:ir.model.fields,field_description:llm_training.field_llm_training_dataset__write_uid
+#: model:ir.model.fields,field_description:llm_training.field_llm_training_job__write_uid
+msgid "Last Updated by"
+msgstr "Actualizado por última vez por"
+
+#. module: llm_training
+#: model:ir.model.fields,field_description:llm_training.field_llm_training_dataset__write_date
+#: model:ir.model.fields,field_description:llm_training.field_llm_training_job__write_date
+msgid "Last Updated on"
+msgstr "Última actualización el"
+
+#. module: llm_training
+#: model:ir.model.fields,help:llm_training.field_llm_training_job__training_logs
+msgid "Logs from the training process"
+msgstr "Registros del proceso de formación."
+
+#. module: llm_training
+#: model:ir.model.fields,field_description:llm_training.field_llm_training_dataset__message_has_error
+#: model:ir.model.fields,field_description:llm_training.field_llm_training_job__message_has_error
+msgid "Message Delivery error"
+msgstr "Error de entrega de mensaje"
+
+#. module: llm_training
+#: model:ir.model.fields,field_description:llm_training.field_llm_training_dataset__message_ids
+#: model:ir.model.fields,field_description:llm_training.field_llm_training_job__message_ids
+msgid "Messages"
+msgstr "Mensajes"
+
+#. module: llm_training
+#: model:ir.model.fields,help:llm_training.field_llm_training_job__training_metrics
+msgid "Metrics from the training job (loss, accuracy, etc.)"
+msgstr "Métricas del trabajo de formación (pérdida, precisión, etc.)"
+
+#. module: llm_training
+#: model:ir.model.fields,field_description:llm_training.field_llm_training_dataset__name
+#: model:ir.model.fields,field_description:llm_training.field_llm_training_job__name
+msgid "Name"
+msgstr "Nombre"
+
+#. module: llm_training
+#: model:ir.model.fields,help:llm_training.field_llm_training_job__trained_model_name
+msgid "Name of the fine-tuned model"
+msgstr "Nombre del modelo ajustado"
+
+#. module: llm_training
+#: model:ir.model.fields,field_description:llm_training.field_llm_training_dataset__message_needaction_counter
+#: model:ir.model.fields,field_description:llm_training.field_llm_training_job__message_needaction_counter
+msgid "Number of Actions"
+msgstr "Número de acciones"
+
+#. module: llm_training
+#: model:ir.model.fields,field_description:llm_training.field_llm_training_dataset__example_count
+msgid "Number of Examples"
+msgstr "Número de ejemplos"
+
+#. module: llm_training
+#: model:ir.model.fields,field_description:llm_training.field_llm_training_dataset__file_count
+msgid "Number of Files"
+msgstr "Número de archivos"
+
+#. module: llm_training
+#: model:ir.model.fields,field_description:llm_training.field_llm_training_dataset__message_has_error_counter
+#: model:ir.model.fields,field_description:llm_training.field_llm_training_job__message_has_error_counter
+msgid "Number of errors"
+msgstr "Número de errores"
+
+#. module: llm_training
+#: model:ir.model.fields,help:llm_training.field_llm_training_dataset__message_needaction_counter
+#: model:ir.model.fields,help:llm_training.field_llm_training_job__message_needaction_counter
+msgid "Number of messages requiring action"
+msgstr "Número de mensajes que requieren acción"
+
+#. module: llm_training
+#: model:ir.model.fields,help:llm_training.field_llm_training_dataset__message_has_error_counter
+#: model:ir.model.fields,help:llm_training.field_llm_training_job__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr "Número de mensajes con error de entrega"
+
+#. module: llm_training
+#: model:ir.model.fields.selection,name:llm_training.selection__llm_training_job__state__preparing
+msgid "Preparing"
+msgstr "Preparante"
+
+#. module: llm_training
+#: model_terms:ir.ui.view,arch_db:llm_training.llm_training_job_view_search
+msgid "Provider"
+msgstr "Proveedor"
+
+#. module: llm_training
+#: model:ir.model.fields.selection,name:llm_training.selection__llm_training_job__state__queued
+msgid "Queued"
+msgstr "En cola"
+
+#. module: llm_training
+#: model:ir.model.fields,field_description:llm_training.field_llm_training_job__result_model_id
+msgid "Resulting Model"
+msgstr "Modelo resultante"
+
+#. module: llm_training
+#: model_terms:ir.ui.view,arch_db:llm_training.llm_training_job_view_form
+msgid "Results"
+msgstr "Resultados"
+
+#. module: llm_training
+#: model:ir.model.fields,field_description:llm_training.field_llm_training_dataset__message_has_sms_error
+#: model:ir.model.fields,field_description:llm_training.field_llm_training_job__message_has_sms_error
+msgid "SMS Delivery error"
+msgstr "Error de entrega de SMS"
+
+#. module: llm_training
+#: model:ir.model.fields,field_description:llm_training.field_llm_training_job__state
+#: model_terms:ir.ui.view,arch_db:llm_training.llm_training_job_view_search
+msgid "Status"
+msgstr "Estado"
+
+#. module: llm_training
+#: model_terms:ir.ui.view,arch_db:llm_training.llm_training_job_view_form
+msgid "Submit"
+msgstr "Entregar"
+
+#. module: llm_training
+#: model:ir.model.fields,help:llm_training.field_llm_training_job__result_model_id
+msgid "The fine-tuned model created by this job"
+msgstr "The fine-tuned model created by this job"
+
+#. module: llm_training
+#: model:ir.model.fields,field_description:llm_training.field_llm_training_job__trained_model_name
+msgid "Trained Model Name"
+msgstr "Nombre del modelo entrenado"
+
+#. module: llm_training
+#: model:ir.model.fields.selection,name:llm_training.selection__llm_training_job__state__training
+#: model:ir.ui.menu,name:llm_training.menu_llm_training_root
+msgid "Training"
+msgstr "Capacitación"
+
+#. module: llm_training
+#: model:ir.model.fields,field_description:llm_training.field_llm_training_dataset__job_ids
+#: model_terms:ir.ui.view,arch_db:llm_training.llm_training_dataset_view_form
+msgid "Training Jobs"
+msgstr "Trabajos de formación"
+
+#. module: llm_training
+#: model:ir.model.fields,field_description:llm_training.field_llm_training_job__training_logs
+#: model_terms:ir.ui.view,arch_db:llm_training.llm_training_job_view_form
+msgid "Training Logs"
+msgstr "Registros de entrenamiento"
+
+#. module: llm_training
+#: model:ir.model.fields,field_description:llm_training.field_llm_training_job__training_metrics
+msgid "Training Metrics"
+msgstr "Métricas de entrenamiento"
+
+#. module: llm_training
+#: model:ir.model.fields,help:llm_training.field_llm_training_job__hyperparameters
+msgid "Training hyperparameters (epochs, batch size, etc.)"
+msgstr "Hiperparámetros de entrenamiento (épocas, tamaño de lote, etc.)"
+
+#. module: llm_training
+#: model_terms:ir.ui.view,arch_db:llm_training.llm_training_dataset_view_form
+msgid "Upload Dataset Files"
+msgstr "Cargar archivos de conjunto de datos"
+
+#. module: llm_training
+#: model_terms:ir.actions.act_window,help:llm_training.llm_training_dataset_action
+msgid ""
+"Upload JSON/JSONL files with training examples to fine-tune LLM models."
+msgstr ""
+"Cargue archivos JSON/JSONL con ejemplos de capacitación para ajustar los "
+"modelos LLM."
+
+#. module: llm_training
+#: model_terms:ir.ui.view,arch_db:llm_training.llm_training_dataset_view_form
+msgid "Validate"
+msgstr "Validar"
+
+#. module: llm_training
+#: model:ir.model.fields.selection,name:llm_training.selection__llm_training_job__state__validating
+msgid "Validating"
+msgstr "Validando"
+
+#. module: llm_training
+#: model:ir.model.fields,field_description:llm_training.field_llm_training_dataset__website_message_ids
+#: model:ir.model.fields,field_description:llm_training.field_llm_training_job__website_message_ids
+msgid "Website Messages"
+msgstr "Mensajes del sitio web"
+
+#. module: llm_training
+#: model:ir.model.fields,help:llm_training.field_llm_training_dataset__website_message_ids
+#: model:ir.model.fields,help:llm_training.field_llm_training_job__website_message_ids
+msgid "Website communication history"
+msgstr "Historial de comunicación del sitio web"
